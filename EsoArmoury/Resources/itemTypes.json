@@ -1,0 +1,255 @@
+[
+    {
+        "id": 100,
+        "weight": "ESO Armory",
+        "desc": "ESO Armory (Complete List)",
+        "imageName": "dlcImages/DLC-HallsOfColossus",
+        "subText": "Complete Armory List"
+    },
+    {
+        "id": 101,
+        "weight": "One Hand Melee Weapons",
+        "desc": "One Hand Melee Weapons",
+        "imageName": "armorIcons/dwarvenscavenged_1haxe_a",
+        "subText": "One Hand Melee Weapons"
+    },
+    {
+        "id": 102,
+        "weight": "Two Hand Melee Weapons",
+        "desc": "Two Hand Melee Weapons",
+        "imageName": "armorIcons/dwarvenscavenged_2haxe_a",
+        "subText": "Two Hand Melee Weapons"
+    },
+    {
+        "id": 103,
+        "weight": "Destruction Staff",
+        "desc": "Destruction Staff",
+        "imageName": "armorIcons/dwarvenscavenged_fire_staff_a",
+        "subText": "Destruction Staves"
+    },
+    {
+        "id": 104,
+        "weight": "Restoration Staff",
+        "desc": "Restoration Staff",
+        "imageName": "armorIcons/dwarvenscavenged_restoration_staff_a",
+        "subText": "Restoration Staff"
+    },
+    {
+        "id": 105,
+        "weight": "Bow",
+        "desc": "Bow",
+        "imageName": "armorIcons/dwarvenscavenged_bow_a",
+        "subText": "Bow"
+    },
+    {
+        "id": 106,
+        "weight": "Duel Wield Melee Weapons",
+        "desc": "Duel Wield",
+        "imageName": "armorIcons/dwarvenscavenged_1haxe_a",
+        "subText": "Duel Wield Melee Weapons"
+    },
+    {
+		"id": 1001,
+		"weight": "Jewelry",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit, lacus vitae sodales lobortis, ante justo ullamcorper tortor, quis sodales arcu sem ut nisl. Nunc eget nunc tristique, lobortis purus vitae, laoreet nulla.",
+        "imageName": "armorIcons/breton_ring_a",
+        "subText": "Jewelry"
+	},
+	{
+		"id": 1002,
+		"weight": "Weapons",
+        "desc": "Curabitur efficitur leo vitae rhoncus molestie. In ac lacinia tellus, id pulvinar neque. Curabitur nec urna condimentum, ultrices massa eu, consectetur odio. Nullam gravida libero in lacus mattis convallis. Nulla lobortis ex quis nunc varius semper. In ut erat et est sagittis condimentum eu nec orci. ",
+        "imageName": "armorIcons/altmer_1hsword_d",
+        "subText": "Weapons Types"
+	},
+	{
+		"id": 1003,
+		"weight": "Light Armor",
+        "desc": "Typically will be Magica based armor.  This is the only type that offers two styles for the chest - a robe and shirt.",
+        "imageName": "dlcImages/DLC-LightArmor",
+        "subText": "Light Armor Styles"
+	},
+	{
+		"id": 1004,
+		"weight": "Medium Armor",
+        "desc": "Typically will be Stamina based armor.",
+        "imageName": "dlcImages/DLC-MediumArmor",
+        "subText": "Medium Armor Styles"
+	},
+	{
+		"id": 1005,
+		"weight": "Heavy Armor",
+        "desc": "Typically will be Health based armor",
+        "imageName": "dlcImages/DLC-HeavyArmor",
+        "subText": "Heavy Armor Styles"
+	},
+    {
+        "id": 2001,
+        "weight": "Arena Sets",
+        "desc": "Items that are only available within the various Arenas found throughout Tamriel.  Some of these items are only available by completing the arena on Veteran mode.",
+        "imageName": "dlcImages/DLC-Arena",
+        "subText": ""
+    },
+    {
+        "id": 2002,
+        "weight": "Craftable Sets",
+        "desc": "To craft these, you must visit the desired crafting station and have also researched the minimum required traits to succesfully create the item. ",
+        "imageName": "dlcImages/DLC-Crafting",
+        "subText": ""
+    },
+    {
+        "id": 2003,
+        "weight": "Dungeon Sets",
+        "desc": "Items that can be obtained within the 4 Person dungeons on either Normal or Veteran.  This list does not include Monster Sets.",
+        "imageName": "dlcImages/DLC-Dungeon",
+        "subText": ""
+    },
+    {
+        "id": 2004,
+        "weight": "Monster Sets",
+        "desc": "2 Item sets. Helms obtained by killing the dungeon boss on Veteran mode.  Shoulders from the 3 NPC Pledge givers. The Golden in Cyrodiil can sell both.",
+        "imageName": "dlcImages/DLC-MonsterSet",
+        "subText": "Light, Medium, and Heavy armor types"
+    },
+    {
+        "id": 2005,
+        "weight": "Overland Sets",
+        "desc": "Chest, Head, Legs, or Weapons via World Bosses. Waist and Feet via Delve bosses. Shoulder, Hand, or Weapons from Public Dungeon bosses.  Ring and Necklace via Dark Anchor. Treasure Chests",
+        "imageName": "dlcImages/DLC-Overland",
+        "subText": ""
+    },
+    {
+        "id": 2006,
+        "weight": "PVP Sets",
+        "desc": "Reward for the Worthy based on Battlegrounds and Cyrodiil content.  Some of these items may also be purchased from various vendors, see location for this information if available.",
+        "imageName": "dlcImages/DLC-PvP",
+        "subText": ""
+    },
+    {
+        "id": 2007,
+        "weight": "Trial Sets",
+        "desc": "Morbi luctus pharetra tincidunt. Sed ex nisi, maximus vitae ultricies sed, semper sit amet metus. Aliquam laoreet dui ut libero imperdiet scelerisque. Sed ut aliquet erat. Aliquam et augue vehicula, pretium felis eget, aliquet ex. Curabitur volutpat finibus mauris, sed eleifend erat semper at. Nunc sapien lorem, venenatis porttitor velit a, mattis dictum urna.",
+        "imageName": "dlcImages/DLC-Trial",
+        "subText": ""
+    },
+    {
+        "id": 2008,
+        "weight": "Unique Sets",
+        "desc": "Morbi luctus pharetra tincidunt. Sed ex nisi, maximus vitae ultricies sed, semper sit amet metus. Aliquam laoreet dui ut libero imperdiet scelerisque. Sed ut aliquet erat. Aliquam et augue vehicula, pretium felis eget, aliquet ex. Curabitur volutpat finibus mauris, sed eleifend erat semper at. Nunc sapien lorem, venenatis porttitor velit a, mattis dictum urna.",
+        "imageName": "dlcImages/DLC-Unique",
+        "subText": ""
+    },
+    {
+        "id": 3001,
+        "weight": "Imperial City - DLC",
+        "desc": "DLC - Imperial City (Dungeon), White-Gold Tower(Dungeon), and Imperial City Prison (PvP)",
+        "imageName": "dlcImages/DLC-ImperialCity",
+        "subText": ""
+    },
+    {
+        "id": 3002,
+        "weight": "Orsinium - DLC",
+        "desc": "DLC - Wrothgar (Overland) and Maelstorm Arena (Arena)",
+        "imageName": "dlcImages/DLC-Orsinium",
+        "subText": ""
+    },
+    {
+        "id": 3003,
+        "weight": "Thieves Guild - DLC",
+        "desc": "DLC - Hew's Bane (Overland) and Maw of Lorkhaj (Trial)",
+        "imageName": "dlcImages/DLC-ThievesGuild",
+        "subText": ""
+    },
+    {
+        "id": 3004,
+        "weight": "Dark Brotherhood - DLC",
+        "desc": "DLC - Hew's Bane (Overland) and Maw of Lorkhaj (Trial)",
+        "imageName": "dlcImages/DLC-DarkBrotherhood",
+        "subText": ""
+    },
+    {
+        "id": 3005,
+        "weight": "Shadows of the Hist - DLC",
+        "desc": "DLC - Cradle of Shadows (Dungeon) and Ruins of Mazzatun (Dungeon)",
+        "imageName": "dlcImages/DLC-ShadowsOfTheHist",
+        "subText": ""
+    },
+    {
+        "id": 3006,
+        "weight": "Morrowind - Chapter",
+        "desc": "Chapter - Halls of Fabrication (Trial) and Vvardenfell (Overland)",
+        "imageName": "dlcImages/DLC-Morrowind",
+        "subText": ""
+    },
+    {
+        "id": 3007,
+        "weight": "Horns of the Reach - DLC",
+        "desc": "DLC - Bloodroot Forge (Dungeon) and Falkreth Hold (Dungeon)",
+        "imageName": "dlcImages/DLC-HornsOfTheReach",
+        "subText": ""
+    },
+    {
+        "id": 3008,
+        "weight": "Clockwork City - DLC",
+        "desc": "DLC - Asylum Sanctorium (Trial) and Clockwork City (Overland)",
+        "imageName": "dlcImages/DLC-ClockworkCity",
+        "subText": ""
+    },
+    {
+        "id": 3009,
+        "weight": "Dragon Bones - DLC",
+        "desc": "DLC - Scalecaller Peak (Dungeon) and Fang Lair (Dungeon)",
+        "imageName": "dlcImages/DLC-Dragonbones",
+        "subText": ""
+    },
+    {
+        "id": 3010,
+        "weight": "Summerset - Chapter",
+        "desc": "Chapter - Cloudrest (Trial), Summerset (Overland), and Artaeum (Overland)",
+        "imageName": "dlcImages/DLC-Summerset",
+        "subText": ""
+    },
+    {
+        "id": 3011,
+        "weight": "Wolfhunter - DLC",
+        "desc": "DLC - Moon Hunter Keep (Dungeon) and March of Sacrafices (Dungeon)",
+        "imageName": "dlcImages/DLC-Wolfhunter",
+        "subText": ""
+    },
+    {
+        "id": 3012,
+        "weight": "Murkmire - DLC",
+        "desc": "DLC - BlackRose Prison (Arena) and Murkmire (Overland)",
+        "imageName": "dlcImages/DLC-Murkmire",
+        "subText": ""
+    },
+    {
+        "id": 3013,
+        "weight": "Wrathstone - DLC",
+        "desc": "DLC - Frostvault (Dungeon) and Depths of Malatar (Dungeon)",
+        "imageName": "dlcImages/DLC-Wrathstone",
+        "subText": ""
+    },
+    {
+        "id": 3014,
+        "weight": "Elsweyr - Chapter",
+        "desc": "Chapter - Sunspire (Trial) and Elsweyr (Overland)",
+        "imageName": "dlcImages/DLC-Elsweyr",
+        "subText": ""
+    },
+    {
+        "id": 3015,
+        "weight": "Scalebreaker - DLC",
+        "desc": "DLC - Moongrave Fane (Dungeon) and Lair of Maarselok (Dungeon)",
+        "imageName": "dlcImages/DLC-Scalebreaker",
+        "subText": ""
+    },
+    {
+        "id": 3016,
+        "weight": "Dragonhold - DLC",
+        "desc": "DLC - Southern Elsweyr (Overland)",
+        "imageName": "dlcImages/DLC-Dragonhold",
+        "subText": ""
+    }
+    
+]

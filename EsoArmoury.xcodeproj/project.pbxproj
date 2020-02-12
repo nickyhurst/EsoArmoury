@@ -7,26 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB014EFB23219E3B006CE133 /* ContentTypeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB014EFA23219E3B006CE133 /* ContentTypeMenu.swift */; };
+		DB014EFF23229FE1006CE133 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB014EFE23229FE1006CE133 /* Home.swift */; };
+		DB014F042322AB3E006CE133 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB014F032322AB3E006CE133 /* Array.swift */; };
+		DB014F072322B1E4006CE133 /* Planewalker.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = DB014F062322B174006CE133 /* Planewalker.woff2 */; };
+		DB014F092322CC70006CE133 /* ArmorListNoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB014F082322CC6F006CE133 /* ArmorListNoScroll.swift */; };
+		DB014F162322F260006CE133 /* dlcImages in Resources */ = {isa = PBXBuildFile; fileRef = DB014F152322F260006CE133 /* dlcImages */; };
+		DB02C506230CC2100086EE7C /* ArmorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02C505230CC2100086EE7C /* ArmorDetail.swift */; };
+		DB162AAE23C8D78100C52581 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB162AAD23C8D78100C52581 /* BlurView.swift */; };
+		DB162AB223C8DEB100C52581 /* PaperDollSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB162AB123C8DEB100C52581 /* PaperDollSheet.swift */; };
+		DB162AB423C8E11E00C52581 /* PaperDollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB162AB323C8E11E00C52581 /* PaperDollData.swift */; };
+		DB16E0C42357BD7500C305AF /* EntireArmorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16E0C32357BD7500C305AF /* EntireArmorListView.swift */; };
+		DB16E0C62358AFF100C305AF /* ArmorLinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16E0C52358AFF100C305AF /* ArmorLinkRow.swift */; };
+		DB18020C23215302003F9995 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18020B23215302003F9995 /* Color.swift */; };
+		DB25036C234E3983003FD2FB /* BonusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25036B234E3983003FD2FB /* BonusLabel.swift */; };
+		DB25036E234F7B21003FD2FB /* BonusDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25036D234F7B21003FD2FB /* BonusDesc.swift */; };
+		DB290CF523F2F8D1000C11CE /* Desirable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290CF423F2F8D1000C11CE /* Desirable.swift */; };
+		DB290CF723F30CB4000C11CE /* IconListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290CF623F30CB4000C11CE /* IconListViewModel.swift */; };
+		DB62287523CCBE260003AB00 /* HighlightText2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB62287423CCBE260003AB00 /* HighlightText2.swift */; };
+		DB62287923CD06350003AB00 /* dfsdsfdsfdsf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB62287823CD06350003AB00 /* dfsdsfdsfdsf.swift */; };
+		DB6FFE3623D8BF14007CAA3E /* ActiveSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FFE3523D8BF14007CAA3E /* ActiveSets.swift */; };
+		DB7CF4432318321C00763F1B /* WeightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF4422318321C00763F1B /* WeightRow.swift */; };
+		DB7CF445231859E500763F1B /* WeightDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF444231859E500763F1B /* WeightDetail.swift */; };
+		DB7CF4492318612200763F1B /* armorIcons in Resources */ = {isa = PBXBuildFile; fileRef = DB7CF4482318612200763F1B /* armorIcons */; };
+		DB81BDF523ECA04F00835608 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81BDF423ECA04F00835608 /* NetworkingManager.swift */; };
+		DB81BDF723ECA0BD00835608 /* BonusApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81BDF623ECA0BD00835608 /* BonusApiView.swift */; };
+		DB81BDFB23EE1B4800835608 /* ArmorListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81BDFA23EE1B4800835608 /* ArmorListEntry.swift */; };
+		DB95B2A32319A85B001F59C1 /* TypeKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2A22319A85B001F59C1 /* TypeKeywords.swift */; };
+		DB95B2B3231EB4D1001F59C1 /* Bonuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2B2231EB4D1001F59C1 /* Bonuses.swift */; };
+		DB95B2B5231EC99D001F59C1 /* TagMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2B4231EC99D001F59C1 /* TagMenu.swift */; };
+		DB95B2B7231ECD5D001F59C1 /* TagRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2B6231ECD5D001F59C1 /* TagRow.swift */; };
+		DB95B2BA231ECF4A001F59C1 /* TagSelectedMenuStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2B9231ECF4A001F59C1 /* TagSelectedMenuStore.swift */; };
+		DB95B2BC231ED005001F59C1 /* TagMenuPageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2BB231ED005001F59C1 /* TagMenuPageListener.swift */; };
+		DB95B2BE231ED0ED001F59C1 /* TagListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2BD231ED0ED001F59C1 /* TagListener.swift */; };
+		DB95B2C0231ED7BD001F59C1 /* ScollableSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2BF231ED7BD001F59C1 /* ScollableSelector.swift */; };
+		DB95B2C3231EFEBF001F59C1 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2C2231EFEBF001F59C1 /* Icons.swift */; };
+		DB95B2C5231F00E9001F59C1 /* IconDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95B2C4231F00E9001F59C1 /* IconDisplay.swift */; };
+		DB9E77002356053500D74D73 /* ESO_ArmoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E76FF2356053500D74D73 /* ESO_ArmoryTests.swift */; };
+		DBA5153B234CE967007310DD /* TestText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5153A234CE967007310DD /* TestText.swift */; };
+		DBA5153D234CEA60007310DD /* TestTextMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5153C234CEA60007310DD /* TestTextMethods.swift */; };
+		DBA64C9123316E5000252135 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA64C9023316E5000252135 /* TabbarView.swift */; };
+		DBA64C9323317C1B00252135 /* ArmorListNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA64C9223317C1B00252135 /* ArmorListNavView.swift */; };
+		DBA64C9523317C6100252135 /* ArmorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA64C9423317C6100252135 /* ArmorListView.swift */; };
 		DBB50FA6230C68A800511547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FA5230C68A800511547 /* AppDelegate.swift */; };
 		DBB50FA8230C68A800511547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FA7230C68A800511547 /* SceneDelegate.swift */; };
-		DBB50FAA230C68A800511547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FA9230C68A800511547 /* ContentView.swift */; };
+		DBB50FAA230C68A800511547 /* Home-List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FA9230C68A800511547 /* Home-List.swift */; };
 		DBB50FAC230C68A900511547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB50FAB230C68A900511547 /* Assets.xcassets */; };
 		DBB50FAF230C68A900511547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB50FAE230C68A900511547 /* Preview Assets.xcassets */; };
 		DBB50FB2230C68A900511547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB50FB0230C68A900511547 /* LaunchScreen.storyboard */; };
+		DBB50FBD230C694A00511547 /* bonus.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB50FBB230C694A00511547 /* bonus.json */; };
+		DBB50FBE230C694A00511547 /* eso-armor.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB50FBC230C694A00511547 /* eso-armor.json */; };
+		DBB50FC0230C697C00511547 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FBF230C697C00511547 /* Data.swift */; };
+		DBB50FC2230C6A1600511547 /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FC1230C6A1600511547 /* Armor.swift */; };
+		DBB50FC4230C779700511547 /* ArmorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FC3230C779700511547 /* ArmorRow.swift */; };
+		DBB50FC6230C8DC600511547 /* ArmorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB50FC5230C8DC600511547 /* ArmorList.swift */; };
+		DBCB545923C8F3F500FB583F /* HighlightText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB545823C8F3F500FB583F /* HighlightText.swift */; };
+		DBD44F3723F1D3EF000332B7 /* ArmorLinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD44F3623F1D3EF000332B7 /* ArmorLinkDetailView.swift */; };
+		DBD44F3923F1D5EE000332B7 /* ItemWeightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD44F3823F1D5EE000332B7 /* ItemWeightsViewModel.swift */; };
+		DBD9C3532361F631005A69F5 /* ArmorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9C3522361F631005A69F5 /* ArmorType.swift */; };
+		DBD9C35723623805005A69F5 /* DisplayItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9C35623623805005A69F5 /* DisplayItemIcon.swift */; };
+		DBE27A0623EA07FC00DB746B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27A0523EA07FC00DB746B /* WebService.swift */; };
+		DBE27A0923EA08B600DB746B /* ArmorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27A0823EA08B600DB746B /* ArmorViewModel.swift */; };
+		DBE27A0D23EA20EC00DB746B /* TestDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27A0C23EA20EC00DB746B /* TestDataView.swift */; };
+		DBEF78D1231F12CE00805CBC /* armorImageNames.json in Resources */ = {isa = PBXBuildFile; fileRef = DBEF78D0231F0F8100805CBC /* armorImageNames.json */; };
+		DBF14C40230EED41001D70C3 /* SetBonusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14C3F230EED41001D70C3 /* SetBonusRow.swift */; };
+		DBF14C4223104F99001D70C3 /* itemTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF14C4123104F99001D70C3 /* itemTypes.json */; };
+		DBF14C4423104FE5001D70C3 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14C4323104FE5001D70C3 /* Types.swift */; };
+		DBF14C462315955D001D70C3 /* WeightList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14C452315955D001D70C3 /* WeightList.swift */; };
+		DBF14C482315C1DD001D70C3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14C472315C1DD001D70C3 /* UserData.swift */; };
+		DBF14C4A2316D4B0001D70C3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14C492316D4B0001D70C3 /* SearchBar.swift */; };
+		DBF6CCE923F1B37900C40441 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6CCE823F1B37900C40441 /* RootView.swift */; };
+		DBF6CCEB23F1B44400C40441 /* FullArmorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6CCEA23F1B44400C40441 /* FullArmorListView.swift */; };
+		DBF6CCED23F1C45200C40441 /* ArmorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6CCEC23F1C45200C40441 /* ArmorDetailView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DB9E77022356053500D74D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB50F9A230C68A800511547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB50FA1230C68A800511547;
+			remoteInfo = EsoArmoury;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		DBB50FA2230C68A800511547 /* EsoArmoury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsoArmoury.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB014EFA23219E3B006CE133 /* ContentTypeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeMenu.swift; sourceTree = "<group>"; };
+		DB014EFE23229FE1006CE133 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DB014F032322AB3E006CE133 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		DB014F062322B174006CE133 /* Planewalker.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Planewalker.woff2; sourceTree = "<group>"; };
+		DB014F082322CC6F006CE133 /* ArmorListNoScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorListNoScroll.swift; sourceTree = "<group>"; };
+		DB014F152322F260006CE133 /* dlcImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dlcImages; sourceTree = "<group>"; };
+		DB02C505230CC2100086EE7C /* ArmorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorDetail.swift; sourceTree = "<group>"; };
+		DB162AAD23C8D78100C52581 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		DB162AB123C8DEB100C52581 /* PaperDollSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperDollSheet.swift; sourceTree = "<group>"; };
+		DB162AB323C8E11E00C52581 /* PaperDollData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperDollData.swift; sourceTree = "<group>"; };
+		DB16E0C32357BD7500C305AF /* EntireArmorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireArmorListView.swift; sourceTree = "<group>"; };
+		DB16E0C52358AFF100C305AF /* ArmorLinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorLinkRow.swift; sourceTree = "<group>"; };
+		DB18020B23215302003F9995 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DB25036B234E3983003FD2FB /* BonusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusLabel.swift; sourceTree = "<group>"; };
+		DB25036D234F7B21003FD2FB /* BonusDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusDesc.swift; sourceTree = "<group>"; };
+		DB290CF423F2F8D1000C11CE /* Desirable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desirable.swift; sourceTree = "<group>"; };
+		DB290CF623F30CB4000C11CE /* IconListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListViewModel.swift; sourceTree = "<group>"; };
+		DB62287423CCBE260003AB00 /* HighlightText2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightText2.swift; sourceTree = "<group>"; };
+		DB62287823CD06350003AB00 /* dfsdsfdsfdsf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfsdsfdsfdsf.swift; sourceTree = "<group>"; };
+		DB6FFE3523D8BF14007CAA3E /* ActiveSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSets.swift; sourceTree = "<group>"; };
+		DB7CF4422318321C00763F1B /* WeightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightRow.swift; sourceTree = "<group>"; };
+		DB7CF444231859E500763F1B /* WeightDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDetail.swift; sourceTree = "<group>"; };
+		DB7CF4482318612200763F1B /* armorIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = armorIcons; sourceTree = "<group>"; };
+		DB81BDF423ECA04F00835608 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		DB81BDF623ECA0BD00835608 /* BonusApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusApiView.swift; sourceTree = "<group>"; };
+		DB81BDFA23EE1B4800835608 /* ArmorListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorListEntry.swift; sourceTree = "<group>"; };
+		DB95B2A22319A85B001F59C1 /* TypeKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeKeywords.swift; sourceTree = "<group>"; };
+		DB95B2B2231EB4D1001F59C1 /* Bonuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonuses.swift; sourceTree = "<group>"; };
+		DB95B2B4231EC99D001F59C1 /* TagMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMenu.swift; sourceTree = "<group>"; };
+		DB95B2B6231ECD5D001F59C1 /* TagRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagRow.swift; sourceTree = "<group>"; };
+		DB95B2B9231ECF4A001F59C1 /* TagSelectedMenuStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSelectedMenuStore.swift; sourceTree = "<group>"; };
+		DB95B2BB231ED005001F59C1 /* TagMenuPageListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMenuPageListener.swift; sourceTree = "<group>"; };
+		DB95B2BD231ED0ED001F59C1 /* TagListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListener.swift; sourceTree = "<group>"; };
+		DB95B2BF231ED7BD001F59C1 /* ScollableSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScollableSelector.swift; sourceTree = "<group>"; };
+		DB95B2C2231EFEBF001F59C1 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		DB95B2C4231F00E9001F59C1 /* IconDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconDisplay.swift; sourceTree = "<group>"; };
+		DB9E76FD2356053500D74D73 /* ESO ArmoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESO ArmoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9E76FF2356053500D74D73 /* ESO_ArmoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESO_ArmoryTests.swift; sourceTree = "<group>"; };
+		DB9E77012356053500D74D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA5153A234CE967007310DD /* TestText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestText.swift; sourceTree = "<group>"; };
+		DBA5153C234CEA60007310DD /* TestTextMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextMethods.swift; sourceTree = "<group>"; };
+		DBA64C9023316E5000252135 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		DBA64C9223317C1B00252135 /* ArmorListNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorListNavView.swift; sourceTree = "<group>"; };
+		DBA64C9423317C6100252135 /* ArmorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorListView.swift; sourceTree = "<group>"; };
+		DBB50FA2230C68A800511547 /* ESO Armory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESO Armory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB50FA5230C68A800511547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB50FA7230C68A800511547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBB50FA9230C68A800511547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBB50FA9230C68A800511547 /* Home-List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Home-List.swift"; path = "../Home-List.swift"; sourceTree = "<group>"; };
 		DBB50FAB230C68A900511547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB50FAE230C68A900511547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBB50FB1230C68A900511547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBB50FB3230C68A900511547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB50FBB230C694A00511547 /* bonus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bonus.json; sourceTree = "<group>"; };
+		DBB50FBC230C694A00511547 /* eso-armor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eso-armor.json"; sourceTree = "<group>"; };
+		DBB50FBF230C697C00511547 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DBB50FC1230C6A1600511547 /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		DBB50FC3230C779700511547 /* ArmorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorRow.swift; sourceTree = "<group>"; };
+		DBB50FC5230C8DC600511547 /* ArmorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorList.swift; sourceTree = "<group>"; };
+		DBCB545823C8F3F500FB583F /* HighlightText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightText.swift; sourceTree = "<group>"; };
+		DBD44F3623F1D3EF000332B7 /* ArmorLinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorLinkDetailView.swift; sourceTree = "<group>"; };
+		DBD44F3823F1D5EE000332B7 /* ItemWeightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemWeightsViewModel.swift; sourceTree = "<group>"; };
+		DBD9C3522361F631005A69F5 /* ArmorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorType.swift; sourceTree = "<group>"; };
+		DBD9C35623623805005A69F5 /* DisplayItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayItemIcon.swift; sourceTree = "<group>"; };
+		DBE27A0523EA07FC00DB746B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		DBE27A0823EA08B600DB746B /* ArmorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorViewModel.swift; sourceTree = "<group>"; };
+		DBE27A0C23EA20EC00DB746B /* TestDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataView.swift; sourceTree = "<group>"; };
+		DBEF78D0231F0F8100805CBC /* armorImageNames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = armorImageNames.json; sourceTree = "<group>"; };
+		DBF14C3F230EED41001D70C3 /* SetBonusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBonusRow.swift; sourceTree = "<group>"; };
+		DBF14C4123104F99001D70C3 /* itemTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itemTypes.json; sourceTree = "<group>"; };
+		DBF14C4323104FE5001D70C3 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		DBF14C452315955D001D70C3 /* WeightList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightList.swift; sourceTree = "<group>"; };
+		DBF14C472315C1DD001D70C3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DBF14C492316D4B0001D70C3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DBF6CCE823F1B37900C40441 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		DBF6CCEA23F1B44400C40441 /* FullArmorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullArmorListView.swift; sourceTree = "<group>"; };
+		DBF6CCEC23F1C45200C40441 /* ArmorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB9E76FA2356053500D74D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBB50F9F230C68A800511547 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +188,170 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB014F022322AB19006CE133 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB95B2A22319A85B001F59C1 /* TypeKeywords.swift */,
+				DBB50FA9230C68A800511547 /* Home-List.swift */,
+				DBB50FC5230C8DC600511547 /* ArmorList.swift */,
+				DB014F032322AB3E006CE133 /* Array.swift */,
+				DB25036B234E3983003FD2FB /* BonusLabel.swift */,
+				DB25036D234F7B21003FD2FB /* BonusDesc.swift */,
+				DB162AAD23C8D78100C52581 /* BlurView.swift */,
+				DBCB545823C8F3F500FB583F /* HighlightText.swift */,
+				DB62287423CCBE260003AB00 /* HighlightText2.swift */,
+				DB6FFE3523D8BF14007CAA3E /* ActiveSets.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		DB014F052322B14C006CE133 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB014F062322B174006CE133 /* Planewalker.woff2 */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		DB014F0A2322E5E7006CE133 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB014EFE23229FE1006CE133 /* Home.swift */,
+				DB7CF4422318321C00763F1B /* WeightRow.swift */,
+				DB7CF444231859E500763F1B /* WeightDetail.swift */,
+				DBA64C9023316E5000252135 /* TabbarView.swift */,
+				DBE27A0C23EA20EC00DB746B /* TestDataView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB014F0B2322E62B006CE133 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DBF6CCE523F1B33400C40441 /* Root */,
+				DB014F0E2322E786006CE133 /* shared */,
+				DB014F122322E850006CE133 /* components */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DB014F0C2322E651006CE133 /* ArmorList */ = {
+			isa = PBXGroup;
+			children = (
+				DBA64C9223317C1B00252135 /* ArmorListNavView.swift */,
+				DB014F082322CC6F006CE133 /* ArmorListNoScroll.swift */,
+				DBA64C9423317C6100252135 /* ArmorListView.swift */,
+				DBF14C452315955D001D70C3 /* WeightList.swift */,
+				DBB50FC3230C779700511547 /* ArmorRow.swift */,
+				DB16E0C32357BD7500C305AF /* EntireArmorListView.swift */,
+				DB16E0C52358AFF100C305AF /* ArmorLinkRow.swift */,
+			);
+			path = ArmorList;
+			sourceTree = "<group>";
+		};
+		DB014F0D2322E703006CE133 /* ArmorDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DB02C505230CC2100086EE7C /* ArmorDetail.swift */,
+				DBF14C3F230EED41001D70C3 /* SetBonusRow.swift */,
+				DB95B2C4231F00E9001F59C1 /* IconDisplay.swift */,
+				DBD9C35623623805005A69F5 /* DisplayItemIcon.swift */,
+			);
+			path = ArmorDetail;
+			sourceTree = "<group>";
+		};
+		DB014F0E2322E786006CE133 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				DB014F102322E7BE006CE133 /* SearchBar */,
+				DB014F0F2322E798006CE133 /* scrollableSelector */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		DB014F0F2322E798006CE133 /* scrollableSelector */ = {
+			isa = PBXGroup;
+			children = (
+				DB95B2BF231ED7BD001F59C1 /* ScollableSelector.swift */,
+			);
+			path = scrollableSelector;
+			sourceTree = "<group>";
+		};
+		DB014F102322E7BE006CE133 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DBF14C492316D4B0001D70C3 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		DB014F112322E7F6006CE133 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				DBB50FA5230C68A800511547 /* AppDelegate.swift */,
+				DBB50FA7230C68A800511547 /* SceneDelegate.swift */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		DB014F122322E850006CE133 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DB162AAC23C8D6B800C52581 /* PaperDoll */,
+				DB014F0D2322E703006CE133 /* ArmorDetail */,
+				DB014F0C2322E651006CE133 /* ArmorList */,
+				DB014F0A2322E5E7006CE133 /* Home */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		DB162AAC23C8D6B800C52581 /* PaperDoll */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9C3522361F631005A69F5 /* ArmorType.swift */,
+				DB162AB123C8DEB100C52581 /* PaperDollSheet.swift */,
+				DB162AB323C8E11E00C52581 /* PaperDollData.swift */,
+				DB62287823CD06350003AB00 /* dfsdsfdsfdsf.swift */,
+			);
+			path = PaperDoll;
+			sourceTree = "<group>";
+		};
+		DB16E0A22357737600C305AF /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5153A234CE967007310DD /* TestText.swift */,
+				DBA5153C234CEA60007310DD /* TestTextMethods.swift */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		DB95B2B8231ECF07001F59C1 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+				DB95B2B4231EC99D001F59C1 /* TagMenu.swift */,
+				DB014EFA23219E3B006CE133 /* ContentTypeMenu.swift */,
+				DB95B2B6231ECD5D001F59C1 /* TagRow.swift */,
+				DB95B2B9231ECF4A001F59C1 /* TagSelectedMenuStore.swift */,
+				DB95B2BB231ED005001F59C1 /* TagMenuPageListener.swift */,
+				DB95B2BD231ED0ED001F59C1 /* TagListener.swift */,
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
+		DB9E76FE2356053500D74D73 /* ESO ArmoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E76FF2356053500D74D73 /* ESO_ArmoryTests.swift */,
+				DB9E77012356053500D74D73 /* Info.plist */,
+			);
+			path = "ESO ArmoryTests";
+			sourceTree = "<group>";
+		};
 		DBB50F99230C68A800511547 = {
 			isa = PBXGroup;
 			children = (
 				DBB50FA4230C68A800511547 /* EsoArmoury */,
+				DB9E76FE2356053500D74D73 /* ESO ArmoryTests */,
 				DBB50FA3230C68A800511547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +359,8 @@
 		DBB50FA3230C68A800511547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBB50FA2230C68A800511547 /* EsoArmoury.app */,
+				DBB50FA2230C68A800511547 /* ESO Armory.app */,
+				DB9E76FD2356053500D74D73 /* ESO ArmoryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +368,20 @@
 		DBB50FA4230C68A800511547 /* EsoArmoury */ = {
 			isa = PBXGroup;
 			children = (
-				DBB50FA5230C68A800511547 /* AppDelegate.swift */,
-				DBB50FA7230C68A800511547 /* SceneDelegate.swift */,
-				DBB50FA9230C68A800511547 /* ContentView.swift */,
+				DBE27A0723EA08A600DB746B /* ViewModels */,
+				DBE27A0423EA07DF00DB746B /* WebService */,
+				DB16E0A22357737600C305AF /* tests */,
+				DB014F112322E7F6006CE133 /* launch */,
+				DB014F052322B14C006CE133 /* fonts */,
+				DB014F022322AB19006CE133 /* extensions */,
+				DB95B2B8231ECF07001F59C1 /* tags */,
+				DBB50FB9230C68B800511547 /* models */,
+				DB014F0B2322E62B006CE133 /* views */,
+				DBB50FBA230C68E300511547 /* Resources */,
 				DBB50FAB230C68A900511547 /* Assets.xcassets */,
 				DBB50FB0230C68A900511547 /* LaunchScreen.storyboard */,
 				DBB50FB3230C68A900511547 /* Info.plist */,
+				DB18020B23215302003F9995 /* Color.swift */,
 				DBB50FAD230C68A900511547 /* Preview Content */,
 			);
 			path = EsoArmoury;
@@ -75,9 +395,86 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DBB50FB9230C68B800511547 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DBB50FBF230C697C00511547 /* Data.swift */,
+				DBB50FC1230C6A1600511547 /* Armor.swift */,
+				DBF14C4323104FE5001D70C3 /* Types.swift */,
+				DBF14C472315C1DD001D70C3 /* UserData.swift */,
+				DB95B2B2231EB4D1001F59C1 /* Bonuses.swift */,
+				DB95B2C2231EFEBF001F59C1 /* Icons.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DBB50FBA230C68E300511547 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB014F152322F260006CE133 /* dlcImages */,
+				DB7CF4482318612200763F1B /* armorIcons */,
+				DBF14C4123104F99001D70C3 /* itemTypes.json */,
+				DBB50FBB230C694A00511547 /* bonus.json */,
+				DBEF78D0231F0F8100805CBC /* armorImageNames.json */,
+				DBB50FBC230C694A00511547 /* eso-armor.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBE27A0423EA07DF00DB746B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				DBE27A0523EA07FC00DB746B /* WebService.swift */,
+				DB81BDF423ECA04F00835608 /* NetworkingManager.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		DBE27A0723EA08A600DB746B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DBE27A0823EA08B600DB746B /* ArmorViewModel.swift */,
+				DB81BDF623ECA0BD00835608 /* BonusApiView.swift */,
+				DB81BDFA23EE1B4800835608 /* ArmorListEntry.swift */,
+				DBD44F3823F1D5EE000332B7 /* ItemWeightsViewModel.swift */,
+				DB290CF423F2F8D1000C11CE /* Desirable.swift */,
+				DB290CF623F30CB4000C11CE /* IconListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DBF6CCE523F1B33400C40441 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DBF6CCE823F1B37900C40441 /* RootView.swift */,
+				DBF6CCEA23F1B44400C40441 /* FullArmorListView.swift */,
+				DBD44F3623F1D3EF000332B7 /* ArmorLinkDetailView.swift */,
+				DBF6CCEC23F1C45200C40441 /* ArmorDetailView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB9E76FC2356053500D74D73 /* ESO ArmoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E77062356053500D74D73 /* Build configuration list for PBXNativeTarget "ESO ArmoryTests" */;
+			buildPhases = (
+				DB9E76F92356053500D74D73 /* Sources */,
+				DB9E76FA2356053500D74D73 /* Frameworks */,
+				DB9E76FB2356053500D74D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9E77032356053500D74D73 /* PBXTargetDependency */,
+			);
+			name = "ESO ArmoryTests";
+			productName = "ESO ArmoryTests";
+			productReference = DB9E76FD2356053500D74D73 /* ESO ArmoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DBB50FA1230C68A800511547 /* EsoArmoury */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB50FB6230C68A900511547 /* Build configuration list for PBXNativeTarget "EsoArmoury" */;
@@ -92,7 +489,7 @@
 			);
 			name = EsoArmoury;
 			productName = EsoArmoury;
-			productReference = DBB50FA2230C68A800511547 /* EsoArmoury.app */;
+			productReference = DBB50FA2230C68A800511547 /* ESO Armory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,10 +498,14 @@
 		DBB50F9A230C68A800511547 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = walnut;
 				TargetAttributes = {
+					DB9E76FC2356053500D74D73 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = DBB50FA1230C68A800511547;
+					};
 					DBB50FA1230C68A800511547 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -124,17 +525,32 @@
 			projectRoot = "";
 			targets = (
 				DBB50FA1230C68A800511547 /* EsoArmoury */,
+				DB9E76FC2356053500D74D73 /* ESO ArmoryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB9E76FB2356053500D74D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBB50FA0230C68A800511547 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DBB50FB2230C68A900511547 /* LaunchScreen.storyboard in Resources */,
+				DBB50FBD230C694A00511547 /* bonus.json in Resources */,
+				DB014F162322F260006CE133 /* dlcImages in Resources */,
+				DBF14C4223104F99001D70C3 /* itemTypes.json in Resources */,
+				DB7CF4492318612200763F1B /* armorIcons in Resources */,
+				DBEF78D1231F12CE00805CBC /* armorImageNames.json in Resources */,
 				DBB50FAF230C68A900511547 /* Preview Assets.xcassets in Resources */,
+				DBB50FBE230C694A00511547 /* eso-armor.json in Resources */,
+				DB014F072322B1E4006CE133 /* Planewalker.woff2 in Resources */,
 				DBB50FAC230C68A900511547 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,17 +558,91 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB9E76F92356053500D74D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E77002356053500D74D73 /* ESO_ArmoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBB50F9E230C68A800511547 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB95B2BE231ED0ED001F59C1 /* TagListener.swift in Sources */,
+				DBE27A0D23EA20EC00DB746B /* TestDataView.swift in Sources */,
+				DBF14C4A2316D4B0001D70C3 /* SearchBar.swift in Sources */,
+				DBD9C35723623805005A69F5 /* DisplayItemIcon.swift in Sources */,
+				DB162AB423C8E11E00C52581 /* PaperDollData.swift in Sources */,
+				DBF6CCED23F1C45200C40441 /* ArmorDetailView.swift in Sources */,
+				DB95B2C3231EFEBF001F59C1 /* Icons.swift in Sources */,
+				DBA64C9123316E5000252135 /* TabbarView.swift in Sources */,
+				DB02C506230CC2100086EE7C /* ArmorDetail.swift in Sources */,
+				DB290CF523F2F8D1000C11CE /* Desirable.swift in Sources */,
+				DBB50FC4230C779700511547 /* ArmorRow.swift in Sources */,
+				DB95B2B7231ECD5D001F59C1 /* TagRow.swift in Sources */,
+				DB014EFF23229FE1006CE133 /* Home.swift in Sources */,
+				DB7CF4432318321C00763F1B /* WeightRow.swift in Sources */,
+				DBB50FC6230C8DC600511547 /* ArmorList.swift in Sources */,
+				DBF6CCEB23F1B44400C40441 /* FullArmorListView.swift in Sources */,
+				DB95B2B5231EC99D001F59C1 /* TagMenu.swift in Sources */,
+				DBF14C4423104FE5001D70C3 /* Types.swift in Sources */,
+				DB16E0C62358AFF100C305AF /* ArmorLinkRow.swift in Sources */,
+				DBA5153B234CE967007310DD /* TestText.swift in Sources */,
+				DB162AB223C8DEB100C52581 /* PaperDollSheet.swift in Sources */,
+				DB81BDFB23EE1B4800835608 /* ArmorListEntry.swift in Sources */,
+				DB014F092322CC70006CE133 /* ArmorListNoScroll.swift in Sources */,
+				DB95B2C0231ED7BD001F59C1 /* ScollableSelector.swift in Sources */,
+				DBA64C9323317C1B00252135 /* ArmorListNavView.swift in Sources */,
+				DB81BDF523ECA04F00835608 /* NetworkingManager.swift in Sources */,
+				DB62287523CCBE260003AB00 /* HighlightText2.swift in Sources */,
+				DB95B2BA231ECF4A001F59C1 /* TagSelectedMenuStore.swift in Sources */,
 				DBB50FA6230C68A800511547 /* AppDelegate.swift in Sources */,
+				DBE27A0623EA07FC00DB746B /* WebService.swift in Sources */,
+				DBE27A0923EA08B600DB746B /* ArmorViewModel.swift in Sources */,
+				DB95B2A32319A85B001F59C1 /* TypeKeywords.swift in Sources */,
+				DBA5153D234CEA60007310DD /* TestTextMethods.swift in Sources */,
+				DB62287923CD06350003AB00 /* dfsdsfdsfdsf.swift in Sources */,
+				DBB50FC2230C6A1600511547 /* Armor.swift in Sources */,
+				DBF14C482315C1DD001D70C3 /* UserData.swift in Sources */,
+				DB25036C234E3983003FD2FB /* BonusLabel.swift in Sources */,
+				DBF14C40230EED41001D70C3 /* SetBonusRow.swift in Sources */,
+				DBCB545923C8F3F500FB583F /* HighlightText.swift in Sources */,
+				DB18020C23215302003F9995 /* Color.swift in Sources */,
+				DB81BDF723ECA0BD00835608 /* BonusApiView.swift in Sources */,
+				DB16E0C42357BD7500C305AF /* EntireArmorListView.swift in Sources */,
+				DBD44F3723F1D3EF000332B7 /* ArmorLinkDetailView.swift in Sources */,
+				DB014EFB23219E3B006CE133 /* ContentTypeMenu.swift in Sources */,
+				DB162AAE23C8D78100C52581 /* BlurView.swift in Sources */,
+				DB95B2C5231F00E9001F59C1 /* IconDisplay.swift in Sources */,
+				DBA64C9523317C6100252135 /* ArmorListView.swift in Sources */,
+				DB014F042322AB3E006CE133 /* Array.swift in Sources */,
+				DB6FFE3623D8BF14007CAA3E /* ActiveSets.swift in Sources */,
+				DB290CF723F30CB4000C11CE /* IconListViewModel.swift in Sources */,
+				DB25036E234F7B21003FD2FB /* BonusDesc.swift in Sources */,
+				DB95B2B3231EB4D1001F59C1 /* Bonuses.swift in Sources */,
+				DBF14C462315955D001D70C3 /* WeightList.swift in Sources */,
 				DBB50FA8230C68A800511547 /* SceneDelegate.swift in Sources */,
-				DBB50FAA230C68A800511547 /* ContentView.swift in Sources */,
+				DBB50FAA230C68A800511547 /* Home-List.swift in Sources */,
+				DB7CF445231859E500763F1B /* WeightDetail.swift in Sources */,
+				DBD9C3532361F631005A69F5 /* ArmorType.swift in Sources */,
+				DBB50FC0230C697C00511547 /* Data.swift in Sources */,
+				DB95B2BC231ED005001F59C1 /* TagMenuPageListener.swift in Sources */,
+				DBF6CCE923F1B37900C40441 /* RootView.swift in Sources */,
+				DBD44F3923F1D5EE000332B7 /* ItemWeightsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9E77032356053500D74D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB50FA1230C68A800511547 /* EsoArmoury */;
+			targetProxy = DB9E77022356053500D74D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DBB50FB0230C68A900511547 /* LaunchScreen.storyboard */ = {
@@ -166,6 +656,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DB9E77042356053500D74D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B6DW784JG;
+				INFOPLIST_FILE = "ESO ArmoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickyhurst.ESO-ArmoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESO Armory.app/ESO Armory";
+			};
+			name = Debug;
+		};
+		DB9E77052356053500D74D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B6DW784JG;
+				INFOPLIST_FILE = "ESO ArmoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickyhurst.ESO-ArmoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESO Armory.app/ESO Armory";
+			};
+			name = Release;
+		};
 		DBB50FB4230C68A900511547 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,6 +819,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "EsoArmoury/Preview\\ Content";
 				DEVELOPMENT_TEAM = 4B6DW784JG;
 				ENABLE_PREVIEWS = YES;
@@ -293,10 +828,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickyhurst.EsoArmoury;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickyhurst.esoarmory;
+				PRODUCT_NAME = "ESO Armory";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +841,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "EsoArmoury/Preview\\ Content";
 				DEVELOPMENT_TEAM = 4B6DW784JG;
 				ENABLE_PREVIEWS = YES;
@@ -313,16 +850,26 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickyhurst.EsoArmoury;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickyhurst.esoarmory;
+				PRODUCT_NAME = "ESO Armory";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB9E77062356053500D74D73 /* Build configuration list for PBXNativeTarget "ESO ArmoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E77042356053500D74D73 /* Debug */,
+				DB9E77052356053500D74D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DBB50F9D230C68A800511547 /* Build configuration list for PBXProject "EsoArmoury" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
