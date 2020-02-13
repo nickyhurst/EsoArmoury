@@ -84,6 +84,9 @@ final class NetworkingManager : ObservableObject {
             }
         }.resume()
     }
+    
+    
+    
     func loadIcons() {
         guard let url = URL(string: "https://www.nickyhurst.com/api/armorImageNames.json") else { return }
         
@@ -94,7 +97,7 @@ final class NetworkingManager : ObservableObject {
                     DispatchQueue.main.async {
                         self.iconList = decodedLists
                         print("loadIcons")
-                        //print(decodedLists[0].icons[0].image_name)
+                        print(decodedLists[0].icons[0].image_name)
                     }
                 } else {
                     print("NO DATA")

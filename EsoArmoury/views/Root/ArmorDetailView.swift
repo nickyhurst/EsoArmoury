@@ -210,17 +210,18 @@ struct IconRow: View {
                     VStack(alignment: .leading) {
                         self.GetIconName(id: armorType.id)
                         
-                        ScrollView(.horizontal, showsIndicators: true) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(self.icon.icons) { style in
                                     
-                                    Text(self.armor.prefix)
-                                    Text(self.armor.suffix)
-                                    Text(String(self.icon.id))
-                                    Text(String(style.id))
-                                    Text(self.IconWeightName(weightId: self.icon.id, itemId: style.id))
+                                    Text(" ")
+//                                    Text(self.armor.suffix)
+//                                    Text(String(self.icon.id))
+//                                    Text(String(style.id))
+//                                    Text(self.IconWeightName(weightId: self.icon.id, itemId: style.id))
                                     
-//                                    DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icon.id, size: 50)
+                                    DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icon.id, size: 50)
+                                        
 //
 //                                    DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icon.id, iconList: self.nm.iconList, size: 50)
                                     
@@ -233,7 +234,9 @@ struct IconRow: View {
 //                                        self.IconWeightName(weightId: self.icon.id, itemId: style.id), size: 50)
                                 }
                             }
+                            .frame(height: 60)
                         }
+                        //4.frame(height: 60)
                         //Text(String(type.id))
                     }
                 }
@@ -244,51 +247,10 @@ struct IconRow: View {
 
 struct DisplayArmorIcon: View {
     @ObservedObject var nm = NetworkingManager()
-    var iconList = NetworkingManager().iconList
     var armor: ArmorListData
     var iconId: Int
     var weightId: Int
-    //var iconList: [IconsList]
-    
-    
-    
-    
-//    var iconType: String
     var size: CGFloat
-    
-    func GetIconTypeFromWeight(weightId: Int, netM: [IconsList]) -> IconsList? {
-        
-        //print(netM.armor.count)
-        return netM.filter( { $0.id == weightId }).first
-    }
-    
-    func GetIconName(itemId: Int, icons: IconsList) -> String {
-        return icons.icons.filter( { $0.id == itemId }).first!.image_name
-    }
-    
-    func GetIconType(iconId: Int, weightId: Int, netM : [IconsList]) -> String {
-        let icons = GetIconTypeFromWeight(weightId: weightId, netM: nm.iconList)
-        
-        let imageName = GetIconName(itemId: iconId, icons: icons!)
-        
-        return imageName
-    }
-//
-//        print(d?.id as Any)
-//
-//        for (c, array) in nm.icons.enumerated()
-//        {
-//            print(c)
-//            print(array.id)
-//            if (array.id == weightId) {
-//                imageName =  array.icons.filter({ $0.id == iconId}).first!.image_name
-//                print(imageName)
-//                //return imageName
-//            }
-//        }
-//        return imageName
-//    }
-    
     
     private func PopulateImage(armor: ArmorListData, iconType: String) -> Image {
         var name = "armorIcons/" + armor.prefix + iconType + armor.suffix
@@ -304,15 +266,37 @@ struct DisplayArmorIcon: View {
     
     var body: some View {
         
-        self.PopulateImage(armor: armor, iconType: GetIconType(iconId: iconId, weightId: weightId, netM: nm.iconList))
-            .resizable()
-            .renderingMode(.original)
-            .aspectRatio(contentMode: .fit)
-            .frame(width: size, height: size)
-            .cornerRadius(8)
-            .overlay(RoundedRectangle(cornerRadius: 10)
-                .stroke(Color("itemGold"), lineWidth: 2))
-            .padding(3)
+        //HStack{
+            ForEach(nm.iconList) { icon in
+                if (icon.id == self.weightId) {
+                    ForEach(icon.icons) { list in
+                        if (list.id == self.iconId) {
+                            
+                            self.PopulateImage(armor: self.armor, iconType: list.image_name)
+                            .resizable()
+                            .renderingMode(.original)
+                            .aspectRatio(contentMode: .fit)
+                                .frame(width: self.size, height: self.size)
+                            .cornerRadius(8)
+                            .overlay(RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color("itemGold"), lineWidth: 2))
+                            .padding(3)
+                        }
+                    }
+                    
+                }
+            }
+        //}
+        
+//        self.PopulateImage(armor: armor, iconType: GetIconType(iconId: iconId, weightId: weightId, netM: nm.iconList))
+//            .resizable()
+//            .renderingMode(.original)
+//            .aspectRatio(contentMode: .fit)
+//            .frame(width: size, height: size)
+//            .cornerRadius(8)
+//            .overlay(RoundedRectangle(cornerRadius: 10)
+//                .stroke(Color("itemGold"), lineWidth: 2))
+//            .padding(3)
     }
 }
 
