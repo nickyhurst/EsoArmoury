@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class NetworkingManager : ObservableObject {
+class NetworkingManager : ObservableObject {
     
     @Published var bonuses = [BonusListEntry]()
     @Published var armor = [ArmorListData]()
@@ -33,14 +33,14 @@ final class NetworkingManager : ObservableObject {
                     let decodedLists = try JSONDecoder().decode([BonusListEntry].self, from: d)
                     DispatchQueue.main.async {
                         self.bonuses = decodedLists
-                        //print("loadBonuses")
-                        //print(decodedLists.count)
+                        print("loadBonuses")
+                        print(decodedLists.count)
                     }
                 } else {
                     print("NO DATA")
                 }
             } catch {
-                print("ERROR")
+                print("Failed to decode JSON :", error)
             }
         }.resume()
     }
@@ -53,14 +53,14 @@ final class NetworkingManager : ObservableObject {
                     let decodedLists = try JSONDecoder().decode([ArmorListData].self, from: d)
                     DispatchQueue.main.async {
                         self.armor = decodedLists
-                        //print("loadArmor")
-                        //print(decodedLists.count)
+                        print("loadArmor")
+                        print(decodedLists.count)
                     }
                 } else {
                     print("NO DATA")
                 }
             } catch {
-                print("ERROR")
+                print("Failed to decode JSON :", error)
             }
         }.resume()
     }
@@ -80,7 +80,7 @@ final class NetworkingManager : ObservableObject {
                     print("NO DATA")
                 }
             } catch {
-                print("ERROR")
+                print("Failed to decode JSON :", error)
             }
         }.resume()
     }
@@ -103,7 +103,7 @@ final class NetworkingManager : ObservableObject {
                     print("NO DATA")
                 }
             } catch {
-                print("ERROR")
+                print("Failed to decode JSON :", error)
             }
         }.resume()
     }

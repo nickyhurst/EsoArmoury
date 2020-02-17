@@ -13,7 +13,7 @@ struct WeightType : Hashable, Decodable, Identifiable {
     var id: Int
     var weight: String
     var desc: String
-    fileprivate var imageName: String
+    var imageName: String
     var subText: String
 }
 

@@ -15,7 +15,7 @@ struct FullArmorListView: View {
     @State private var searchTerm: String = ""
     
     
-    let filtered = armorDataExternal.filterDuplicates{ $0.id == $1.id && $0.name == $1.name}
+    //let filtered = armorDataExternal.filterDuplicates{ $0.id == $1.id && $0.name == $1.name}
     //@State private var searchTerm: String = ""
     //var armorList : [ArmorListData]
     
@@ -33,18 +33,20 @@ struct FullArmorListView: View {
                     
                     ToggleItemView()
                     
-                    List(nm.armor
-                        .filter { self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm) }
-                        .sorted(by: { $0.name < $1.name } ), id: \.id
-                    ) { armor in
+                    List{
+                        ForEach(nm.armor
+                            .filter { self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm) }
+                            .sorted(by: { $0.name < $1.name } )
+                        ) { armor in
                         
-                        if ( (!self.userData.showAcquiredOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "favorite", data: self.userData) ) && ( !self.userData.showWantedOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "wanted", data: self.userData) )) {
-                        
-                            VStack {
-                                NavigationLink(destination: ArmorDetailView(armor: armor)
-                                    .environmentObject(self.userData)
-                                ) {
-                                    ArmorLinkDetailView(armor: armor, passedWeight: armor.armorTypes[0].id)
+                            if ( (!self.userData.showAcquiredOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "favorite", data: self.userData) ) && ( !self.userData.showWantedOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "wanted", data: self.userData) )) {
+                            
+                                VStack {
+                                    NavigationLink(destination: ArmorDetailView(armor: armor, externalWeightData: self.nm.weights, externalIconData: self.nm.iconList)
+                                        .environmentObject(self.userData)
+                                    ) {
+                                        ArmorLinkDetailView(armor: armor)
+                                    }
                                 }
                             }
                         }

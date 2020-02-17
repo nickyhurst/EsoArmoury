@@ -12,8 +12,10 @@ import Combine
 
 struct ArmorDetailView: View {
     @EnvironmentObject var userData: UserData
-    @ObservedObject var nm = NetworkingManager()
+    //@ObservedObject var nm = NetworkingManager()
     var armor: ArmorListData
+    var externalWeightData: [WeightType]
+    var externalIconData: [IconsList]
     
     
     var body: some View {
@@ -29,17 +31,21 @@ struct ArmorDetailView: View {
             }
             
             Section(header: Text("Available as:")) {
-                ArmorAvailableIconDisplayView(armor: armor)
+                ForEach(armor.armorTypes) { type in
+                    
+                    DisplayIconRow(armor: self.armor, selectedWeight: type.id, externalIconData: self.externalIconData, externalWeightData: self.externalWeightData)
+                    
+                }
             }
         }
     }
 }
 
-struct ArmorDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        ArmorDetailView(armor: NetworkingManager().armor[0])
-    }
-}
+//struct ArmorDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ArmorDetailView(armor: NetworkingManager().armor[0])
+//    }
+//}
 
 
 struct ArmorTitleView: View {
@@ -121,123 +127,48 @@ struct ArmorBonusRowView: View {
 }
 
 
-struct ArmorAvailableIconDisplayView: View {
-    @EnvironmentObject var userData: UserData
-    @ObservedObject var nm = NetworkingManager()
-    @State var showModal = false
-    var armor: ArmorListData
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            ForEach(self.nm.iconList) { icon in
-                IconRow(icon: icon, armor: self.armor)
-            }
-        }
-    }
-}
-
-struct IconRow: View {
-    @ObservedObject var nm = NetworkingManager()
-    var icon: IconsList
-    var armor: ArmorListData
-    
-    func GetIconName(id: Int) -> Text {
-       for (_, array) in nm.weights.enumerated()
-       {
-           if (array.id == id) {
-               return Text(array.subText)
-           }
-       }
-       return Text("Weight not found")
-   }
-
-
-    func IconsFromWeightId(id: Int) -> IconsList? {
-        print(nm.iconList.count)
-        for(c, array) in nm.iconList.enumerated()
-        {
-            print(c)
-            print("Icon List ID:")
-            print(array.id)
-            if (array.id == id) {
-                return array.self
-            }
-            //return array.where({$0 == id)})
-                
-        }
-        return IconsList(id: 0, icons: [IconItemView(id: 0, image_name: "none")])
-        }
-    
-    func IconNameFromWeightId(id: Int, icons: IconsList) -> String {
-        print(icons.id)
-        print(id)
-        return icons.icons.filter({ $0.id == id}).first!.image_name
-    }
-
-    func IconWeightName(weightId: Int, itemId: Int) -> String {
-        let icons = IconsFromWeightId(id: weightId)
-        let imageName = IconNameFromWeightId(id: itemId, icons: icons!)
-        //print(icons)
-//        for(_, array) in nm.iconList.enumerated()
-//        {
-//            return array.icons.filter({ $0.id == weightId}).first?.image_name ?? "no image"
+//struct ArmorAvailableIconDisplayView: View {
+//    @EnvironmentObject var userData: UserData
+//    @State var showModal = false
+//    var armor: ArmorListData
+//    var selectedWeight: Int
+//    var externalWeightData: [WeightType]
+//    var externalIconData: [IconsList]
+//
+//    var body: some View {
+//        VStack(alignment: .leading) {
+//            DisplayIconRow(armor: self.armor, selectedWeight: self.selectedWeight, externalIconData: self.externalIconData, externalWeightData: self.externalWeightData)
 //        }
-//        return "no image"
-        return imageName
-//
-//        print("Weight : " + String(weightId))
-//        print("Item : " + String(itemId))
-//        let armorList = NetworkingManager().icons
-//        print(armorList.count)
-//        let iconList = nm.icons.enumerated()
-//        print(iconList)
-//        let icons = IconsFromWeightId(id: weightId)
-//
-//        //print(String(icons?.id)
-//        let imageName = IconNameFromWeightId(id: itemId, icons: icons!)
-//        return imageName
+//    }
+//}
+
+struct DisplayIconRow: View {
+    var armor: ArmorListData
+    var selectedWeight: Int
+    var externalIconData: [IconsList]
+    var externalWeightData: [WeightType]
+    
+    func GetSectionNameFromId(id: Int, weights: [WeightType]) -> String {
+        return weights.filter( { $0.id == id } ).first!.subText
     }
-    
-    
-   
     
     var body: some View {
         VStack {
-            ForEach(armor.armorTypes) { armorType in
-                
-                if (armorType.id == self.icon.id) {
-                    
+            
+            ForEach(externalIconData) { icon in
+                if (self.selectedWeight == icon.id) {
                     VStack(alignment: .leading) {
-                        self.GetIconName(id: armorType.id)
+                        Text(self.GetSectionNameFromId(id: self.selectedWeight, weights: self.externalWeightData))
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
-                                ForEach(self.icon.icons) { style in
-                                    
-                                    Text(" ")
-//                                    Text(self.armor.suffix)
-//                                    Text(String(self.icon.id))
-//                                    Text(String(style.id))
-//                                    Text(self.IconWeightName(weightId: self.icon.id, itemId: style.id))
-                                    
-                                    DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icon.id, size: 50)
-                                        
-//
-//                                    DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icon.id, iconList: self.nm.iconList, size: 50)
-                                    
-                                    
-                     
-                                    
-//                                    DisplayArmorIcon(armor: ArmorListData, prefix: self.armor.prefix, suffix: self.armor.suffix, iconId: style.id, weightId: self.icon.id, size: 50)
-                                    
-//                                    DisplayArmorIcon(armor: self.armor, iconType:
-//                                        self.IconWeightName(weightId: self.icon.id, itemId: style.id), size: 50)
+                                ForEach(icon.icons) { style in
+                                    VStack {
+                                        DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.selectedWeight, size: 50, externalWeightData: self.externalWeightData, externalIconData: self.externalIconData)
+                                    }
                                 }
                             }
-                            .frame(height: 60)
                         }
-                        //4.frame(height: 60)
-                        //Text(String(type.id))
                     }
                 }
             }
@@ -245,12 +176,46 @@ struct IconRow: View {
     }
 }
 
+struct IconRow: View {
+    
+    var armor: ArmorListData
+    var icons: IconsList
+    var externalWeightData: [WeightType]
+    var externalIconData: [IconsList]
+    
+    var body: some View {
+        VStack {
+            
+            ForEach(icons.icons) { style in
+                Text(style.image_name)
+                if (style.image_name != "error") {
+                    ForEach(self.armor.armorTypes) { armorType in
+                        
+                        VStack(alignment: .leading) {
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                
+                                DisplayArmorIcon(armor: self.armor, iconId: style.id, weightId: self.icons.id, size: 50, externalWeightData: self.externalWeightData, externalIconData: self.externalIconData)
+                                    .frame(height: 60)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 struct DisplayArmorIcon: View {
-    @ObservedObject var nm = NetworkingManager()
     var armor: ArmorListData
     var iconId: Int
     var weightId: Int
     var size: CGFloat
+    
+    var externalWeightData: [WeightType]
+    var externalIconData: [IconsList]
+    
     
     private func PopulateImage(armor: ArmorListData, iconType: String) -> Image {
         var name = "armorIcons/" + armor.prefix + iconType + armor.suffix
@@ -265,38 +230,29 @@ struct DisplayArmorIcon: View {
     }
     
     var body: some View {
-        
-        //HStack{
-            ForEach(nm.iconList) { icon in
+        VStack{
+            
+            ForEach(externalIconData) { icon in
                 if (icon.id == self.weightId) {
                     ForEach(icon.icons) { list in
                         if (list.id == self.iconId) {
                             
                             self.PopulateImage(armor: self.armor, iconType: list.image_name)
-                            .resizable()
-                            .renderingMode(.original)
-                            .aspectRatio(contentMode: .fit)
+                                .resizable()
+                                .renderingMode(.original)
+                                .aspectRatio(contentMode: .fit)
                                 .frame(width: self.size, height: self.size)
-                            .cornerRadius(8)
-                            .overlay(RoundedRectangle(cornerRadius: 10)
-                                .stroke(Color("itemGold"), lineWidth: 2))
-                            .padding(3)
+                                .cornerRadius(8)
+                                .overlay(RoundedRectangle(cornerRadius: 10)
+                                    .stroke(Color("itemGold"), lineWidth: 2))
+                                .padding(3)
                         }
                     }
                     
                 }
             }
-        //}
+        }
         
-//        self.PopulateImage(armor: armor, iconType: GetIconType(iconId: iconId, weightId: weightId, netM: nm.iconList))
-//            .resizable()
-//            .renderingMode(.original)
-//            .aspectRatio(contentMode: .fit)
-//            .frame(width: size, height: size)
-//            .cornerRadius(8)
-//            .overlay(RoundedRectangle(cornerRadius: 10)
-//                .stroke(Color("itemGold"), lineWidth: 2))
-//            .padding(3)
     }
 }
 

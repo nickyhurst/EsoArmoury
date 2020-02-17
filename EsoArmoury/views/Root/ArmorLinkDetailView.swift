@@ -10,15 +10,15 @@ import SwiftUI
 
 struct ArmorLinkDetailView: View {
     @EnvironmentObject var userData: UserData
-    @ObservedObject var nm = NetworkingManager()
+    //@ObservedObject var nm = NetworkingManager()
     
     var armor: ArmorListData
-    var passedWeight: Int
+    //var passedWeight: Int
     
     var body: some View {
         VStack {
-            ForEach(nm.weights) { weights in
-                if (weights.id == self.passedWeight) {
+            //ForEach(nm.weights) { weights in
+                //if (weights.id == self.passedWeight) {
                     HStack(alignment: .top) {
                         self.armor.image
                             .resizable()
@@ -65,8 +65,8 @@ struct ArmorLinkDetailView: View {
                             }
                         }
                     }
-                }
-            }
+                //}
+            //}
             .frame(height: 70)
         }// VStack
     }
@@ -74,6 +74,6 @@ struct ArmorLinkDetailView: View {
 
 struct ArmorLinkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ArmorLinkDetailView(armor: armorDataExternal[1], passedWeight: 1001)
+        ArmorLinkDetailView(armor: armorDataExternal[1])
     }
 }
