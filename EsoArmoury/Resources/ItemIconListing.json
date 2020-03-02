@@ -1,0 +1,120 @@
+[
+    {
+        "updated": "2020-02-18T15:20:00+0000"
+    },
+    [
+        {
+            "id": 101,
+            "icons": [
+                { "id": 100,"image_name": "_1haxe_" },
+                { "id": 101,"image_name": "_1hhammer_"},
+                { "id": 102,"image_name": "_1hsword_"},
+                { "id": 103,"image_name": "_dagger_"},
+                { "id": 104,"image_name": "_shield_"}
+            ]
+        },
+        {
+            "id": 102,
+            "icons": [
+                { "id": 100,"image_name": "_2hhammer_" },
+                { "id": 101,"image_name": "_2hsword_"},
+                { "id": 102,"image_name": "_2haxe_"}
+            ]
+        },
+        {
+            "id": 103,
+            "icons": [
+                { "id": 100,"image_name": "_fire_staff_" },
+                { "id": 102,"image_name": "_frost_staff_"},
+                { "id": 103,"image_name": "_lightning_staff_"}
+            ]
+        },
+        {
+            "id": 104,
+            "icons": [
+                { "id": 100,"image_name": "_restoration_staff_" }
+            ]
+        },
+        {
+            "id": 105,
+            "icons": [
+                { "id": 100,"image_name": "_bow_" }
+            ]
+        },
+        {
+            "id": 106,
+            "icons": [
+                { "id": 100,"image_name": "_1haxe_" },
+                { "id": 101,"image_name": "_1hhammer_" },
+                { "id": 102,"image_name": "_1hsword_" },
+                { "id": 103,"image_name": "_dagger_" }
+            ]
+        },
+        {
+            "id": 1001,
+            "icons": [
+                { "id": 100,"image_name": "_ring_" , "location": 9},
+                { "id": 101,"image_name": "_neck_", "location": 8}
+            ]
+        },
+        {
+            "id": 1002,
+            "icons": [
+                {"id": 200,"image_name": "_1haxe_", "location": 11},
+                {"id": 201,"image_name": "_1hhammer_", "location": 11},
+                {"id": 202,"image_name": "_1hsword_", "location": 11},
+                {"id": 203,"image_name": "_2haxe_", "location": 11},
+                {"id": 204,"image_name": "_2hhammer_", "location": 11},
+                {"id": 205,"image_name": "_2hsword_", "location": 11},
+                {"id": 206,"image_name": "_bow_", "location": 11},
+                {"id": 207,"image_name": "_dagger_", "location": 11},
+                {"id": 208,"image_name": "_shield_", "location": 12},
+                {"id": 209,"image_name": "_staff_", "location": 11}
+            ]
+        },
+        {
+            "id": 1003,
+            "icons": [
+                {"id": 300,"image_name": "_light_head_", "location": 1},
+                {"id": 301,"image_name": "_light_shoulders_", "location": 2},
+                {"id": 302,"image_name": "_light_robe_", "location": 3},
+                {"id": 303,"image_name": "_light_shirt_", "location": 4},
+                {"id": 304,"image_name": "_light_hand_", "location": 5},
+                {"id": 305,"image_name": "_light_waist_", "location": 6},
+                {"id": 306,"image_name": "_light_legs_", "location": 7},
+                {"id": 307,"image_name": "_light_feet_", "location": 8}
+            ]
+        },
+        {
+            "id": 1004,
+            "icons": [
+                {"id": 400,"image_name": "_medium_head_", "location": 1},
+                {"id": 401,"image_name": "_medium_shoulders_", "location": 2},
+                {"id": 402,"image_name": "_medium_chest_", "location": 3},
+                {"id": 403,"image_name": "_medium_hand_", "location": 4},
+                {"id": 404,"image_name": "_medium_waist_", "location": 5},
+                {"id": 405,"image_name": "_medium_legs_", "location": 6},
+                {"id": 406,"image_name": "_medium_feet_", "location": 7}
+            ]
+        },
+        {
+            "id": 1005,
+            "icons": [
+                {"id": 500,"image_name": "_heavy_head_", "location": 1},
+                {"id": 501,"image_name": "_heavy_shoulders_", "location": 2},
+                {"id": 502,"image_name": "_heavy_chest_", "location": 3},
+                {"id": 503,"image_name": "_heavy_hand_", "location": 4},
+                {"id": 504,"image_name": "_heavy_waist_", "location": 5},
+                {"id": 505,"image_name": "_heavy_legs_", "location": 6},
+                {"id": 506,"image_name": "_heavy_feet_", "location": 7}
+            ]
+        },
+        {
+            "id": 2004,
+            "icons": [
+                {"id": 600,"image_name": "_head_", "location": 1},
+                {"id": 601,"image_name": "_shoulders_", "location": 2}
+            ]
+        }
+    ]
+]

@@ -24,6 +24,11 @@
 		DB25036E234F7B21003FD2FB /* BonusDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25036D234F7B21003FD2FB /* BonusDesc.swift */; };
 		DB290CF523F2F8D1000C11CE /* Desirable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290CF423F2F8D1000C11CE /* Desirable.swift */; };
 		DB290CF723F30CB4000C11CE /* IconListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290CF623F30CB4000C11CE /* IconListViewModel.swift */; };
+		DB290D1F23FDA2BD000C11CE /* EsoArmoury.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB290D1D23FDA2BD000C11CE /* EsoArmoury.xcdatamodeld */; };
+		DB290D2523FDC107000C11CE /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290D2423FDC107000C11CE /* NetworkingService.swift */; };
+		DB290D2724097FC7000C11CE /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290D2624097FC6000C11CE /* ApiResource.swift */; };
+		DB290D2924098176000C11CE /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290D2824098176000C11CE /* NetworkRequest.swift */; };
+		DB290D2B24098316000C11CE /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB290D2A24098316000C11CE /* ApiRequest.swift */; };
 		DB62287523CCBE260003AB00 /* HighlightText2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB62287423CCBE260003AB00 /* HighlightText2.swift */; };
 		DB62287923CD06350003AB00 /* dfsdsfdsfdsf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB62287823CD06350003AB00 /* dfsdsfdsfdsf.swift */; };
 		DB6FFE3623D8BF14007CAA3E /* ActiveSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FFE3523D8BF14007CAA3E /* ActiveSets.swift */; };
@@ -109,6 +114,11 @@
 		DB25036D234F7B21003FD2FB /* BonusDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusDesc.swift; sourceTree = "<group>"; };
 		DB290CF423F2F8D1000C11CE /* Desirable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desirable.swift; sourceTree = "<group>"; };
 		DB290CF623F30CB4000C11CE /* IconListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListViewModel.swift; sourceTree = "<group>"; };
+		DB290D1E23FDA2BD000C11CE /* EsoArmoury.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EsoArmoury.xcdatamodel; sourceTree = "<group>"; };
+		DB290D2423FDC107000C11CE /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		DB290D2624097FC6000C11CE /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		DB290D2824098176000C11CE /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		DB290D2A24098316000C11CE /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		DB62287423CCBE260003AB00 /* HighlightText2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightText2.swift; sourceTree = "<group>"; };
 		DB62287823CD06350003AB00 /* dfsdsfdsfdsf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfsdsfdsfdsf.swift; sourceTree = "<group>"; };
 		DB6FFE3523D8BF14007CAA3E /* ActiveSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSets.swift; sourceTree = "<group>"; };
@@ -351,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				DBB50FA4230C68A800511547 /* EsoArmoury */,
+				DB290D1D23FDA2BD000C11CE /* EsoArmoury.xcdatamodeld */,
 				DB9E76FE2356053500D74D73 /* ESO ArmoryTests */,
 				DBB50FA3230C68A800511547 /* Products */,
 			);
@@ -426,6 +437,10 @@
 			children = (
 				DBE27A0523EA07FC00DB746B /* WebService.swift */,
 				DB81BDF423ECA04F00835608 /* NetworkingManager.swift */,
+				DB290D2423FDC107000C11CE /* NetworkingService.swift */,
+				DB290D2624097FC6000C11CE /* ApiResource.swift */,
+				DB290D2824098176000C11CE /* NetworkRequest.swift */,
+				DB290D2A24098316000C11CE /* ApiRequest.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -582,12 +597,15 @@
 				DB290CF523F2F8D1000C11CE /* Desirable.swift in Sources */,
 				DBB50FC4230C779700511547 /* ArmorRow.swift in Sources */,
 				DB95B2B7231ECD5D001F59C1 /* TagRow.swift in Sources */,
+				DB290D2523FDC107000C11CE /* NetworkingService.swift in Sources */,
 				DB014EFF23229FE1006CE133 /* Home.swift in Sources */,
+				DB290D2724097FC7000C11CE /* ApiResource.swift in Sources */,
 				DB7CF4432318321C00763F1B /* WeightRow.swift in Sources */,
 				DBB50FC6230C8DC600511547 /* ArmorList.swift in Sources */,
 				DBF6CCEB23F1B44400C40441 /* FullArmorListView.swift in Sources */,
 				DB95B2B5231EC99D001F59C1 /* TagMenu.swift in Sources */,
 				DBF14C4423104FE5001D70C3 /* Types.swift in Sources */,
+				DB290D2B24098316000C11CE /* ApiRequest.swift in Sources */,
 				DB16E0C62358AFF100C305AF /* ArmorLinkRow.swift in Sources */,
 				DBA5153B234CE967007310DD /* TestText.swift in Sources */,
 				DB162AB223C8DEB100C52581 /* PaperDollSheet.swift in Sources */,
@@ -607,8 +625,10 @@
 				DBB50FC2230C6A1600511547 /* Armor.swift in Sources */,
 				DBF14C482315C1DD001D70C3 /* UserData.swift in Sources */,
 				DB25036C234E3983003FD2FB /* BonusLabel.swift in Sources */,
+				DB290D2924098176000C11CE /* NetworkRequest.swift in Sources */,
 				DBF14C40230EED41001D70C3 /* SetBonusRow.swift in Sources */,
 				DBCB545923C8F3F500FB583F /* HighlightText.swift in Sources */,
+				DB290D1F23FDA2BD000C11CE /* EsoArmoury.xcdatamodeld in Sources */,
 				DB18020C23215302003F9995 /* Color.swift in Sources */,
 				DB81BDF723ECA0BD00835608 /* BonusApiView.swift in Sources */,
 				DB16E0C42357BD7500C305AF /* EntireArmorListView.swift in Sources */,
@@ -889,6 +909,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB290D1D23FDA2BD000C11CE /* EsoArmoury.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB290D1E23FDA2BD000C11CE /* EsoArmoury.xcdatamodel */,
+			);
+			currentVersion = DB290D1E23FDA2BD000C11CE /* EsoArmoury.xcdatamodel */;
+			path = EsoArmoury.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DBB50F9A230C68A800511547 /* Project object */;
 }

@@ -1,0 +1,3443 @@
+[
+    {
+        "updated": "2020-02-18T15:20:00+0000"
+    },
+    [
+	{
+		"id" : 1,
+		"type": "magicka",
+        "armorId": 1,
+        "color" : ".blue",
+        "desc" : "Adds 1096 Max Magicka"
+	},
+	{
+		"id" : 2,
+		"type": "magicka",
+        "armorId": 1,
+		"color" : ".blue",
+        "desc" : "Adds 129 Magicka Recovery"
+	},
+	{
+		"id" : 3,
+		"type": "magicka",
+        "armorId": 1,
+		"color" : ".light-blue",
+        "desc" : "Adds 129 Spell Damage"
+	},
+	{
+		"id" : 4,
+		"type": "magicka",
+        "armorId": 1,
+		"color" : ".light-blue",
+        "desc" : "Adds 833 Spell Critical"
+	},
+	{
+		"id" : 5,
+		"type": "stamina",
+        "armorId": 1,
+		"color" : ".green",
+        "desc" : "Adds 1096 Max Stamina"
+	},
+	{
+		"id" : 6,
+		"type": "stamina",
+        "armorId": 1,
+		"color" : ".green",
+        "desc" : "Adds 129 Stamina Recovery"
+	},
+	{
+		"id" : 7,
+		"type": "stamina",
+        "armorId": 1,
+		"color" : ".light-green",
+        "desc" : "Adds 129 Weapon Damage"
+	},
+	{
+		"id" : 8,
+		"type": "stamina",
+        "armorId": 1,
+		"color" : ".light-green",
+        "desc" : "Adds 833 Weapon Critical"
+	},
+	{
+		"id" : 9,
+		"type": "health",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 1206 Max Health"
+	},
+	{
+		"id" : 10,
+		"type": "health",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 129 Health Recovery"
+	},
+	{
+		"id" : 11,
+		"type": "resist",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 1487 Spell Penetration"
+	},
+	{
+		"id" : 12,
+		"type": "resist",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 1487 Physical Penetration"
+	},
+	{
+		"id" : 13,
+		"type": "resist",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 2975 Spell Resistance"
+	},
+	{
+		"id" : 14,
+		"type": "resist",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "Adds 2975 Physical Resistance"
+	},
+	{
+		"id" : 15,
+		"type": "heal",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "4% Healing Done"
+	},
+	{
+		"id" : 16,
+		"type": "heal",
+        "armorId": 1,
+		"color" : ".red",
+        "desc" : "4% Healing Taken"
+	},
+	{
+		"id" : 17,
+		"type": "trial",
+        "armorId": 1,
+		"color" : ".yellow",
+        "desc" : "Gain Minor Aegis at all times, reducing your damage taken from Dungeon and Trial Monsters by 5%."
+	},
+	{
+		"id" : 18,
+		"type": "trial",
+		"armorId": 1,
+        "color" : ".yellow",
+		"desc" : "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial and Arena Monsters by 5%."
+	},
+    {
+        "id" : 19,
+        "type": "unique",
+        "armorId": 1001,
+        "color" : "primary",
+        "desc" : "When you take damage, you have a 20% chance to heal you and your allies within 7 meters of you for 2429 Health. This effect can occur once every 3 seconds."
+    },
+    {
+        "id" : 20,
+        "type": "unique",
+        "armorId": 1002,
+        "color" : "blue",
+        "desc" : "Adds 250 Magicka Recovery, Adds 250 Stamina Recovery."
+    },
+    {
+        "id" : 21,
+        "type": "unique",
+        "armorId": 1003,
+        "color" : "primary",
+        "desc" : "Increases your Maximum Health, Magicka, and Stamina by 1250."
+    },
+    {
+        "id" : 22,
+        "type": "unique",
+        "armorId": 1004,
+        "color" : ".primary",
+        "desc" : "When you damage a nearby enemy with a single target ability, you summon a cone of lightning from your chest for 3 seconds, dealing 1285 Shock Damage every 0.5 seconds to enemies in the cone. This effect can occur every 6 seconds."
+    },
+    {
+        "id" : 23,
+        "type": "unique",
+        "armorId": 1005,
+        "color" : ".primary",
+        "desc" : "Adds 1096 Maximum Stamina, Reduces your damage taken from environmental traps by 40%."
+    },
+    {
+        "id" : 24,
+        "type": "unique",
+        "armorId": 1005,
+        "color" : ".primary",
+        "desc" : "When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within by 70%, damages them for 860 Magic Damage every 1 second, and heals you for 100% of the damage done."
+    },
+    {
+        "id" : 25,
+        "type": "unique",
+        "armorId": 1006,
+        "color" : ".primary",
+        "desc" : "When you deal direct damage, you restore 660 Magicka and Stamina. This effect can occur once every 5 seconds."
+    },
+    {
+        "id" : 26,
+        "type": "unique",
+        "armorId": 1007,
+        "color" : ".primary",
+        "desc" : "While you have a drink buff active, your Maximum Magicka is increased by 2000 and Magicka Recovery by 150."
+    },
+    {
+        "id" : 27,
+        "type": "unique",
+        "armorId": 1008,
+        "color" : ".primary",
+        "desc" : "Reduce damage taken from Players by 10%."
+    },
+    {
+        "id" : 28,
+        "type": "unique",
+        "armorId": 1009,
+        "color" : ".primary",
+        "desc" : "When you deal damage with a Flame Damage ability, you have a 15% chance to apply the Burning status effect to the enemy and increase your Spell Damage by 525 for 8 seconds. This effect can occur once every 12 seconds."
+    },
+    {
+        "id" : 29,
+        "type": "unique",
+        "armorId": 1010,
+        "color" : ".primary",
+        "desc" : "When you deal Critical Damage with a single target Magicka Ability, you launch a Fire, Ice, Shock, or Disease ball at your target that deals 12900 damage and applies a status effect. This effect can occur once every 10 seconds."
+    },
+    {
+        "id" : 30,
+        "type": "unique",
+        "armorId": 1011,
+        "color" : ".primary",
+        "desc" : "When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 8195 damage for 6 seconds. This effect can occur once every 6 seconds."
+    },
+    {
+        "id" : 31,
+        "type": "unique",
+        "armorId": 1013,
+        "color" : ".primary",
+        "desc" : "When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 600 Magicka. This effect can occur every 8 seconds."
+    },
+    {
+        "id" : 32,
+        "type": "unique",
+        "armorId": 1014,
+        "color" : ".primary",
+        "desc" : "When you take damage, you have a 15% chance to restore 2408 Magicka. This effect can occur once every 4 seconds."
+    },
+    {
+        "id" : 33,
+        "type": "unique",
+        "armorId": 1015,
+        "color" : ".primary",
+        "desc" : "When you deal damage with a fully-charged Heavy Attack, you place a bomb on the enemy for 10 seconds. When another player hits the same enemy with a fully-charged Heavy Attack they detonate the bomb, dealing 7500 Magic Damage all enemies within 8 meters. This effect can occur once every 10 seconds."
+    },
+    {
+        "id" : 34,
+        "type": "unique",
+        "armorId": 1016,
+        "color" : ".primary",
+        "desc" : " When you deal damage with a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your allies within 5 meters for 11000 Health over 10 seconds. This effect can occur once every 10 seconds."
+    },
+    {
+        "id" : 35,
+        "type": "unique",
+        "armorId": 1012,
+        "color" : ".blue",
+        "desc" : "Adds 2560 Maximum Magicka"
+    },
+    {
+        "id" : 2001,
+        "type": "unique",
+        "armorId": 1095,
+        "color" : ".primary",
+        "desc" : "Increases your Critical Damage by 5%. Increases your Critical Damage by an additional 10% when attacking from Sneak or invisibility."
+    },
+    {
+        "id" : 2002,
+        "type": "unique",
+        "armorId": 1096,
+        "color" : ".primary",
+        "desc" : "Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal 200 Physical Damage per stack every 1 second. 20 stacks max."
+    },
+    {
+        "id" : 2003,
+        "type": "unique",
+        "armorId": 1097,
+        "color" : ".primary",
+        "desc" : "When you deal damage with a damage over time effect, you apply a stack of Blight Seed to your target for 5 seconds. At 20 stacks, the Blight Seeds explode, dealing 11100 Disease Damage to the target and nearby enemies. An enemy that has reached 20 stacks cannot be infected with Blight Seed for 2 seconds."
+    },
+    {
+        "id" : 2004,
+        "type": "unique",
+        "armorId": 1017,
+        "color" : ".primary",
+        "desc" : "Whenever you deal Flame, Shock, or Frost Damage, you gain 550 Spell Damage for that element for 4 seconds. This effect can occur every 4 seconds per element. You can have multiple different elemental buffs active simultaneously."
+    },
+    {
+        "id" : 2005,
+        "type": "unique",
+        "armorId": 1018,
+        "color" : ".primary",
+        "desc" : "When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
+    },
+    {
+        "id" : 2006,
+        "type": "unique",
+        "armorId": 1019,
+        "color" : ".primary",
+        "desc" : "Adds 129 Spell Damage, Reduces the cost of your Magicka Abilities by 8%. When you kill an enemy, you restore 2150 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
+    },
+    {
+       "id" : 2007,
+       "type": "unique",
+       "armorId": 1020,
+       "color" : ".primary",
+       "desc" : "When you deal damage, you have a 10% chance to summon a line of flame that moves forward after 1 second, dealing 8000 Flame Damage to any enemy in its path. This effect can occur once every 10 seconds."
+    },
+    {
+        "id" : 2008,
+        "type": "unique",
+        "armorId": 1022,
+        "color" : ".primary",
+        "desc" : "When you heal yourself or an ally, you grant them Major Evasion for 2 seconds, reducing damage from area attacks by 25%."
+    },
+    {
+        "id" : 2009,
+        "type": "unique",
+        "armorId": 1023,
+        "color" : ".primary",
+        "desc" : "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 7000 Health. This effect can occur once every 20 seconds."
+    },
+    {
+        "id" : 2010,
+        "type": "unique",
+        "armorId": 1024,
+        "color" : ".primary",
+        "desc" : "Adds 1096 Maximum Magicka, When you resurrect another player while in combat, both you and the player gain Major Heroism for 15 seconds, granting you 3 Ultimate every 1.5 seconds."
+    },
+    {
+         "id" : 2011,
+         "type": "unique",
+         "armorId": 1025,
+         "color" : ".primary",
+         "desc" : "Gain Minor Mending at all times, increasing your Healing Done by 8%."
+    },
+    {
+        "id" : 2012,
+        "type": "unique",
+        "armorId": 1026,
+        "color" : ".primary",
+        "desc" : "When you use an area of effect heal ability, you reduce the Weapon Damage of all enemies within 10 meters of you by 430 for 3 seconds."
+    },
+    {
+        "id" : 2013,
+        "type": "unique",
+        "armorId": 1027,
+        "color" : ".primary",
+        "desc" : "Whenever you critically heal or critically damage a target, spawn a ball of Hemoglobin at their location. After 2 seconds the ball explodes, restoring 3000 Magicka and applying Minor Vitality to you and your allies within 6 meters of the ball for 9 seconds, increasing their healing received by 8%. This effect can occur once every 9 seconds."
+    },
+    {
+        "id" : 2014,
+        "type": "unique",
+        "armorId": 1028,
+        "color" : ".primary",
+        "desc" : "Applying a minor debuff to your enemy summons a non-reflectable Ice Wraith that will charge into your enemy, dealing 18920 Frost Damage over 8 seconds. This effect can occur every 12 seconds."
+    },
+    {
+       "id" : 2015,
+       "type": "unique",
+       "armorId": 1029,
+       "color" : ".primary",
+       "desc" : "Adds 129 Weapon Damage, Adds 129 Spell Damage."
+    },
+    {
+       "id" : 2016,
+       "type": "unique",
+       "armorId": 1029,
+       "color" : ".primary",
+       "desc" : "While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%."
+    },
+    {
+        "id" : 2017,
+        "type": "unique",
+        "armorId": 1030,
+        "color" : ".primary",
+        "desc" : "Adds 2000 Critical Resistance"
+    },
+    {
+        "id" : 2018,
+        "type": "unique",
+        "armorId": 1031,
+        "color" : ".primary",
+        "desc" : "After Breaking Free, you gain Minor Protection and Minor Heroism for 7 seconds, reducing your damage taken by 8% and generating 1 Ultimate every 1.5 seconds."
+    },
+    
+    {
+      "id" : 2019,
+      "type": "unique",
+      "armorId": 1032,
+      "color" : ".primary",
+      "desc" : "Adds 833 Spell Critical, Your fully-charged Heavy Attacks deal an additional 903 damage. Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 8%."
+    },
+    {
+      "id" : 2020,
+      "type": "unique",
+      "armorId": 1033,
+      "color" : ".primary",
+      "desc" : "When you use an Ultimate ability, you and the closest 2 allies within 28 meters of you gain Major Aegis for 10 seconds, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 15%."
+    },
+    {
+        "id" : 2021,
+        "type": "unique",
+        "armorId": 1034,
+        "color" : ".primary",
+        "desc" : "Increases the duration of all Major buffs, Minor buffs, and damage shields you apply to yourself and allies by 40%."
+    },
+    {
+         "id" : 2022,
+         "type": "unique",
+         "armorId": 1035,
+         "color" : ".primary",
+         "desc" : "Your fully-charged Heavy Attacks deal an additional 8% of their Maximum Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage."
+    },
+    {
+        "id" : 2023,
+        "type": "unique",
+        "armorId": 1036,
+        "color" : ".primary",
+        "desc" : "When you use an Ultimate ability, you heal you and your allies within 20 meters of you for 30 Health per point of the Ultimate's cost."
+    },
+    {
+        "id" : 2024,
+        "type": "unique",
+        "armorId": 1037,
+        "color" : ".primary",
+        "desc" : "While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka Ability will cost no Magicka."
+    },
+    {
+        "id" : 2025,
+        "type": "unique",
+        "armorId": 1038,
+        "color" : ".primary",
+        "desc" : "Adds 450 Spell Damage to your Restoration Staff abilities."
+    },
+    {
+        "id" : 2026,
+        "type": "unique",
+        "armorId": 1039,
+        "color" : ".primary",
+        "desc" : "When you deal damage, you have a 10% chance to summon a Verminous Fabricant that charges the nearest enemy, dealing 9999 Shock Damage to all enemies in its path, knocking them into the air, and stunning them for 2 seconds. This effect can occur once every 10 seconds."
+    },
+    {
+        "id" : 2027,
+        "type": "unique",
+        "armorId": 1040,
+        "color" : ".primary",
+        "desc" : "When you take damage from a melee attack while you are under 80% Magicka, restore 8000 Magicka. This effect can occur once every 30 seconds."
+    },
+    {
+        "id" : 2028,
+        "type": "unique",
+        "armorId": 1041,
+        "color" : ".primary",
+        "desc" : "Dealing direct damage with a single target ability creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your Spell Damage by 30. 20 stacks max."
+    },
+   {
+       "id" : 2029,
+       "type": "unique",
+       "armorId": 1042,
+       "color" : ".primary",
+       "desc" : "When you use an Ultimate ability, you and the closest 2 allies within 28 meters of you gain Major Slayer for 10 seconds, increasing your damage done to Dungeon, Trial, and Arena Monsters by 15%."
+   },
+   {
+       "id" : 2030,
+       "type": "unique",
+       "armorId": 1043,
+       "color" : ".primary",
+       "desc" : "When you cast a Support ability, you increase the Physical Resistance and Spell Resistance of yourself and up to 3 allies within 10 meters by 3010 for 2 minutes."
+   },
+   {
+       "id" : 2031,
+       "type": "unique",
+       "armorId": 1021,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a Light or Heavy Attack, you put a Mark of Revenge on the enemy for 15 seconds. After stacking 6 Marks of Revenge on an enemy they detonate for 4730 Magic Damage."
+   },
+   
+    {
+        "id" : 2032,
+        "type": "unique",
+        "armorId": 3001,
+        "color" : ".primary",
+        "desc" : "After successfully blocking, you have a 50% chance to grant Empower to 3 allies within 15 meters, increasing the damage of their next Light Attack by 40%. This effect can occur once every 1 second."
+    },
+    
+   
+    {
+        "id" : 2033,
+        "type": "unique",
+        "armorId": 4001,
+        "color" : ".yellow",
+        "desc" : "While mounted you gain Major Evasion, reducing damage from area attacks by 25%. Dismounting spawns a dust cloud at your position for 12 seconds that deals 1436 Physical Damage every 1 second to enemies who stand inside it. You and group members inside the dust cloud gain Major Evasion. Dust cloud can be created once every 12 seconds."
+    },
+    {
+        "id" : 2034,
+        "type": "unique",
+        "armorId": 1269,
+        "color" : ".primary",
+        "desc" : "When you deal direct melee damage, you have a 10% chance to breath fire to all enemies in front of you for 1118 Flame Damage. This effect can occur once every 4 seconds."
+    },
+    {
+        "id" : 2035,
+        "type": "unique",
+        "armorId": 1044,
+        "color" : ".primary",
+        "desc" : "When your alchemical poison fires, increase your Spell Damage by 600 for 6 seconds."
+    },
+    {
+        "id" : 2036,
+        "type": "unique",
+        "armorId": 1045,
+        "color" : ".primary",
+        "desc" : "When you activate a synergy, you gain a shadow blessing that increases your Spell Damage by 448 or a lunar blessing that increases your Magicka Recovery by 448 for 30 seconds. You can only have one blessing active at a time."
+    },
+     {
+         "id" : 2037,
+         "type": "unique",
+         "armorId": 1046,
+         "color" : ".blue",
+         "desc" : "Adds 1924 Spell Critical"
+     },
+     {
+         "id" : 2038,
+         "type": "unique",
+         "armorId": 1047,
+         "color" : ".primary",
+         "desc" : "While you have a pet active, your Maximum Magicka is increased by 3150."
+     },
+     {
+         "id" : 2039,
+         "type": "unique",
+         "armorId": 1048,
+         "color" : ".primary",
+         "desc" : "Adds 400 Spell Damage to your Shock Damage abilities."
+     },
+     {
+         "id" : 2040,
+         "type": "unique",
+         "armorId": 1049,
+         "color" : ".primary",
+         "desc" : "When you dodge an attack, your Light and Heavy Attacks deal an additional 1225 damage for 8 seconds."
+     },
+     {
+         "id" : 2041,
+         "type": "unique",
+         "armorId": 1050,
+         "color" : ".primary",
+         "desc" : "When you deal damage with a Class ability, you have a 33% chance to surround yourself with a torrent that deals 1040 Shock Damage to enemies within 12 meters of you every 1 second for 6 seconds. 15% of the damage you deal this way is restored to you as Magicka. This effect can occur every 6 seconds."
+     },
+     {
+         "id" : 2042,
+         "type": "unique",
+         "armorId": 1051,
+         "color" : ".primary",
+         "desc" : "Adds 1096 Maximum Magicka, Dealing direct damage with a single target ability creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your Spell Damage by 30. 20 stacks max."
+     },
+     {
+         "id" : 2043,
+         "type": "unique",
+         "armorId": 1052,
+         "color" : ".primary",
+         "desc" : "Adds 1096 Maximum Magicka, Casting abilities that leave an effect on the ground in combat will create a circle of might for 10 seconds. You and your allies standing in the circle gain Major Courage for 30 seconds, increasing your Weapon Damage and Spell Damage by 258. This effect can occur once every 10 seconds."
+     },
+     {
+         "id" : 2044,
+         "type": "unique",
+         "armorId": 1053,
+         "color" : ".primary",
+         "desc" : "Adds 1096 Maximum Magicka, When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
+     },
+     {
+         "id" : 2045,
+         "type": "unique",
+         "armorId": 1054,
+         "color" : ".primary",
+         "desc" : "Adds 129 Spell Damage, Adds 1096 Maximum Magicka, Reduces the cost of your Magicka Abilities by 8%. When you kill an enemy, you restore 2150 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
+     },
+     {
+         "id" : 2046,
+         "type": "unique",
+         "armorId": 1055,
+         "color" : ".primary",
+         "desc" : "When you drop below 25% Health, gain a damage shield that absorbs 25000 damage for 6 seconds and deals 8000 Flame Damage to nearby enemies. This effect can occur once every 1 minute."
+     },
+     {
+         "id" : 2047,
+         "type": "unique",
+         "armorId": 1056,
+         "color" : ".primary",
+         "desc" : "When you heal a friendly target, you have a 6% chance to grant them a damage shield that absorbs 2425 damage for 6 seconds."
+     },
+     {
+             "id" : 2048,
+             "type": "unique",
+             "armorId": 1057,
+             "color" : ".primary",
+             "desc" : "Reduces the cost of Sprint by 50%. While Sprinting, restore 1000 Magicka every 1 second."
+         },
+     {
+         "id" : 2049,
+         "type": "unique",
+         "armorId": 1058,
+         "color" : ".primary",
+         "desc" : "Increases your Light and Heavy Attack damage by 20%."
+     },
+     {
+         "id" : 2050,
+         "type": "unique",
+         "armorId": 1059,
+         "color" : ".primary",
+         "desc" : "Reduces the cost of all of your abilities by 6%."
+     },
+     {
+         "id" : 2051,
+         "type": "unique",
+         "armorId": 1060,
+         "color" : ".primary",
+         "desc" : "While you are affected by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second."
+     },
+     {
+         "id" : 2052,
+         "type": "unique",
+         "armorId": 1061,
+         "color" : ".primary",
+         "desc" : "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1450 Health and gain 1450 Magicka. This effect can occur once every 3 seconds."
+     },
+     {
+         "id" : 2053,
+         "type": "unique",
+         "armorId": 1062,
+         "color" : ".primary",
+         "desc" : "When you heal yourself or an ally with a healing over time ability, grant them 1304 Critical Resistance for 20 seconds."
+     },
+     {
+         "id" : 2054,
+         "type": "unique",
+         "armorId": 1063,
+         "color" : ".primary",
+         "desc" : "Increases your healing received by 12% for you and up to 11 group members within 10 meters of you."
+     },
+     {
+         "id" : 2055,
+         "type": "unique",
+         "armorId": 1064,
+         "color" : ".primary",
+         "desc" : "When you deal direct Critical Damage, you have a 20% chance to increase your Spell Damage by 516 for 6 seconds. This effect can occur once every 6 seconds."
+     },
+     {
+         "id" : 2056,
+         "type": "unique",
+         "armorId": 1065,
+         "color" : ".primary",
+         "desc" : "Adds 129 Stamina Recovery, Ignore the Movement Speed penalty of Sneak."
+     },
+     {
+         "id" : 2057,
+         "type": "unique",
+         "armorId": 1066,
+         "color" : ".primary",
+         "desc" : "When you cast an ability that costs resources while under 33% Magicka, your Magicka Recovery is increased by 1032 for 20 seconds. This effect can occur once every 1 minute."
+     },
+     {
+         "id" : 2058,
+         "type": "unique",
+         "armorId": 1067,
+         "color" : ".primary",
+         "desc" : "Adds 400 Spell Damage to your Flame Damage abilities."
+     },
+     {
+         "id" : 2059,
+         "type": "unique",
+         "armorId": 1068,
+         "color" : ".primary",
+         "desc" : "Adds 833 Weapon Critical, Adds 833 Spell Critical"
+     },
+     {
+         "id" : 2060,
+         "type": "unique",
+         "armorId": 1068,
+         "color" : ".yellow",
+         "desc" : "When you use the Blade of Woe, you gain Major Berserk for 20 seconds, increasing your damage done by 25%."
+     },
+     {
+         "id" : 2061,
+         "type": "unique",
+         "armorId": 1069,
+         "color" : ".yellow",
+         "desc" : "When you drink a potion, you gain Major Expedition for 30 seconds, increasing your Movement Speed by 30%."
+     },
+     {
+         "id" : 2062,
+         "type": "unique",
+         "armorId": 1070,
+         "color" : ".primary",
+         "desc" : "When you heal yourself or an ally that is at 100% Health, you have a 50% chance to give the target Major Courage for 10 seconds which increase their Weapon Damage and Spell Damage by 258."
+     },
+     {
+         "id" : 2063,
+         "type": "unique",
+         "armorId": 1071,
+         "color" : ".primary",
+         "desc" : "When you deal damage with a Light Attack, you place a mark over your target for 5 seconds, granting you 500 Spell Damage against your marked target. This effect can occur every 4 seconds."
+     },
+     {
+         "id" : 2064,
+         "type": "unique",
+         "armorId": 1072,
+         "color" : ".primary",
+         "desc" : "Adds 450 Spell Damage to your Destruction Staff abilities."
+     },
+     {
+         "id" : 2065,
+         "type": "unique",
+         "armorId": 1073,
+         "color" : ".primary",
+         "desc" : "Adds 3450 Spell Penetration"
+     },
+     {
+         "id" : 2066,
+         "type": "unique",
+         "armorId": 1074,
+         "color" : ".primary",
+         "desc" : "When you heal a friendly target, you have a 50% chance to remove up to 5 negative effects from them. This effect can occur once every 30 seconds per target."
+     },
+     {
+         "id" : 2067,
+         "type": "unique",
+         "armorId": 1075,
+         "color" : ".primary",
+         "desc" : "When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 860 Magicka. This effect can occur once every 1 second."
+     },
+     {
+         "id" : 2068,
+         "type": "unique",
+         "armorId": 1076,
+         "color" : ".primary",
+         "desc" : "Adds 1096 Maximum Magicka, Reduces your damage taken from Guards by 20%."
+     },
+     {
+         "id" : 2069,
+         "type": "unique",
+         "armorId": 1076,
+         "color" : ".primary",
+         "desc" : "When you deal damage, you have a 5% chance to cause a burst of lamia poison that deals 967 Poison Damage in a 5 meter radius and an additional 5802 Poison Damage over 6 seconds to all enemies hit. This effect can occur once every 6.5 seconds."
+     },
+     {
+         "id" : 2070,
+         "type": "unique",
+         "armorId": 1077,
+         "color" : ".primary",
+         "desc" : "When you deal damage with a fully-charged Heavy Attack, you restore 834 Magicka."
+     },
+     {
+         "id" : 2071,
+         "type": "unique",
+         "armorId": 1078,
+         "color" : ".primary",
+         "desc" : "Reduces the cost of your Magicka Abilities by 4% for you and up to 11 other group members within 28 meters of you."
+     },
+     {
+         "id" : 2072,
+         "type": "unique",
+         "armorId": 1079,
+         "color" : ".primary",
+         "desc" : "Adds 100 Spell Damage, Gain Major Prophecy at all times, increasing your Spell Critical rating by 2191."
+     },
+     {
+         "id" : 2073,
+         "type": "unique",
+         "armorId": 1080,
+         "color" : ".primary",
+         "desc" : "When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your allies for 4000 Health and damages enemies for 4000 Magic Damage in a 5 meter radius. This effect can occur once every 5 seconds."
+     },
+     {
+         "id" : 2074,
+         "type": "unique",
+         "armorId": 1081,
+         "color" : ".primary",
+         "desc" : "When an ally activates your synergy, they heal themselves for 18920 Health over 10 seconds and gain Minor Force, increasing their Critical Damage by 10%. This effect can occur once every 10 seconds per ally."
+     },
+     {
+         "id" : 2075,
+         "type": "unique",
+         "armorId": 1082,
+         "color" : ".primary",
+         "desc" : "When you use an ability that costs Stamina, your Light Attacks deal an additional 774 damage and Heavy Attacks deal an additional 1161 damage for 10 seconds."
+     },
+     {
+         "id" : 2076,
+         "type": "unique",
+         "armorId": 1083,
+         "color" : ".primary",
+         "desc" : "Adds 400 Spell Damage to your Vampire abilities. Reduces the cost of your Vampire abilities by 6%."
+     },
+     {
+         "id" : 2077,
+         "type": "unique",
+         "armorId": 1084,
+         "color" : ".primary",
+         "desc" : "Casting abilities that leave an effect on the ground in combat will create a circle of might for 10 seconds. You and your allies in the circle gain Major Courage for 30 seconds, increasing your Weapon Damage and Spell Damage by 258 for 30 seconds. This effect can occur once every 10 seconds."
+     },
+     {
+         "id" : 2078,
+         "type": "unique",
+         "armorId": 1085,
+         "color" : ".primary",
+         "desc" : "When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds."
+     },
+     {
+         "id" : 2079,
+         "type": "unique",
+         "armorId": 1086,
+         "color" : ".primary",
+         "desc" : "When you kill a Player, they violently explode for 15815 Flame Damage to all other enemies in a 4 meter radius."
+     },
+     {
+         "id" : 2080,
+         "type": "unique",
+         "armorId": 1087,
+         "color" : ".primary",
+         "desc" : "Adds 400 Spell Damage to your Magic Damage abilities."
+     },
+     {
+         "id" : 2081,
+         "type": "unique",
+         "armorId": 1088,
+         "color" : ".primary",
+         "desc" : "While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds."
+     },
+    {
+        "id" : 2082,
+        "type": "unique",
+        "armorId": 1089,
+        "color" : ".primary",
+        "desc" : "When you deal Frost Damage, you have an 8% chance to summon an ice pillar that deals 6020 Frost Damage to all enemies in a 3 meter radius. The ice pillar persists for 2 seconds and reduces the Movement Speed of all enemies within the radius by 60%."
+    },
+    {
+        "id" : 2083,
+        "type": "unique",
+        "armorId": 1090,
+        "color" : ".primary",
+        "desc" : "After landing a fully-charged Heavy Attack, you gain Major Mending for 3 seconds, increasing your Healing Done by 25%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff."
+    },
+    {
+        "id" : 2084,
+        "type": "unique",
+        "armorId": 1091,
+        "color" : ".primary",
+        "desc" : "Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 8%."
+    },
+    {
+        "id" : 2085,
+        "type": "unique",
+        "armorId": 1092,
+        "color" : ".primary",
+        "desc" : "When you take direct Critical Damage, you apply Minor Maim to the enemy for 5 seconds, reducing their damage done by 15%."
+    },
+    {
+        "id" : 2086,
+        "type": "unique",
+        "armorId": 1093,
+        "color" : ".primary",
+        "desc" : "Adds 400 Spell Damage to your Frost Damage abilities."
+    },
+    {
+        "id" : 2087,
+        "type": "unique",
+        "armorId": 1094,
+        "color" : ".primary",
+        "desc" : "Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy"
+    },
+    {
+        "id" : 2088,
+        "type": "unique",
+        "armorId": 1099,
+        "color" : ".primary",
+        "desc" : "Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 2000 Health and restore 1000 Stamina. This effect can occur once every 5 seconds."
+    },
+    {
+        "id" : 2089,
+        "type": "unique",
+        "armorId": 1099,
+        "color" : ".primary",
+        "desc" : "Reduces the cost of all of your abilities by 6%."
+    },
+   
+    {
+           "id" : 2090,
+           "type": "unique",
+           "armorId": 1100,
+           "color" : ".primary",
+           "desc" : "When you deal a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds."
+   },
+    {
+           "id" : 2091,
+           "type": "unique",
+           "armorId": 1101,
+           "color" : ".primary",
+           "desc" : "Increases the damage you deal with bleed damage over time effects by 33%."
+       },
+    {
+        "id" : 2092,
+        "type": "unique",
+        "armorId": 1102,
+        "color" : ".primary",
+        "desc" : "While you have a drink buff active, your Maximum Stamina is increased by 2000 and Stamina Recovery by 150."
+    },
+    {
+        "id" : 2093,
+        "type": "unique",
+        "armorId": 1103,
+        "color" : ".primary",
+        "desc" : "When you deal Critical Damage, you have a 10% chance to increase your Weapon Damage by 449 for 10 seconds. While this effect is active your Critical Strikes heal you for 609 Health. This effect can occur once every 15 seconds."
+    },
+    {
+        "id" : 2094,
+        "type": "unique",
+        "armorId": 1104,
+        "color" : ".yellow",
+        "desc" : "While Sprinting you gain Major Expedition and Major Protection, increasing your Movement Speed and reducing your damage taken by 30%."
+    },
+    {
+        "id" : 2095,
+        "type": "unique",
+        "armorId": 1105,
+        "color" : ".primary",
+        "desc" : "Increases the duration of the dodge chance bonus of Roll Dodge by 0.3 seconds."
+    },
+    {
+        "id" : 2096,
+        "type": "unique",
+        "armorId": 1106,
+        "color" : ".primary",
+        "desc" : "Reduces the cost of Sprint and Sneak by 50%."
+    },
+    {
+        "id" : 2097,
+        "type": "unique",
+        "armorId": 1107,
+        "color" : ".primary",
+        "desc" : "When an enemy dies within 2 seconds of being damaged by you, you gain 5 Ultimate."
+    },
+    {
+        "id" : 2098,
+        "type": "unique",
+        "armorId": 1108,
+        "color" : ".primary",
+        "desc" : "Increase the damage your Physical, Bleed, Poison, and Disease Damage over time abilities do by 20%."
+    },
+    {
+        "id" : 2099,
+        "type": "unique",
+        "armorId": 1109,
+        "color" : ".primary",
+        "desc" : "When you deal Critical Damage, you have an 8% chance to summon a Hunger that spews poison to all enemies in front of it, dealing 6000 Poison Damage and stunning any enemy hit for 5 seconds. This effect can occur once every 5 seconds."
+    },
+    {
+        "id" : 2100,
+        "type": "unique",
+        "armorId": 1110,
+        "color" : ".green",
+        "desc" : "Adds 2560 Maximum Stamina."
+    },
+    {
+        "id" : 2101,
+        "type": "unique",
+        "armorId": 1111,
+        "color" : ".primary",
+        "desc" : "For every bleed effect you have on an enemy, increase your Weapon Damage by 133 against them."
+    },
+    {
+        "id" : 2102,
+        "type": "unique",
+        "armorId": 1112,
+        "color" : ".primary",
+        "desc" : "When you deal damage with a Light Attack, you draw essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 3900, restores 3900 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds."
+    },
+    {
+        "id" : 2103,
+        "type": "unique",
+        "armorId": 1113,
+        "color" : ".primary",
+        "desc" : "Reduces the cost and increases the Movement Speed bonus of Sprint by 15%."
+    },
+    {
+        "id" : 2104,
+        "type": "unique",
+        "armorId": 1114,
+        "color" : ".primary",
+        "desc" : " Adds 400 Weapon Damage to your damaging abilities when you attack an enemy from behind or their sides."
+    },
+    {
+        "id" : 2105,
+        "type": "unique",
+        "armorId": 1115,
+        "color" : ".yellow",
+        "desc" : "After dealing direct damage, you gain Minor Force and Minor Expedition for 3 seconds, increasing your Critical Damage done by 10% and increasing your Movement Speed by 10%."
+    },
+    {
+        "id" : 2106,
+        "type": "unique",
+        "armorId": 1116,
+        "color" : ".primary",
+        "desc" : "Reduces the cost and increases the damage of your Bow abilities by 5%."
+    },
+    {
+           "id" : 2107,
+           "type": "unique",
+           "armorId": 1117,
+           "color" : ".yellow",
+           "desc" : "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain Major Berserk for 5 seconds, increasing your damage done by 25%."
+       },
+    {
+        "id" : 2108,
+        "type": "unique",
+        "armorId": 1118,
+        "color" : ".primary",
+        "desc" : "When you take damage, you generate 5 Ultimate. This effect can occur once every 5 seconds."
+    },
+    {
+        "id" : 2109,
+        "type": "unique",
+        "armorId": 1119,
+        "color" : ".primary",
+        "desc" : "Reduce the cost of your Stamina Abilities by 4% for you and up to 11 other group members within 28 meters of you."
+    },
+    {
+        "id" : 2110,
+        "type": "unique",
+        "armorId": 1120,
+        "color" : ".primary",
+        "desc" : "When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds."
+    },
+    {
+        "id" : 2111,
+        "type": "unique",
+        "armorId": 1121,
+        "color" : ".yellow",
+        "desc" : "Gain Minor Expedition at all times, increasing your Movement Speed by 10%."
+    },
+    {
+        "id" : 2112,
+        "type": "unique",
+        "armorId": 1122,
+        "color" : ".primary",
+        "desc" : "When you deal direct damage while 12 meters or further from your target, you have a 15% chance to heal for 1000 Health and restore 1000 Stamina."
+    },
+    {
+        "id" : 2113,
+        "type": "unique",
+        "armorId": 1123,
+        "color" : ".primary",
+        "desc" : "Reduces your damage taken from area of effect abilities by 25%, but the damage and healing of your own area of effect abilities is also reduced by 25%."
+    },
+    {
+           "id" : 2114,
+           "type": "unique",
+           "armorId": 1124,
+           "color" : ".green",
+           "desc" : "Adds 1924 Weapon Critical"
+       },
+    {
+        "id" : 2115,
+        "type": "unique",
+        "armorId": 1125,
+        "color" : ".primary",
+        "desc" : "Reduces the cost of your Stamina Abilities by 5% and increases the damage of your Bow abilities against Players by 8%."
+    },
+    {
+           "id" : 2116,
+           "type": "unique",
+           "armorId": 1126,
+           "color" : ".primary",
+           "desc" : "Adds 129 Weapon Damage, Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%."
+       },
+    {
+        "id" : 2117,
+        "type": "unique",
+        "armorId": 1127,
+        "color" : ".primary",
+        "desc" : "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 27%."
+    },
+    {
+        "id" : 2118,
+        "type": "unique",
+        "armorId": 1127,
+        "color" : ".primary",
+        "desc" : "When you take melee damage, you deal 2000 Poison Damage to the attacker. This effect can occur once every 1 second."
+    },
+    {
+        "id" : 2119,
+        "type": "unique",
+        "armorId": 1128,
+        "color" : ".primary",
+        "desc" : "Adds 129 Weapon Damage, When you kill an enemy, you fill an empty Soul Gem and heal for 1720 Health."
+    },
+    {
+        "id" : 2120,
+        "type": "unique",
+        "armorId": 1129,
+        "color" : ".primary",
+        "desc" : "Gain a damage shield that absorbs 12040 damage if you have not taken any damage in the last 10 seconds."
+    },
+    {
+           "id" : 2121,
+           "type": "unique",
+           "armorId": 1130,
+           "color" : ".primary",
+           "desc" : "Adds 1096 Maximum Stamina, Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal 200 Physical Damage every 1 second. 20 stacks max."
+       },
+    {
+        "id" : 2122,
+        "type": "unique",
+        "armorId": 1131,
+        "color" : ".primary",
+        "desc" : "Adds 833 Weapon Critical, When you activate a synergy, gain Major Slayer for 15 seconds, increasing your damage done to Dungeon and Trial monsters by 15%."
+    },
+    {
+       "id" : 2123,
+       "type": "unique",
+       "armorId": 1132,
+       "color" : ".primary",
+       "desc" : "When you deal damage, you have a 10% chance to create a fissure underneath the enemy after 1 second, dealing 2000 Physical Damage to all enemies within 2.5 meters and causing them to bleed for an additional 10000 Physical Damage over 10 seconds. This effect can occur once every 10 seconds."
+    },
+   {
+         "id" : 2124,
+         "type": "unique",
+         "armorId": 1133,
+         "color" : ".primary",
+         "desc" : "When you take damage, summon a Skeever corpse which will launch five poison balls over 5 seconds that deal 5160 Poison Damage each at the nearest enemy. This effect can occur once every 15 seconds."
+      },
+    {
+       "id" : 2125,
+       "type": "unique",
+       "armorId": 1134,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a Light or Heavy Attack against an enemy who has a Poison Damage ability on them, you have a 50% chance to deal an additional 3400 Poison Damage. This effect can occur once every 1 second."
+    },
+    {
+       "id" : 2126,
+       "type": "unique",
+       "armorId": 1135,
+       "color" : ".primary",
+       "desc" : "When you cast an Assault ability, you increase your Weapon Damage and Spell Damage and the Weapon Damage and Spell Damage of up to 3 allies within 10 meters by 164 for 15 seconds."
+    },
+    {
+       "id" : 2127,
+       "type": "unique",
+       "armorId": 1136,
+       "color" : ".primary",
+       "desc" : "Reduces the costs of your Stamina Abilities by 8%. When an enemy you have recently damaged dies, you restore 2150 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
+    },
+    {
+       "id" : 2128,
+       "type": "unique",
+       "armorId": 1137,
+       "color" : ".primary",
+       "desc" : "Adds 129 Stamina Recovery, Reduce the effectiveness of snares applied to you by 50%."
+    },
+    {
+       "id" : 2129,
+       "type": "unique",
+       "armorId": 1138,
+       "color" : ".primary",
+       "desc" : "When you activate a synergy, you send a shockwave from your position that deals 1720 Physical Damage and an additional 12040 Physical Damage over 10 seconds. Reduces the Physical Resistance and Spell Resistance of any enemy hit by 3010 for 10 seconds."
+    },
+    {
+       "id" : 2130,
+       "type": "unique",
+       "armorId": 1139,
+       "color" : ".primary",
+       "desc" : "Reduces the cost of your Werewolf Transformation ability by 33%. While in Werewolf form, your Weapon Damage is increased by 150.0"
+    },
+    {
+       "id" : 2131,
+       "type": "unique",
+       "armorId": 1140,
+       "color" : ".primary",
+       "desc" : "Your Light and Heavy Attacks rend flesh, causing your enemy to bleed for 1000 Physical Damage every 1 second for 4 seconds."
+    },
+    {
+          "id" : 2132,
+          "type": "unique",
+          "armorId": 1141,
+          "color" : ".primary",
+          "desc" : "When you deal Critical Poison Damage to an enemy, summon the Scavenging Maw which attacks your enemy after 2 seconds. The Scavenging Maw deals 7000 Poison Damage and inflicts Minor Vulnerability for 15 seconds, increasing their Damage Taken by 8%. This effect can occur every 10 seconds."
+       },
+    {
+       "id" : 2133,
+       "type": "unique",
+       "armorId": 1142,
+       "color" : ".primary",
+       "desc" : "When you use Roll Dodge, increase your Critical Damage by 12% for 8 seconds."
+    },
+    {
+          "id" : 2134,
+          "type": "unique",
+          "armorId": 1143,
+          "color" : ".primary",
+          "desc" : "Adds 129 Weapon Damage, When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds."
+       },
+    {
+       "id" : 2135,
+       "type": "unique",
+       "armorId": 1144,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a Weapon ability, you have a 10% chance to spawn a volcano that erupts after 1 second, launching liquid hot magma at the closest enemy dealing 8400 Flame Damage. This effect can occur once every 2 seconds."
+    },
+    {
+          "id" : 2136,
+          "type": "unique",
+          "armorId": 1145,
+          "color" : ".primary",
+          "desc" : "While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second."
+       },
+    {
+       "id" : 2137,
+       "type": "unique",
+       "armorId": 1146,
+       "color" : ".primary",
+       "desc" : "When you deal damage with an Execute ability you infect the enemy, dealing 8428 Poison Damage over 6 seconds. This effect can occur once every 6 seconds."
+    },
+    {
+       "id" : 2138,
+       "type": "unique",
+       "armorId": 1147,
+       "color" : ".primary",
+       "desc" : "Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active."
+    },
+    {
+       "id" : 2139,
+       "type": "unique",
+       "armorId": 1148,
+       "color" : ".primary",
+       "desc" : "Reduces your damage taken from Players by 5%."
+    },
+    {
+          "id" : 2140,
+          "type": "unique",
+          "armorId": 1148,
+          "color" : ".primary",
+          "desc" : "Reduces the cost of Break Free by 40%."
+    },
+    {
+       "id" : 2141,
+       "type": "unique",
+       "armorId": 1149,
+       "color" : ".primary",
+       "desc" : "Your melee Light Attacks have a 25% chance to place a ring on the ground that explodes after 1.3 seconds, applying 4800 Heal Absorption to all enemies hit for 4 seconds, negating the next 4800 points of Healing Done. This effect can occur once every 6 seconds."
+    },
+    {
+         "id" : 2142,
+         "type": "unique",
+         "armorId": 1150,
+         "color" : ".primary",
+         "desc" : "Adds 400 Weapon Damage and Spell Damage to your Undaunted abilities. When an ally uses one of your Undaunted ability synergies you restore 1500 Stamina."
+      },
+    {
+       "id" : 2143,
+       "type": "unique",
+       "armorId": 1151,
+       "color" : ".primary",
+       "desc" : "Adds 3450 Physical Penetration."
+    },
+    {
+       "id" : 2144,
+       "type": "unique",
+       "armorId": 1152,
+       "color" : ".primary",
+       "desc" : "When you deal Critical Damage with a fully-charged Heavy Attack, your Light Attacks deal an additional 1333 Shock Damage for 20 seconds."
+    },
+    {
+         "id" : 2145,
+         "type": "unique",
+         "armorId": 1153,
+         "color" : ".primary",
+         "desc" : "Adds 400 Weapon Damage to your Physical Damage abilities."
+      },
+    {
+       "id" : 2146,
+       "type": "unique",
+       "armorId": 1154,
+       "color" : ".primary",
+       "desc" : "While you are Sneaking or invisible, your damage done with Magicka Abilities is increased by 20%."
+    },
+    {
+       "id" : 2147,
+       "type": "unique",
+       "armorId": 1155,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a fully-charged Heavy Attack, you deal an additional 4000 Flame Damage and apply Minor Breach and Minor Fracture to the enemy, reducing their Physical Resistance and Spell Resistance by 1320 for 8 seconds."
+    },
+    {
+       "id" : 2148,
+       "type": "unique",
+       "armorId": 1156,
+       "color" : ".primary",
+       "desc" : "Adds 400 Weapon Damage to your Poison and Disease Damage abilities."
+    },
+    {
+       "id" : 2149,
+       "type": "unique",
+       "armorId": 1157,
+       "color" : ".primary",
+       "desc" : "Adds 450 Weapon Damage to your Dual Wield abilities."
+    },
+    {
+       "id" : 2150,
+       "type": "unique",
+       "armorId": 1158,
+       "color" : ".primary",
+       "desc" : "Adds 450 Weapon Damage to your Two Handed abilities."
+    },
+    {
+       "id" : 2151,
+       "type": "unique",
+       "armorId": 1159,
+       "color" : ".primary",
+       "desc" : "When you deal direct damage, you cause the enemy to take 10% more damage from all Poison Damage abilities for 5 seconds."
+    },
+    {
+       "id" : 2152,
+       "type": "unique",
+       "armorId": 1160,
+       "color" : ".yellow",
+       "desc" : "When you activate a synergy, gain Major Slayer for 15 seconds, increasing your damage done to Dungeon and Trial monsters by 15%."
+    },
+    {
+       "id" : 2153,
+       "type": "unique",
+       "armorId": 1161,
+       "color" : ".primary",
+       "desc" : "Adds 100 Weapon Damage, Gain Major Savagery at all times, increasing your Weapon Critical rating by 2191."
+    },
+    {
+       "id" : 2154,
+       "type": "unique",
+       "armorId": 1162,
+       "color" : ".yellow",
+       "desc" : "When you deal damage, your Physical Penetration is increased by 860 for 3 seconds, stacking up to 5 times."
+    },
+    {
+       "id" : 2155,
+       "type": "unique",
+       "armorId": 1163,
+       "color" : ".primary",
+       "desc" : "When you block an attack, you have a 20% chance to cause all enemies within 5 meters of you to bleed for 14400 Physical Damage over 10 seconds. This effect can occur once every 10 seconds."
+    },
+    {
+       "id" : 2156,
+       "type": "unique",
+       "armorId": 1164,
+       "color" : ".primary",
+       "desc" : "When you deal Critical Damage, you gain a stack of Precision, increasing your Weapon Critical by 129 for 10 seconds, up to 10 stacks max. At max stacks, you also gain Minor Force, increasing your Critical Damage done by 10%."
+    },
+    {
+       "id" : 2157,
+       "type": "unique",
+       "armorId": 1165,
+       "color" : ".primary",
+       "desc" : "When you use an ability that costs Magicka, your Light Attacks deal an additional 774 damage and Heavy Attacks deal an additional 1161 damage for 10 seconds."
+    },
+    {
+          "id" : 2158,
+          "type": "unique",
+          "armorId": 1166,
+          "color" : ".primary",
+          "desc" : "When you deal damage, you have a 10% chance to call a murder of crows around you for 12 seconds. Every 3 seconds a crow will be sent to peck the closest enemy within 12 meters of you, dealing 4000 Physical Damage. This effect can occur once every 15 seconds."
+       },
+    {
+       "id" : 2159,
+       "type": "unique",
+       "armorId": 1167,
+       "color" : ".primary",
+       "desc" : "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 10%."
+    },
+    {
+       "id" : 2160,
+       "type": "unique",
+       "armorId": 1167,
+       "color" : ".primary",
+       "desc" : "While crouching and not blocking, you restore 670 Magicka and Stamina and heal for 670 Health every second."
+    },
+    {
+       "id" : 2161,
+       "type": "unique",
+       "armorId": 1168,
+       "color" : ".primary",
+       "desc" : "When you deal Critical Damage to an enemy from Sneak, you inject a leeching poison that deals 13760 Poison Damage over 15 seconds to them and heals you for 100% of the damage done."
+    },
+    {
+       "id" : 2162,
+       "type": "unique",
+       "armorId": 1169,
+       "color" : ".primary",
+       "desc" : "Adds 129 Weapon Damage, Reduces the cost of your Stamina Abilities by 8%. When an enemy you have recently damaged dies, you restore 2150 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
+    },
+    {
+       "id" : 2163,
+       "type": "unique",
+       "armorId": 1170,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a melee attack, you deal an additional 6400 Poison Damage over 4 seconds. This effect can occur once every 4 seconds."
+    },
+    {
+          "id" : 2164,
+          "type": "unique",
+          "armorId": 1171,
+          "color" : ".primary",
+          "desc" : "When you use an Ultimate ability, you and the closest 2 allies within 28 meters of you gain Major Slayer for 10 seconds, increasing your damage done to Dungeon, Trial, and Arena Monsters by 15%."
+       },
+    {
+       "id" : 2165,
+       "type": "unique",
+       "armorId": 1172,
+       "color" : ".primary",
+       "desc" : "When you deal melee damage, you apply Major Defile to the enemy for 3 seconds, reducing their healing received and Health Recovery by 30%. This effect can occur once every 5 seconds."
+    },
+    {
+          "id" : 2166,
+          "type": "unique",
+          "armorId": 1173,
+          "color" : ".primary",
+          "desc" : "Your Bow abilities reduce the Movement Speed of any enemy they hit by 30% for 3 seconds."
+       },
+    {
+       "id" : 2167,
+       "type": "unique",
+       "armorId": 1174,
+       "color" : ".primary",
+       "desc" : "When you use an Ultimate ability, you heal for 28 Health and restore 28 Stamina per point of the Ultimate's cost."
+    },
+    {
+       "id" : 2168,
+       "type": "unique",
+       "armorId": 1175,
+       "color" : ".primary",
+       "desc" : "After successfully blocking, you have a 50% chance to grant Empower to 3 allies within 15 meters, increasing the damage of their next Light Attack by 40%. This effect can occur once every 1 second."
+    },
+    {
+          "id" : 2169,
+          "type": "unique",
+          "armorId": 1176,
+          "color" : ".primary",
+          "desc" : "When you deal damage, you have a 50% chance to deal an additional 1830 Disease Damage and apply Minor Defile to the target, reducing their healing received and Health Recovery by 15% for 4 seconds. This effect can occur once every 4 seconds."
+    },
+    {
+       "id" : 2170,
+       "type": "unique",
+       "armorId": 1177,
+       "color" : ".primary",
+       "desc" : "Reduces the cost of your Ultimate abilities by 15%."
+    },
+    {
+        "id" : 2171,
+        "type": "unique",
+        "armorId": 1178,
+        "color" : ".primary",
+        "desc" : "Increase your Health Recovery by 1% of your sum total Physical Resistance and Spell Resistance."
+    },
+    {
+        "id" : 2172,
+        "type": "unique",
+        "armorId": 1179,
+        "color" : ".primary",
+        "desc" : "When you interrupt an enemy, you gain 400 Weapon Damage for 15 seconds."
+    },
+    {
+       "id" : 2173,
+       "type": "unique",
+       "armorId": 1180,
+       "color" : ".primary",
+       "desc" : "When you set an enemy Off Balance, your Weapon Damage is increased by 450 for 10 seconds."
+    },
+    {
+          "id" : 2174,
+          "type": "unique",
+          "armorId": 1181,
+          "color" : ".primary",
+          "desc" : "When you take damage while under 30% Health, you heal for 7052 Health and restore 6020 Magicka and Stamina. This effect can occur once every 45 seconds."
+       },
+    {
+       "id" : 2175,
+       "type": "unique",
+       "armorId": 1182,
+       "color" : ".primary",
+       "desc" : "When you use an Ultimate ability, you and the closest 2 allies within 28 meters of you gain Major Aegis for 10 seconds, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 15%."
+    },
+    {
+       "id" : 2176,
+       "type": "unique",
+       "armorId": 1183,
+       "color" : ".primary",
+       "desc" : "Reduces your damage taken from Players by 5%."
+    },
+    {
+       "id" : 2177,
+       "type": "unique",
+       "armorId": 1183,
+       "color" : ".primary",
+       "desc" : "Reduces your damage taken from Siege Weapons and Player area of effect abilities by 20%."
+    },
+    {
+        "id" : 2178,
+        "type": "unique",
+        "armorId": 1184,
+        "color" : ".primary",
+        "desc" : "After successfully blocking, heal yourself or a group member within 15 meters of you for 2000 Health. This effect can occur every 1 second."
+     },
+    {
+       "id" : 2179,
+       "type": "unique",
+       "armorId": 1185,
+       "color" : ".primary",
+       "desc" : "Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. You can only be affected by one instance of Beckoning Steel."
+    },
+    {
+       "id" : 2180,
+       "type": "unique",
+       "armorId": 1186,
+       "color" : ".primary",
+       "desc" : "Adds 400 Health Recovery"
+    },
+    {
+          "id" : 2181,
+          "type": "unique",
+          "armorId": 1187,
+          "color" : ".primary",
+          "desc" : "When you deal melee damage your Critical Strike rating is increased by 400 for 6 seconds, stacking up to 5 times. This effect can occur once every half second."
+       },
+    {
+       "id" : 2182,
+       "type": "unique",
+       "armorId": 1188,
+       "color" : ".primary",
+       "desc" : "Increases your Weapon Damage and Spell Damage by 154. Increases the Magicka and Stamina restored from the Constitution passive ability by 35%."
+    },
+    {
+       "id" : 2183,
+       "type": "unique",
+       "armorId": 1189,
+       "color" : ".primary",
+       "desc" : "When you take damage, you have a 10% chance to grant you and your allies within 8 meters a damage shield that absorbs 12040 damage for 6 seconds. This effect can occur once every 15 seconds."
+    },
+    {
+       "id" : 2184,
+       "type": "unique",
+       "armorId": 1190,
+       "color" : ".primary",
+       "desc" : "Adds 1206 Maximum Health, When you deal damage with a Light Attack, you apply Minor Lifesteal to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them. This effect can occur once every 8 seconds."
+    },
+    {
+       "id" : 2185,
+       "type": "unique",
+       "armorId": 1191,
+       "color" : ".yellow",
+       "desc" : "Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
+    },
+    {
+          "id" : 2186,
+          "type": "unique",
+          "armorId": 1192,
+          "color" : ".primary",
+          "desc" : "When you taunt an enemy, you give yourself and 11 group members Minor Courage for 15 seconds, increasing your Weapon Damage and Spell Damage by 129. This effect can occur once every 8 seconds."
+       },
+    {
+       "id" : 2187,
+       "type": "unique",
+       "armorId": 1193,
+       "color" : ".primary",
+       "desc" : "After successfully blocking, heal for 8000 Health. This effect can occur every 5 seconds."
+    },
+    {
+       "id" : 2188,
+       "type": "unique",
+       "armorId": 1194,
+       "color" : ".primary",
+       "desc" : "Adds 129 Spell Damage, Adds 129 Weapon Damage"
+    },
+    {
+       "id" : 2189,
+       "type": "unique",
+       "armorId": 1194,
+       "color" : ".primary",
+       "desc" : "When using a fully-charged melee Heavy Attack on a taunted monster or any enemy who is stunned or immobilized, you will deal a bonus 12040 Physical Damage. This effect can occur once every 7 seconds."
+    },
+    {
+       "id" : 2190,
+       "type": "unique",
+       "armorId": 1195,
+       "color" : ".primary",
+       "desc" : "When you block an attack, you deal 4000 Magic Damage to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 10 seconds."
+    },
+    {
+       "id" : 2191,
+       "type": "unique",
+       "armorId": 1196,
+       "color" : ".primary",
+       "desc" : "When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies Minor Fracture and Minor Breach to all enemies near you, lowering their Physical Resistance and Spell Resistance by 1320. This effect can occur every 5 seconds."
+    },
+    {
+       "id" : 2192,
+       "type": "unique",
+       "armorId": 1197,
+       "color" : ".primary",
+       "desc" : "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 7000 Health. This effect can occur once every 20 seconds."
+    },
+    {
+       "id" : 2193,
+       "type": "unique",
+       "armorId": 1198,
+       "color" : ".primary",
+       "desc" : "Gain Major Brutality at all times, increasing your Weapon Damage by 20%. When you kill an enemy, you gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
+    },
+    {
+       "id" : 2194,
+       "type": "unique",
+       "armorId": 1199,
+       "color" : ".primary",
+       "desc" : "While you are blocking, your Physical Resistance and Spell Resistance are increased by 4300."
+    },
+    {
+       "id" : 2195,
+       "type": "unique",
+       "armorId": 1200,
+       "color" : ".primary",
+       "desc" : "When you take damage, you apply Major Defile to the enemy for 4 seconds, reducing their healing received and Health Recovery by 30%. This effect can occur once every 8 seconds per enemy."
+    },
+    {
+       "id" : 2196,
+       "type": "unique",
+       "armorId": 1201,
+       "color" : ".primary",
+       "desc" : "Increases your Maximum Health by 1000 for you and up to 11 other group members within 28 meters of you."
+    },
+    {
+       "id" : 2197,
+       "type": "unique",
+       "armorId": 1202,
+       "color" : ".primary",
+       "desc" : "Increases the duration of your Flame Damage abilities by 2 seconds."
+    },
+    {
+       "id" : 2198,
+       "type": "unique",
+       "armorId": 1203,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a fully-charged Heavy Attack, you have a 50% chance to increase your Spell Resistance by 3440 and deal 1032 Flame Damage to all enemies within 5 meters of you every 1 second for 6 seconds."
+    },
+    {
+       "id" : 2199,
+       "type": "unique",
+       "armorId": 1204,
+       "color" : ".primary",
+       "desc" : "Adds 4% Healing Taken, When you drop below 25% Health in combat, you heal for 12500 Health and gain 100 Ultimate. This effect can occur once every 1 minute."
+    },
+    {
+       "id" : 2200,
+       "type": "unique",
+       "armorId": 1205,
+       "color" : ".primary",
+       "desc" : "You apply Minor Defile to any enemy that comes within 5 meters of you for 2 seconds, reducing their healing received and Health Recovery by 15%."
+    },
+    {
+       "id" : 2201,
+       "type": "unique",
+       "armorId": 1206,
+       "color" : ".primary",
+       "desc" : "Increases the amount of damage you block by 8%."
+    },
+    {
+       "id" : 2202,
+       "type": "unique",
+       "armorId": 1207,
+       "color" : ".primary",
+       "desc" : "Summon a blizzard around you while blocking, inflicting 1000 Frost Damage every 1 second to enemies within your blizzard. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged."
+    },
+    {
+       "id" : 2203,
+       "type": "unique",
+       "armorId": 1208,
+       "color" : ".primary",
+       "desc" : "When you deal damage with a Light or Heavy Attack, you have a 9% chance to gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you."
+    },
+    {
+       "id" : 2204,
+       "type": "unique",
+       "armorId": 1209,
+       "color" : ".yellow",
+       "desc" : "When you take damage, you become a living shadow, causing your Light and Heavy Attacks to heal you for 2000 and gaining Major Evasion for 5 seconds, reducing damage from area attacks by 25%. This effect can occur every 15 seconds."
+    },
+    {
+       "id" : 2205,
+       "type": "unique",
+       "armorId": 1210,
+       "color" : ".primary",
+       "desc" : "While you have a food buff active, your Maximum Health is increased by 2500 and Health Recovery by 250."
+    },
+    {
+       "id" : 2206,
+       "type": "unique",
+       "armorId": 1211,
+       "color" : ".primary",
+       "desc" : "When you take damage while under 50% Health, you summon a preservation of nature around you for 5 seconds. Any damage you take from enemies outside of the preservation is reduced by 50%, and the first time an enemy tries to enter the preservation they are knocked back 5 meters. This effect can occur once every 45 seconds."
+    },
+    {
+       "id" : 2207,
+       "type": "unique",
+       "armorId": 1212,
+       "color" : ".primary",
+       "desc" : "When you take damage, you have a 10% chance to cast a web around you for 5 seconds, reducing the Movement Speed of enemies within by 50%. After 5 seconds the webs burst into venom, dealing 2580 Poison Damage and applying Minor Fracture to any enemy hit for 5 seconds, reducing their Physical Resistance by 1320."
+    },
+    {
+       "id" : 2208,
+       "type": "unique",
+       "armorId": 1213,
+       "color" : ".primary",
+       "desc" : "Gain a damage shield equal to 20% of your Maximum Health for 15 seconds every 15 seconds."
+    },
+    {
+       "id" : 2209,
+       "type": "unique",
+       "armorId": 1214,
+       "color" : ".primary",
+       "desc" : "When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or an ally can activate a synergy on Ursus to grant you a shield that protects you and the activator from 13954 damage for 6 seconds. This effect can occur once every 12 seconds."
+    },
+    {
+       "id" : 2210,
+       "type": "unique",
+       "armorId": 1215,
+       "color" : ".primary",
+       "desc" : "When you Roll Dodge through an enemy, you deal 1840 Physical Damage and knock them down for 3 seconds."
+    },
+    {
+       "id" : 2211,
+       "type": "unique",
+       "armorId": 1216,
+       "color" : ".yellow",
+       "desc" : " When your Health drops below 35%, gain Major Protection for 10 seconds, reducing your damage taken by 30%. This effect can occur once every 35 seconds."
+    },
+    {
+       "id" : 2212,
+       "type": "unique",
+       "armorId": 1217,
+       "color" : ".primary",
+       "desc" : "When you take damage, you have an 8% chance to turn your blood into pure iron and gain Major Protection for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds."
+    },
+    {
+       "id" : 2213,
+       "type": "unique",
+       "armorId": 1218,
+       "color" : ".primary",
+       "desc" : "When you lose 7000 or more Health from a single attack, you gain Major Vitality for 5 seconds, increasing your healing received by 30%."
+    },
+    {
+         "id" : 2214,
+         "type": "unique",
+         "armorId": 1219,
+         "color" : ".primary",
+         "desc" : "When you block an attack, you have a 50% chance to charge your arms, causing your next Bash ability to deal an additional 5805 Shock Damage and increase your Spell Resistance by 6450 for 6 seconds."
+      },
+    {
+        "id" : 2215,
+        "type": "unique",
+        "armorId": 1220,
+        "color" : ".primary",
+        "desc" : "When you deal melee damage, you have a 20% chance to apply Minor Maim to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 15%."
+     },
+    {
+       "id" : 2216,
+       "type": "unique",
+       "armorId": 1221,
+       "color" : ".primary",
+       "desc" : " When you take damage, you have a 20% chance to summon a cloud of leeching poison under the assailant. The cloud deals 1200 Poison Damage every 1 second for 5 seconds and heals you for 100% of the damage caused. A cloud can be created once every 5 seconds."
+    },
+    {
+       "id" : 2217,
+       "type": "unique",
+       "armorId": 1222,
+       "color" : ".primary",
+       "desc" : "When you take damage, you have a 25% chance to overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 8 seconds."
+    },
+    {
+       "id" : 2218,
+       "type": "unique",
+       "armorId": 1223,
+       "color" : ".primary",
+       "desc" : "When you activate a synergy, you create a lunar blessing underneath you for 10 seconds. The blessing grants a damage shield every 2 seconds that absorbs 2399 damage for you and your allies within 8 meters."
+    },
+    {
+          "id" : 2219,
+          "type": "unique",
+          "armorId": 1224,
+          "color" : ".primary",
+          "desc" : "Increases your Physical Resistance and Spell Resistance by up to 11094 based on your missing Health."
+       },
+    {
+       "id" : 2220,
+       "type": "unique",
+       "armorId": 1225,
+       "color" : ".yellow",
+       "desc" : "Gain Minor Force at all times, increasing your Critical Damage by 10%."
+    },
+    {
+          "id" : 2221,
+          "type": "unique",
+          "armorId": 1226,
+          "color" : ".primary",
+          "desc" : "When you block an attack, you have a 33% chance to blind the attacker, causing them to miss all of their attacks for 5 seconds. This effect can occur once every 10 seconds."
+       },
+    {
+       "id" : 2222,
+       "type": "unique",
+       "armorId": 1227,
+       "color" : ".primary",
+       "desc" : "Adds 129 Stamina Recovery, Adds 129 Magicka Recovery"
+    },
+    {
+       "id" : 2223,
+       "type": "unique",
+       "armorId": 1227,
+       "color" : ".primary",
+       "desc" : "When you cast a snare or immobilize ability or hit a target with a snare or immobilize ability, you and up to 11 group members gain Major Resolve and Major Ward for 15 seconds, increasing your Physical Resistance and Spell Resistances by 5280. This effect can occur once every 10 seconds."
+    },
+    {
+       "id" : 2224,
+       "type": "unique",
+       "armorId": 1228,
+       "color" : ".primary",
+       "desc" : " When you block a spell projectile, you have a 25% chance to reflect the spell back to the enemy."
+    },
+    {
+       "id" : 2225,
+       "type": "unique",
+       "armorId": 1229,
+       "color" : ".yellow",
+       "desc" : "Gain Minor Vitality at all times, increasing your healing received by 8%."
+    },
+    {
+          "id" : 2226,
+          "type": "unique",
+          "armorId": 1230,
+          "color" : ".primary",
+          "desc" : "Adds 1206 Maximum Health, After successfully blocking, you have a 50% chance to grant Empower to 3 allies within 15 meters, increasing the damage of their next Light Attack by 40%. This effect can once occur every 1 second."
+       },
+    {
+         "id" : 2227,
+         "type": "unique",
+         "armorId": 1231,
+         "color" : ".primary",
+         "desc" : " Adds 1206 Maximum Health, When you taunt an enemy, you give yourself and 11 group members Minor Courage for 15 seconds, increasing your Weapon Damage and Spell Damage by 129. This effect can occur once every 8 seconds."
+    },
+    {
+        "id" : 2228,
+        "type": "unique",
+        "armorId": 1232,
+        "color" : ".primary",
+        "desc" : "While you have a damage shield on you, your Health Recovery is increased by 885."
+     },
+    {
+       "id" : 2229,
+       "type": "unique",
+       "armorId": 1233,
+       "color" : ".red",
+       "desc" : "Adds 3000 Maximum Health."
+    },
+    {
+      "id" : 2230,
+      "type": "unique",
+      "armorId": 1234,
+      "color" : ".primary",
+      "desc" : "Adds 100 Spell Damage, Gain Major Sorcery at all times, increasing your Spell Damage by 20%."
+   },
+    {
+         "id" : 2231,
+         "type": "unique",
+         "armorId": 1235,
+         "color" : ".primary",
+         "desc" : "Each time you attempt to reduce the target's Physical or Spell Resistance, you gain a stack of Ravager for 5 seconds, increasing your Weapon Damage by 125. You can gain a stack every 1 second. At 4 stacks, the duration doubles but cannot be refreshed."
+      },
+    {
+       "id" : 2232,
+       "type": "unique",
+       "armorId": 1236,
+       "color" : ".primary",
+       "desc" : "While you are affected by a disabling effect, your damage taken is reduced by 35%."
+    },
+    {
+          "id" : 2233,
+          "type": "unique",
+          "armorId": 1237,
+          "color" : ".primary",
+          "desc" : "Whenever you deal direct damage, gain a stack of Resolve for 10 seconds. Each stack increases your Healing Taken by 1% and your Physical Resistance and Spell Resistance by 420. You can only gain one stack of Resolve every 1 second. You can only have up to 8 stacks of Resolve."
+       },
+    {
+       "id" : 2234,
+       "type": "unique",
+       "armorId": 1238,
+       "color" : ".primary",
+       "desc" : " Increases the damage of your fully-charged Heavy Attacks by 1634."
+    },
+    {
+          "id" : 2235,
+          "type": "unique",
+          "armorId": 1239,
+          "color" : ".primary",
+          "desc" : "When you cast an ability that increases your Physical or Spell Resistance, you gain 350 Weapon Damage and 350 Health Recovery for 10 seconds. This effect can occur every 10 seconds."
+       },
+    {
+     "id" : 2236,
+     "type": "unique",
+     "armorId": 1240,
+     "color" : ".primary",
+     "desc" : "Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
+    },
+    {
+       "id" : 2237,
+       "type": "unique",
+       "armorId": 1241,
+       "color" : ".primary",
+       "desc" : "Adds 450 Spell Damage to your cast time and channeled abilities."
+    },
+    {
+         "id" : 2238,
+         "type": "unique",
+         "armorId": 1242,
+         "color" : ".yellow",
+         "desc" : "When you cleanse a negative effect from yourself or an ally, gain Major Protection for 5 seconds, reducing your damage taken by 30%. This effect can occur once every 10 seconds."
+      },
+    {
+       "id" : 2239,
+       "type": "unique",
+       "armorId": 1243,
+       "color" : ".primary",
+       "desc" : "When you take non-Physical Damage, you have a 10% chance to deal 4373 Shock Damage to all enemies within 5 meters of you every 2 seconds for 6 seconds. This effect can occur once every 6 seconds."
+    },
+    {
+          "id" : 2240,
+          "type": "unique",
+          "armorId": 1244,
+          "color" : ".primary",
+          "desc" : "When you deal direct damage with a Frost Damage ability, you have a 50% chance to deal an additional 997 Flame Damage to all enemies within 8 meters around the initial target. This effect can occur once every 1 second."
+       },
+       {
+          "id" : 2241,
+          "type": "unique",
+          "armorId": 1245,
+          "color" : ".primary",
+          "desc" : "When you take damage while under 30% Health, heal for 18060 Health. This effect can occur once every 1 minute."
+       },
+       {
+          "id" : 2242,
+          "type": "unique",
+          "armorId": 1246,
+          "color" : ".primary",
+          "desc" : "When you block a direct damage attack, you deal damage to your attacker equal to 4% of your current Health. Current value: 349 Physical Damage."
+       },
+       {
+          "id" : 2243,
+          "type": "unique",
+          "armorId": 1247,
+          "color" : ".primary",
+          "desc" : "When you take Physical Damage, you have a 50% chance to deal 5160 Shock Damage in a 5 meter radius around you. This effect can occur once every 3 seconds."
+       },
+       {
+          "id" : 2244,
+          "type": "unique",
+          "armorId": 1248,
+          "color" : ".primary",
+          "desc" : "When you deal damage with a Charge ability, you gain 3642 Physical Resistance and Spell Resistance and taunt the enemy to attack you for 15 seconds."
+       },
+       {
+          "id" : 2245,
+          "type": "unique",
+          "armorId": 1250,
+          "color" : ".primary",
+          "desc" : "Adds 129 Magicka Recovery, Adds 129 Stamina Recovery"
+       },
+       {
+          "id" : 2246,
+          "type": "unique",
+          "armorId": 1250,
+          "color" : ".primary",
+          "desc" : "Increases the Magicka or Stamina your Heavy Attacks restore by 30%."
+       },
+       {
+         "id" : 2247,
+         "type": "unique",
+         "armorId": 1251,
+         "color" : ".primary",
+         "desc" : "When you taunt an enemy while you are under 60% Health, gain a damage shield that absorbs 13760 damage for 6 seconds. This effect can occur once every 10 seconds."
+      },
+       {
+           "id" : 2248,
+           "type": "unique",
+           "armorId": 1252,
+           "color" : ".yellow",
+           "desc" : "Gain Minor Protection at all times, reducing your damage taken by 8%."
+        },
+       {
+         "id" : 2249,
+         "type": "unique",
+         "armorId": 1253,
+         "color" : ".primary",
+         "desc" : "When you taunt an enemy Player, they deal 50% less damage to all other Players but 100% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them."
+      },
+       {
+          "id" : 2250,
+          "type": "unique",
+          "armorId": 1254,
+          "color" : ".primary",
+          "desc" : "Adds 1206 Maximum Health, Gain Minor Toughness at all times, increasing your Maximum Health by 10%."
+       },
+       {
+          "id" : 2251,
+          "type": "unique",
+          "armorId": 1255,
+          "color" : ".primary",
+          "desc" : "When you take damage, your Weapon Damage is increased by 30 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed."
+       },
+       {
+          "id" : 2252,
+          "type": "unique",
+          "armorId": 1256,
+          "color" : ".primary",
+          "desc" : "When you deal damage with a Weapon ability, you have a 20% chance to deal an additional 4000 Flame Damage. This effect can occur once every 2 seconds."
+       },
+       {
+          "id" : 2253,
+          "type": "unique",
+          "armorId": 1257,
+          "color" : ".primary",
+          "desc" : "When you cast a Magicka Ability, you remove up to 5 negative effects from yourself. This effect can occur once every 15 seconds."
+       },
+       {
+            "id" : 2254,
+            "type": "unique",
+            "armorId": 1258,
+            "color" : ".primary",
+            "desc" : "While you have a Destruction Staff equipped, your Maximum Magicka is increased by 2400."
+       },
+       {
+            "id" : 2255,
+            "type": "unique",
+            "armorId": 1259,
+            "color" : ".primary",
+            "desc" : "Adds 200 Weapon Damage to your One Hand and Shield abilities. When you use a One Hand and Shield ability, you heal for 1250 Health."
+       },
+       {
+            "id" : 2256,
+            "type": "unique",
+            "armorId": 1260,
+            "color" : ".primary",
+            "desc" : "When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds."
+       },
+       {
+              "id" : 2257,
+              "type": "unique",
+              "armorId": 1261,
+              "color" : ".primary",
+              "desc" : "When your alchemical poison fires, you drop a poisonous spore in front of you that bursts after 1 second, dealing 7740 Poison Damage to all enemies within 5 meters."
+         },
+       {
+            "id" : 2258,
+            "type": "unique",
+            "armorId": 1262,
+            "color" : ".primary",
+            "desc" : "Increases the radius you can detect Sneaking enemies by 2 meters."
+       },
+       {
+            "id" : 2259,
+            "type": "unique",
+            "armorId": 1262,
+            "color" : ".primary",
+            "desc" : "When you use Roll Dodge, your Weapon Damage and Spell Damage is increased by 344 for 6 seconds."
+       },
+       {
+            "id" : 2260,
+            "type": "unique",
+            "armorId": 1266,
+            "color" : ".primary",
+            "desc" : "When you take damage from a melee attack, you have a 15% chance to reduce the attacker's Weapon Damage by 10% for 5 seconds."
+       },
+       {
+              "id" : 2261,
+              "type": "unique",
+              "armorId": 1267,
+              "color" : ".primary",
+              "desc" : "While you have an Armor ability slotted, your Maximum Health is increased by 5%. When you use an Armor ability, your Physical Resistance and Spell Resistance is increased by 5332 for 10 seconds."
+         },
+       {
+            "id" : 2262,
+            "type": "unique",
+            "armorId": 1268,
+            "color" : ".primary",
+            "desc" : "While you have an Armor ability slotted, your Maximum Health is increased by 5%. When you use an Armor ability, your Physical Resistance and Spell Resistance is increased by 5332 for 10 seconds."
+       },
+       {
+            "id" : 2263,
+            "type": "unique",
+            "armorId": 1270,
+            "color" : ".primary",
+            "desc" : "Adds 129 Spell Damage, Adds 129 Weapon Damage."
+       },
+       {
+              "id" : 2264,
+              "type": "unique",
+              "armorId": 1270,
+              "color" : ".primary",
+              "desc" : "Increases the duration of your alchemical poisons by 4 seconds."
+         },
+       {
+            "id" : 2265,
+            "type": "unique",
+            "armorId": 1271,
+            "color" : ".primary",
+            "desc" : "Adds 129 Weapon Damage, Adds 129 Spell Damage"
+       },
+       {
+            "id" : 2266,
+            "type": "unique",
+            "armorId": 1271,
+            "color" : ".primary",
+            "desc" : " When you drink a potion during combat you feel a rush of energy, increasing your Weapon Damage and Spell Damage by 661 for 15 seconds."
+       },
+       {
+              "id" : 2267,
+              "type": "unique",
+              "armorId": 1272,
+              "color" : ".primary",
+              "desc" : "Adds 129 Spell Damage, Adds 129 Weapon Damage."
+         },
+       {
+            "id" : 2268,
+            "type": "unique",
+            "armorId": 1272,
+            "color" : ".primary",
+            "desc" : "When you heal yourself or an ally, summon Cadwell's noble mount, Honor, who after 2 seconds, casts a healing spell on you and allies around him that heals for 12190 Health over 4 seconds. When you damage an enemy, summon Cadwell's noble mount, Honor, who after 2 seconds, explodes, damaging enemies around him for 12190 Magic Damage over 4 seconds. Honor can only be summoned every 10 seconds."
+       },
+       {
+            "id" : 2269,
+            "type": "unique",
+            "armorId": 1273,
+            "color" : ".primary",
+            "desc" : "While in combat you gain one of 5 random Major Buffs for 10 seconds every 20 seconds. Eligible buffs are Expedition, Protection, Mending, Heroism, or Vitality."
+       },
+       {
+            "id" : 2270,
+            "type": "unique",
+            "armorId": 1274,
+            "color" : ".primary",
+            "desc" : "When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 30 seconds."
+       },
+       {
+            "id" : 2271,
+            "type": "unique",
+            "armorId": 1275,
+            "color" : ".primary",
+            "desc" : "When you use Roll Dodge, you leave behind a rune that detonates when enemies come close, dealing 7335 Poison Damage and immobilizing them for 1.5 seconds."
+       },
+       {
+            "id" : 2272,
+            "type": "unique",
+            "armorId": 1276,
+            "color" : ".primary",
+            "desc" : "Reduces the cost of your Restoration Staff abilities by 15%."
+       },
+       {
+            "id" : 2273,
+            "type": "unique",
+            "armorId": 1277,
+            "color" : ".primary",
+            "desc" : "Adds 5170 Spell Resistance, Adds 5170 Physical Resistance."
+       },
+       {
+            "id" : 2274,
+            "type": "unique",
+            "armorId": 1278,
+            "color" : ".primary",
+            "desc" : "Enemies you damage have a 10% chance to drop a grave-stake for 6 seconds after they die. When you touch the grave-stake restores 6500 Stamina and Magicka. Only one grave-stake can appear at a time."
+       },
+       {
+            "id" : 2275,
+            "type": "unique",
+            "armorId": 1279,
+            "color" : ".primary",
+            "desc" : "While you are blocking you gain Major Evasion, reducing damage from area attacks by 25%."
+       },
+       {
+            "id" : 2276,
+            "type": "unique",
+            "armorId": 1280,
+            "color" : ".primary",
+            "desc" : "Adds 299 Weapon Damage"
+       },
+       {
+            "id" : 2277,
+            "type": "unique",
+            "armorId": 1281,
+            "color" : ".primary",
+            "desc" : "Adds 833 Spell Critical, Adds 833 Weapon Critical"
+       },
+       {
+            "id" : 2278,
+            "type": "unique",
+            "armorId": 1281,
+            "color" : ".primary",
+            "desc" : "Adds 400 Spell and Weapon Damage to your Class abilities."
+       },
+       {
+            "id" : 2279,
+            "type": "unique",
+            "armorId": 1282,
+            "color" : ".primary",
+            "desc" : "Adds 222 Spell Damage, Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 1720 Magicka."
+       },
+       {
+            "id" : 2280,
+            "type": "unique",
+            "armorId": 1283,
+            "color" : ".primary",
+            "desc" : "When your target is under 25% Health, add 1800 Weapon Damage to your Light and Heavy Attacks."
+       },
+       {
+              "id" : 2281,
+              "type": "unique",
+              "armorId": 1284,
+              "color" : ".primary",
+              "desc" : "Adds 299 Spell Damage"
+         },
+       {
+            "id" : 2282,
+            "type": "unique",
+            "armorId": 1285,
+            "color" : ".primary",
+            "desc" : "When you cast a Magicka Ability, you have an 8% chance to negate that ability's cost."
+       },
+       {
+              "id" : 2283,
+              "type": "unique",
+              "armorId": 1286,
+              "color" : ".primary",
+              "desc" : "Adds 1096 Maximum Stamina, Adds 1096 Maximum Magicka."
+         },
+       {
+            "id" : 2284,
+            "type": "unique",
+            "armorId": 1286,
+            "color" : ".primary",
+            "desc" : "When you deal direct damage, you have a 15% chance to gain unerring mechanical vision for 5 seconds, causing your attacks to always be a Critical Strike. This effect can occur once every 18 seconds."
+       },
+       {
+           "id" : 2286,
+           "type": "unique",
+           "armorId": 1287,
+           "color" : ".primary",
+           "desc" : "Adds 129 Weapon Damage, Adds 129 Spell Damage"
+      },
+       {
+            "id" : 2287,
+            "type": "unique",
+            "armorId": 1287,
+            "color" : ".primary",
+            "desc" : "After successfully blocking, you gain 3 uses of Empower, increasing the damage of your next 3 Light Attacks by 40%."
+       },
+       {
+            "id" : 2288,
+            "type": "unique",
+            "armorId": 1288,
+            "color" : ".primary",
+            "desc" : "When you deal damage with a Light or Heavy Attack, you have a 10% chance to summon an animated weapon to attack your enemies for 15 seconds. The animated weapon's basic attacks deal 4108 Physical Damage."
+       },
+       {
+            "id" : 2289,
+            "type": "unique",
+            "armorId": 1289,
+            "color" : ".primary",
+            "desc" : "When you cast a damage shield ability, you gain Minor Mending and Minor Vitality for 6 seconds, increasing your Healing Done and healing received by 8%. This effect can occur once every 6 seconds."
+       },
+       {
+            "id" : 2290,
+            "type": "unique",
+            "armorId": 1290,
+            "color" : ".primary",
+            "desc" : "When you deal Critical Damage you apply Major Fracture to the enemy, reducing their Physical Resistance by 5280 for 6 seconds."
+       },
+       {
+            "id" : 2291,
+            "type": "unique",
+            "armorId": 1291,
+            "color" : ".primary",
+            "desc" : " Ignore the Movement Speed penalty of Sneak."
+       },
+       {
+            "id" : 2292,
+            "type": "unique",
+            "armorId": 1292,
+            "color" : ".primary",
+            "desc" : "When you interrupt a casting enemy, you heal for 4300 Health and apply Minor Vulnerability to the enemy for 10 seconds, increasing their damage taken by 8%."
+       },
+       {
+            "id" : 2293,
+            "type": "unique",
+            "armorId": 1293,
+            "color" : ".primary",
+            "desc" : "Whenever you successfully Dodge, heal yourself for 4000. This effect can occur every 2 seconds."
+       },
+       {
+            "id" : 2294,
+            "type": "unique",
+            "armorId": 1294,
+            "color" : ".primary",
+            "desc" : " Your Soul Trap ability gains 1000 Weapon Damage and Spell Damage."
+       },
+       {
+            "id" : 2295,
+            "type": "unique",
+            "armorId": 1295,
+            "color" : ".primary",
+            "desc" : "While you are under 60% Health, your Health Recovery is increased by 50%."
+       },
+       {
+            "id" : 2296,
+            "type": "unique",
+            "armorId": 1296,
+            "color" : ".primary",
+            "desc" : "Your Spell and Weapon Damage both become the highest of the two values."
+       },
+       {
+            "id" : 2297,
+            "type": "unique",
+            "armorId": 1297,
+            "color" : ".primary",
+            "desc" : "When you heal yourself while you are at full Health, you heal an ally within 15 meters of you for 2347 Health. This effect can occur once every 3 seconds."
+       },
+       {
+            "id" : 2298,
+            "type": "unique",
+            "armorId": 1298,
+            "color" : ".primary",
+            "desc" : "After being damaged by a damage over time ability, increase your Healing Received by 6% and your Physical Resistance and Spell Resistance by 2585 for 3 seconds."
+       },
+       {
+            "id" : 2299,
+            "type": "unique",
+            "armorId": 1299,
+            "color" : ".primary",
+            "desc" : "Adds 129 Stamina Recovery, Adds 129 Magicka Recovery"
+       },
+       {
+            "id" : 2300,
+            "type": "unique",
+            "armorId": 1299,
+            "color" : ".primary",
+            "desc" : "Adds 2000 Maximum Stamina, Adds 2000 Maximum Magicka."
+       },
+       {
+            "id" : 2301,
+            "type": "unique",
+            "armorId": 1300,
+            "color" : ".primary",
+            "desc" : "While you are under 50% Health, dealing damage with a Light Attack heals you for 559 Health."
+       },
+       {
+          "id" : 2302,
+          "type": "unique",
+          "armorId": 1301,
+          "color" : ".primary",
+          "desc" : "Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Maximum Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds. This can deal a maximum of 3000 Oblivion Damage per tick."
+     },
+    {
+        "id" : 2303,
+        "type": "unique",
+        "armorId": 1302,
+        "color" : ".primary",
+        "desc" : "When you take damage while you are under 30% Health, you deal 3870 Magic Damage to the attacker and heal for 3870 Health. This effect can occur once every 30 seconds."
+    },
+    {
+           "id" : 2304,
+           "type": "unique",
+           "armorId": 1303,
+           "color" : ".primary",
+           "desc" : "When you cast a Magicka Ability you gain Major Evasion for 5 seconds, reducing damage from area attacks by 25%. This effect can occur once every 10 seconds."
+       },
+    {
+        "id" : 2305,
+        "type": "unique",
+        "armorId": 1304,
+        "color" : ".primary",
+        "desc" : "When you dodge an attack, you receive the blessing of Tava, generating 9 Ultimate over 3 seconds."
+    },
+    {
+       "id" : 2306,
+       "type": "unique",
+       "armorId": 1305,
+       "color" : ".primary",
+       "desc" : "Decreases weapon enchantment cooldown and increases non Oblivion Damage enchantment potency by 30%."
+   },
+    {
+          "id" : 2307,
+          "type": "unique",
+          "armorId": 1306,
+          "color" : ".primary",
+          "desc" : "When you take elemental damage, gain 7727 Resistance to that element for 4 seconds. You can only be resistant to one element at a time."
+      },
+    {
+         "id" : 2308,
+         "type": "unique",
+         "armorId": 1307,
+         "color" : ".primary",
+         "desc" : "You can have two Mundus Stone boons at the same time."
+     },
+    {
+        "id" : 2309,
+        "type": "unique",
+        "armorId": 1308,
+        "color" : ".primary",
+        "desc" : " Increases your healing received by 10%."
+    },
+    {
+        "id" : 2310,
+        "type": "unique",
+        "armorId": 1309,
+        "color" : ".primary",
+        "desc" : "When you kill an enemy, you heal for 5160 Health over 6 seconds."
+    },
+    {
+        "id" : 2311,
+        "type": "unique",
+        "armorId": 1310,
+        "color" : ".primary",
+        "desc" : "When you block an attack, you have a 10% chance to cause your next direct damage area of effect attack to deal an additional 3450 damage."
+    },
+    {
+           "id" : 2312,
+           "type": "unique",
+           "armorId": 1311,
+           "color" : ".primary",
+           "desc" : "Adds 129 Magicka Recovery, Adds 129 Stamina Recovery, When you resurrect an ally, you and your ally gain 258 Weapon Damage and Spell Damage and 10% cost reduction to non-Ultimate abilities for 10 seconds."
+       },
+    {
+        "id" : 2313,
+        "type": "unique",
+        "armorId": 1312,
+        "color" : ".primary",
+        "desc" : "Reduces the cost of Break Free by 40%."
+    },
+    {
+        "id" : 2314,
+        "type": "unique",
+        "armorId": 1313,
+        "color" : ".primary",
+        "desc" : "When you take damage while you are under 30% Health, you gain a damage shield that absorbs 10320 damage for 8 seconds. This effect can occur once every 15 seconds."
+    },
+    {
+        "id" : 2315,
+        "type": "unique",
+        "armorId": 1314,
+        "color" : ".primary",
+        "desc" : "Increases your Health, Magicka, and Stamina Recovery by 15%."
+    },
+    {
+        "id" : 2316,
+        "type": "unique",
+        "armorId": 1315,
+        "color" : ".primary",
+        "desc" : "Increases your Weapon Damage by 301 against targets affected by your Poison Arrow."
+    },
+    {
+        "id" : 2317,
+        "type": "unique",
+        "armorId": 1316,
+        "color" : ".primary",
+        "desc" : "When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1000 Spell and Weapon Damage."
+    },
+    {
+        "id" : 2318,
+        "type": "unique",
+        "armorId": 1317,
+        "color" : ".primary",
+        "desc" : "Your Light and Heavy Attacks deal an additional 1341 damage to enemies in your Wall of Elements."
+    },
+    {
+        "id" : 2319,
+        "type": "unique",
+        "armorId": 1318,
+        "color" : ".primary",
+        "desc" : "Reduces the cost of Destructive Touch by 30% and increases the direct damage it deals by 2000."
+    },
+    {
+        "id" : 2340,
+        "type": "unique",
+        "armorId": 1319,
+        "color" : ".primary",
+        "desc" : "The initial heal of Grand Healing restores 100 Magica and Stamina to allies affected every second for 4 seconds."
+    },
+    {
+       "id" : 2341,
+       "type": "unique",
+       "armorId": 1320,
+       "color" : ".primary",
+       "desc" : "Steadfast Ward applies Major Vitality to your target for 3 seconds, increasing the Healing Taken on your target by 30%."
+    },
+    {
+       "id" : 2342,
+       "type": "unique",
+       "armorId": 1321,
+       "color" : ".primary",
+       "desc" : "Critical Charge deals an additional 7200 Physical Damage over 5 seconds."
+    },
+    {
+       "id" : 2343,
+       "type": "unique",
+       "armorId": 1322,
+       "color" : ".primary",
+       "desc" : "Adds 1487 Physical Resistance, Adds 1487 Spell Resistance, Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability by 100%."
+    },
+    {
+       "id" : 2344,
+       "type": "unique",
+       "armorId": 1323,
+       "color" : ".primary",
+       "desc" : "Adds 129 Magicka Recovery, Steadfast Ward applies Major Vitality to your target for 3 seconds, increasing the Healing Taken on your target by 30%."
+    },
+    {
+       "id" : 2345,
+       "type": "unique",
+       "armorId": 1324,
+       "color" : ".primary",
+       "desc" : "Adds 1487 Physical Penetration, Uppercut deals 100% of its damage to one enemy near your primary target."
+    },
+    {
+          "id" : 2346,
+          "type": "unique",
+          "armorId": 1325,
+          "color" : ".primary",
+          "desc" : "Adds 129 Stamina Recovery, Blade Cloak grants you Major Protection for 3 seconds, reducing your damage taken by 30%."
+       },
+    {
+       "id" : 2347,
+       "type": "unique",
+       "armorId": 1326,
+       "color" : ".primary",
+       "desc" : "Adds 833 Weapon Critical, Scatter Shot applies a damage over time effect that deals 50% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
+    },
+    {
+       "id" : 2348,
+       "type": "unique",
+       "armorId": 1327,
+       "color" : ".primary",
+       "desc" : "Adds 1487 Spell Penetration, Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 3333 Flame, 3333 Shock, and 3333 Frost Damage over 8 seconds."
+    },
+    {
+       "id" : 2349,
+       "type": "unique",
+       "armorId": 1328,
+       "color" : ".primary",
+       "desc" : "When you critically heal with Regeneration, you restore 800 Magicka. This effect can occur once every 4 seconds."
+    },
+    {
+          "id" : 2350,
+          "type": "unique",
+          "armorId": 1329,
+          "color" : ".primary",
+          "desc" : "When you deal damage with Puncture, you heal for 2500 Health and gain Physical Resistance and Spell Resistance equal to the amount healed for 3 seconds."
+       },
+    {
+       "id" : 2351,
+       "type": "unique",
+       "armorId": 1330,
+       "color" : ".primary",
+       "desc" : "Uppercut deals 100% of its damage to one enemy near your primary target."
+    },
+    {
+       "id" : 2352,
+       "type": "unique",
+       "armorId": 1331,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores an additional 2000 Magicka and Stamina."
+    },
+    {
+       "id" : 2353,
+       "type": "unique",
+       "armorId": 1332,
+       "color" : ".primary",
+       "desc" : "Blade Cloak grants you Major Protection for 3 seconds, reducing your damage taken by 30%."
+    },
+    {
+       "id" : 2354,
+       "type": "unique",
+       "armorId": 1333,
+       "color" : ".primary",
+       "desc" : "Increases the bleed damage Twin Slashes deals by 1600 each tick."
+    },
+    {
+       "id" : 2355,
+       "type": "unique",
+       "armorId": 1334,
+       "color" : ".primary",
+       "desc" : "Increases the damage Volley deals by 320 each tick. This bonus increases by 110 every time Volley ticks."
+    },
+    {
+       "id" : 2356,
+       "type": "unique",
+       "armorId": 1335,
+       "color" : ".primary",
+       "desc" : "Increases the direct damage Cleave deals by 1500 for each enemy in its cone, up to maximum of 9000 increased damage."
+    },
+    {
+       "id" : 2357,
+       "type": "unique",
+       "armorId": 1336,
+       "color" : ".primary",
+       "desc" : "Scatter Shot applies a damage over time effect that deals 50% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
+    },
+    {
+       "id" : 2358,
+       "type": "unique",
+       "armorId": 1337,
+       "color" : ".primary",
+       "desc" : "Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 3333 Flame, 3333 Shock, and 3333 Frost Damage over 8 seconds."
+    },
+    
+    
+    {
+       "id" : 2359,
+       "type": "unique",
+       "armorId": 1338,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Whirlwind, you add 10 seconds to your active Twin Slashes, Lacerate, and Blade Cloak over time effects. This effect can occur once per cast of those abilities."
+    },
+    {
+       "id" : 2360,
+       "type": "unique",
+       "armorId": 1339,
+       "color" : ".primary",
+       "desc" : "Every third cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 10 seconds of each other for this effect to occur."
+    },
+    {
+       "id" : 2361,
+       "type": "unique",
+       "armorId": 1340,
+       "color" : ".primary",
+       "desc" : "When you reflect or absorb a spell projectile with Defensive Posture, you restore 1818 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 3636 Magicka instead."
+    },
+    {
+       "id" : 2362,
+       "type": "unique",
+       "armorId": 1341,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Reverse Slash, you generate up to 14 Ultimate based on how much execute bonus damage it dealt."
+    },
+    {
+       "id" : 2363,
+       "type": "unique",
+       "armorId": 1342,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Arrow Spray, you cause enemies hit to take 45% more damage from the direct damage portion of your next Snipe, Scatter Shot, or Poison Arrow used within 6 seconds."
+    },
+    {
+       "id" : 2364,
+       "type": "unique",
+       "armorId": 1342,
+       "color" : ".primary",
+       "desc" : "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 27% for 3 seconds."
+    },
+    
+    
+    {
+       "id" : 2365,
+       "type": "unique",
+       "armorId": 1344,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Whirlwind, you add 12 seconds to your active Twin Slashes, Lacerate, and Blade Cloak over time effects. This effect can occur once per cast of those abilities."
+    },
+    {
+       "id" : 2366,
+       "type": "unique",
+       "armorId": 1345,
+       "color" : ".primary",
+       "desc" : "Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 10 seconds of each other for this effect to occur."
+    },
+    {
+       "id" : 2367,
+       "type": "unique",
+       "armorId": 1346,
+       "color" : ".primary",
+       "desc" : "When you reflect or absorb a spell projectile with Defensive Posture, you restore 2000 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 4000 Magicka instead."
+    },
+    {
+       "id" : 2368,
+       "type": "unique",
+       "armorId": 1347,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Reverse Slash, you generate up to 15 Ultimate based on how much execute bonus damage it dealt."
+    },
+    {
+       "id" : 2369,
+       "type": "unique",
+       "armorId": 1348,
+       "color" : ".primary",
+       "desc" : "When you deal damage with Arrow Spray, you cause enemies hit to take 50% more damage from the direct damage portion of your next Snipe, Scatter Shot, or Poison Arrow used within 6 seconds."
+    },
+    {
+       "id" : 2370,
+       "type": "unique",
+       "armorId": 1349,
+       "color" : ".primary",
+       "desc" : "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 30% for 3 seconds."
+    },
+    {
+       "id" : 2371,
+       "type": "unique",
+       "armorId": 1350,
+       "color" : ".green",
+       "desc" : "Adds 1752 Maximum Stamina"
+    },
+    {
+       "id" : 2372,
+       "type": "unique",
+       "armorId": 1350,
+       "color" : ".green",
+       "desc" : "Adds 206 Weapon Damage"
+    },
+    {
+       "id" : 2373,
+       "type": "unique",
+       "armorId": 1351,
+       "color" : ".red",
+       "desc" : "Adds 1928 Maximum Health"
+    },
+    {
+       "id" : 2374,
+       "type": "unique",
+       "armorId": 1351,
+       "color" : ".green",
+       "desc" : "Adds 618 Health Recovery"
+    },
+    {
+       "id" : 2375,
+       "type": "unique",
+       "armorId": 1352,
+       "color" : ".blue",
+       "desc" : "Adds 1752 Maximum Magicka"
+    },
+    {
+       "id" : 2376,
+       "type": "unique",
+       "armorId": 1352,
+       "color" : ".blue",
+       "desc" : "Adds 206 Spell Damage"
+    },
+    {
+       "id" : 2377,
+       "type": "unique",
+       "armorId": 1268,
+       "color" : ".primary",
+       "desc" : "Reduces the cost of your Magicka Abilities by 10%."
+    },
+    {
+       "id" : 2378,
+       "type": "unique",
+       "armorId": 1356,
+       "color" : ".primary",
+       "desc" : "Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability by 100%."
+    },
+    {
+       "id" : 2379,
+       "type": "unique",
+       "armorId": 1357,
+       "color" : ".primary",
+       "desc" : "Reduces the cost of your Ultimate abilities by 15%."
+    },
+    {
+      "id" : 2380,
+      "type": "unique",
+      "armorId": 1358,
+      "color" : ".primary",
+      "desc" : "1829 Weapn Critical to direct ranged damage abilities."
+   },
+    {
+       "id" : 2381,
+       "type": "unique",
+       "armorId": 1359,
+       "color" : ".primary",
+       "desc" : "2406 Maximum Magicka"
+    },
+    {
+       "id" : 2382,
+       "type": "unique",
+       "armorId": 1360,
+       "color" : ".primary",
+       "desc" : "When you kill an enemy, you heal for 2165 Health and restore 2165 Magicka and Stamina."
+    },
+    {
+       "id" : 2383,
+       "type": "unique",
+       "armorId": 1362,
+       "color" : ".primary",
+       "desc" : "Adds 129 Weapon Damage and Spell Damage"
+    },
+    {
+       "id" : 2384,
+       "type": "unique",
+       "armorId": 1362,
+       "color" : ".primary",
+       "desc" : "Adds 833 Weapon Critical and Spell Critical"
+    },
+    {
+       "id" : 2385,
+       "type": "unique",
+       "armorId": 1362,
+       "color" : ".primary",
+       "desc" : "Gain 300 Weapon Damage and Spell Damage while health is over 50%. Gain 3460 bonus Physical Resistance and Spell Resistance while health is 50% or less."
+    },
+    {
+       "id" : 2386,
+       "type": "unique",
+       "armorId": 1363,
+       "color" : ".primary",
+       "desc" : "Adds 833 Weapon Critical and Spell Critical"
+    },
+    {
+       "id" : 2387,
+       "type": "unique",
+       "armorId": 1363,
+       "color" : ".primary",
+       "desc" : "Reduce the cost of your Weapon abilities by 10% Magicka or Stamina. After casting a Weapon ability, gain Minor Heroism for 8 seconds, generating 1 Ultimate every 1.5 seconds while in combat. This effect can occur every 8 seconds."
+    },
+    {
+       "id" : 2388,
+       "type": "unique",
+       "armorId": 1364,
+       "color" : ".primary",
+       "desc" : "Adds 833 Weapon Critical and Spell Critical"
+    },
+    {
+       "id" : 2389,
+       "type": "unique",
+       "armorId": 1364,
+       "color" : ".primary",
+       "desc" : "Adds 129 Weapon Damage and Spell Damage"
+    },
+    {
+          "id" : 2390,
+          "type": "unique",
+          "armorId": 1364,
+          "color" : ".primary",
+          "desc" : "Adds 1487 Physical Penetration and Spell Penetration"
+       },
+    {
+       "id" : 2391,
+       "type": "unique",
+       "armorId": 1364,
+       "color" : ".primary",
+       "desc" : "Adds 481 Weapon Damage and Spell Damage. Increase the cost of your active abilities by 5%."
+    },
+    {
+       "id" : 2392,
+       "type": "unique",
+       "armorId": 1365,
+       "color" : ".primary",
+       "desc" : " You gain a stack of Dragonguard Tactics for 5 seconds when you deal direct damage to an enemy from the front or sides, up to 5 stacks. Each stack of Dragonguard Tactics increases your Weapon Critical by 476. You can only gain one stack every 1 second."
+    },
+    {
+       "id" : 2393,
+       "type": "unique",
+       "armorId": 1366,
+       "color" : ".primary",
+       "desc" : "When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds."
+    },
+    {
+       "id" : 2394,
+       "type": "unique",
+       "armorId": 1367,
+       "color" : ".primary",
+       "desc" : "Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal’s Duty, up to 10 stacks. After dealing damage with a fully-charged Heavy Attack, restore 535 Stamina and Magicka for each stack of Senchal’s Duty and consume them. You can only gain one stack of Senchal’s Duty every 1 second."
+    },
+    {
+       "id" : 2395,
+       "type": "unique",
+       "armorId": 1367,
+       "color" : ".primary",
+       "desc" : "Reduce damage taken from Players by 5%."
+    },
+    {
+       "id" : 2396,
+       "type": "unique",
+       "armorId": 1361,
+       "color" : ".primary",
+       "desc" : "1829 Spell Critical to direct ranged damage abilities."
+    },
+    {
+        "id" : 2397,
+        "type": "unique",
+        "armorId": 1360,
+        "color" : ".primary",
+        "desc" : "1829 Spell Critical to direct ranged damage abilities."
+    },
+    {
+        "id" : 2398,
+        "type": "unique",
+        "armorId": 1242,
+        "color" : ".primary",
+        "desc" : "Adds 1487 Armor"
+    },
+     
+    
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     {
+        "id" : 10001,
+        "type": "unique",
+        "armorId": 5001,
+        "color" : ".primary",
+        "desc" : "Adds 129 Weapon Damage, Adds 129 Spell Damage."
+    },
+    {
+        "id" : 10002,
+        "type": "unique",
+        "armorId": 5001,
+        "color" : ".primary",
+        "desc" : "When you use an Ultimate ability, you gain Weapon Damage and Spell Damage for 10 seconds equal to twice the amount of total Ultimate consumed."
+    },
+    {
+       "id" : 10003,
+       "type": "unique",
+       "armorId": 5002,
+       "color" : ".green",
+       "desc" : "Adds 129 Stamina Recovery"
+   },
+    {
+        "id" : 10004,
+        "type": "unique",
+        "armorId": 5002,
+        "color" : ".primary",
+        "desc" : "When you take damage, you have a 6% chance to generate 14 Ultimate and increase your Physical Resistance and Spell Resistance by 6450 for 6 seconds. This effect can occur once every 6 seconds."
+    },
+    {
+        "id" : 10005,
+        "type": "unique",
+        "armorId": 5003,
+        "color" : ".blue",
+        "desc" : "Adds 129 Magicka Recovery"
+    },
+     {
+         "id" : 10006,
+         "type": "unique",
+         "armorId": 5003,
+         "color" : ".primary",
+         "desc" : "When you use a heal ability, you have a 15% chance to summon a strangler sapling that heals you or an ally for 19565 Health over 4 seconds. This effect can occur once every 10 seconds."
+     },
+     {
+         "id" : 10007,
+         "type": "unique",
+         "armorId": 5004,
+         "color" : ".primary",
+         "desc" : "Adds 1096 Maximum Stamina, Adds 1096 Maximum Magicka"
+     },
+      {
+          "id" : 10008,
+          "type": "unique",
+          "armorId": 5004,
+          "color" : ".primary",
+          "desc" : "When you deal damage, you have a 15% chance to create either a ring of fire or ring of molten earth around you for 10 seconds, which deals 1000 Flame Damage or 1000 Physical Damage every 1 second. Standing within the ring grants you 200 Spell Damage or 200 Weapon Damage. This effect can occur once every 15 seconds."
+      },
+      {
+          "id" : 10009,
+          "type": "unique",
+          "armorId": 5005,
+          "color" : ".red",
+          "desc" : "Adds 4% Healing Done"
+      },
+       {
+           "id" : 10010,
+           "type": "unique",
+           "armorId": 5005,
+           "color" : ".primary",
+           "desc" : "When you heal yourself or an ally that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health friendly target in the area for 30000 Health over 6 seconds. This effect can occur once every 35 seconds."
+       },
+       {
+           "id" : 10011,
+           "type": "unique",
+           "armorId": 5006,
+           "color" : ".red",
+           "desc" : "Adds 129 Health Recovery"
+       },
+        {
+            "id" : 10012,
+            "type": "unique",
+            "armorId": 5006,
+            "color" : ".primary",
+            "desc" : "When you use an ability, you have a 10% chance to summon a dwemer automation to restore 1204 Health, Stamina, or Magicka to you every 0.5 seconds for 6.5 seconds."
+        },
+        {
+            "id" : 10013,
+            "type": "unique",
+            "armorId": 5007,
+            "color" : ".blue",
+            "desc" : "Adds 1096 Maximum Magicka"
+        },
+         {
+             "id" : 10014,
+             "type": "unique",
+             "armorId": 5007,
+             "color" : ".primary",
+             "desc" : "When you deal damage, you have a 10% chance to create lava pools that swirl around you, dealing 1800 Flame Damage to all enemies within 8 meters of you every 1 second for 5 seconds. This effect can occur once every 10 seconds."
+         },
+         {
+             "id" : 10015,
+             "type": "unique",
+             "armorId": 5008,
+             "color" : ".primary",
+             "desc" : "Adds 833 Weapon Critical, Adds 833 Spell Critical"
+         },
+          {
+              "id" : 10016,
+              "type": "unique",
+              "armorId": 5008,
+              "color" : ".primary",
+              "desc" : "Whenever you deal critical damage, restore 1000 Magicka or Stamina, whichever maximum is higher. You also gain 500 of the other resource. This effect can occur once every 5 seconds."
+          },
+          {
+              "id" : 10017,
+              "type": "unique",
+              "armorId": 5009,
+              "color" : ".blue",
+              "desc" : "Adds 833 Spell Critical"
+          },
+           {
+               "id" : 10018,
+               "type": "unique",
+               "armorId": 5009,
+               "color" : ".primary",
+               "desc" : " When you deal Critical Damage, you have a 20% chance to gain a damage shield that absorbs 8600 damage for 6 seconds. While the damage shield holds, you deal 770 Frost Damage to all enemies within 5 meters of you every 1 second. This effect can occur once every 6 seconds."
+           },
+           {
+               "id" : 10019,
+               "type": "unique",
+               "armorId": 5010,
+               "color" : ".blue",
+               "desc" : "Adds 1096 Maximum Magicka"
+           },
+            {
+                "id" : 10020,
+                "type": "unique",
+                "armorId": 5010,
+                "color" : ".primary",
+                "desc" : " When you deal Flame or Shock Damage, you have a 10% chance to summon a meteor shower of that damage type that deals 1170 Damage to all enemies within 4 meters every 1 second for 5 seconds. Each effect can occur once every 8 seconds."
+            },
+            {
+              "id" : 10021,
+              "type": "unique",
+              "armorId": 5011,
+              "color" : ".blue",
+              "desc" : "Adds 1096 Maximum Magicka"
+},
+            {
+               "id" : 10022,
+               "type": "unique",
+               "armorId": 5011,
+               "color" : ".primary",
+               "desc" : "When you give yourself a damage shield, you have a 50% chance to lob 3 mortars over 2 seconds at the furthest enemy from you that each deal 5500 Flame Damage to all enemies within 5 meters of the blast area. This effect can occur once every 6 seconds."
+           },
+    {
+        "id" : 10023,
+        "type": "unique",
+        "armorId": 5012,
+        "color" : ".blue",
+        "desc" : "Adds 1487 Physical Penetration"
+    },
+     {
+         "id" : 10024,
+         "type": "unique",
+         "armorId": 5012,
+         "color" : ".primary",
+         "desc" : "When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing 1300 Physical Damage every 0.4 seconds for 1.2 seconds. This effect can occur once every 3 seconds."
+     },
+     {
+        "id" : 10025,
+        "type": "unique",
+        "armorId": 5013,
+        "color" : ".red",
+        "desc" : "Adds 2975 Spell Resistance, Adds 2975 Physical Resistance"
+    },
+     {
+         "id" : 10026,
+         "type": "unique",
+         "armorId": 5013,
+         "color" : ".primary",
+         "desc" : "When you take damage, you have a 50% chance to summon a shadow orb for 10 seconds that increases the Physical Resistance and Spell Resistance of you and your allies within 8 meters by 3870. This effect can occur once every 10 seconds."
+     },
+     {
+         "id" : 10027,
+         "type": "unique",
+         "armorId": 5014,
+         "color" : ".green",
+         "desc" : "Adds 1096 Maximum Stamina"
+     },
+      {
+          "id" : 10028,
+          "type": "unique",
+          "armorId": 5014,
+          "color" : ".primary",
+          "desc" : "When you bash an enemy, you spew a cone of corruption, dealing 8000 Disease Damage to enemies over 4 seconds. This damage is increased by 5% for each negative effect the enemies have, up to 150% additional damage. This effect can occur once every 7 seconds."
+      },
+      {
+          "id" : 10029,
+          "type": "unique",
+          "armorId": 5015,
+          "color" : ".red",
+          "desc" : "Adds 1206 Maximum Health"
+      },
+       {
+           "id" : 10030,
+           "type": "unique",
+           "armorId": 5015,
+           "color" : ".primary",
+           "desc" : "When you deal damage with a Light or Heavy Attack, you have a 10% chance to summon a fire breathing Daedroth for 15 seconds. The Daedroth's basic attacks deal 4257 Flame Damage. This effect can occur once every 15 seconds."
+       },
+       {
+           "id" : 10031,
+           "type": "unique",
+           "armorId": 5016,
+           "color" : ".red",
+           "desc" : " Adds 2975 Spell Resistance, Adds 2975 Physical Resistance"
+       },
+        {
+            "id" : 10032,
+            "type": "unique",
+            "armorId": 5016,
+            "color" : ".primary",
+            "desc" : "Adds 1206 Maximum Health, Gain Major Ward and Major Resolve at all times, increasing your Physical Resistance and Spell Resistance by 5280."
+        },
+        {
+          "id" : 10033,
+          "type": "unique",
+          "armorId": 5017,
+          "color" : ".primary",
+          "desc" : "Adds 129 Weapon Damage, Adds 129 Spell Damage"
+      },
+       {
+           "id" : 10034,
+           "type": "unique",
+           "armorId": 5017,
+           "color" : ".primary",
+           "desc" : "When you deal damage with 2 consecutive Light Attacks you trigger Overkill for 6 seconds, which increases your Weapon Damage and Spell Damage by 516 but also increases the cost of your abilities by 20%."
+       },
+       {
+           "id" : 10035,
+           "type": "unique",
+           "armorId": 5018,
+           "color" : ".red",
+           "desc" : "Adds 1206 Maximum Health"
+       },
+        {
+            "id" : 10036,
+            "type": "unique",
+            "armorId": 5018,
+            "color" : ".primary",
+            "desc" : "When you deal direct damage, you have a 10% chance to summon a Lich crystal that explodes after 2 seconds, dealing 8800 Magic Damage to all enemies within 4 meters. This effect can occur once every 3 seconds."
+        },
+        {
+            "id" : 10037,
+            "type": "unique",
+            "armorId": 5019,
+            "color" : ".blue",
+            "desc" : "Adds 1096 Maximum Magicka"
+        },
+         {
+             "id" : 10038,
+             "type": "unique",
+             "armorId": 5019,
+             "color" : ".primary",
+             "desc" : "When you heal a friendly target, you have a 10% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 2525 Health every 1 second. This effect can occur once every 10 seconds."
+         },
+         {
+             "id" : 10039,
+             "type": "unique",
+             "armorId": 5020,
+             "color" : ".red",
+             "desc" : "Adds 2975 Physical Resistance, Adds 2975 Spell Resistance"
+         },
+          {
+              "id" : 10040,
+              "type": "unique",
+              "armorId": 5020,
+              "color" : ".primary",
+              "desc" : "When you take damage to your Health, you have a 8% chance to transform into a skeleton and gain Major Protection and Major Defile for 10 seconds, reducing your damage taken by 30% but reducing your healing received and Health Recovery by 30%. This effect can occur once every 20 seconds."
+          },
+          {
+              "id" : 10041,
+              "type": "unique",
+              "armorId": 5021,
+              "color" : ".red",
+              "desc" : "Adds 1206 Maximum Health"
+          },
+           {
+               "id" : 10042,
+               "type": "unique",
+               "armorId": 5021,
+               "color" : ".primary",
+               "desc" : "When you take damage, you have a 6% chance to create a beam that steals 5805 Health over 4 seconds from the attacker. While the beam holds you gain Major Vitality, increasing your healing received by 30%. The beam breaks if the enemy moves further than 8 meters away. This effect can occur once every 6 seconds."
+           },
+           {
+               "id" : 10043,
+               "type": "unique",
+               "armorId": 5022,
+               "color" : ".green",
+               "desc" : "Adds 1096 Maximum Stamina"
+           },
+            {
+                "id" : 10044,
+                "type": "unique",
+                "armorId": 5022,
+                "color" : ".primary",
+                "desc" : " When you deal direct melee damage, you have a 15% chance to call on a primal spirit that mauls the closest enemy in front of you after 1.3 seconds for 12000 Physical Damage. This effect can occur once every 4 seconds."
+            },
+    {
+        "id" : 10045,
+        "type": "unique",
+        "armorId": 5023,
+        "color" : ".green",
+        "desc" : "Adds 1096 Maximum Stamina"
+    },
+    {
+         "id" : 10046,
+         "type": "unique",
+         "armorId": 5023,
+         "color" : ".primary",
+         "desc" : "When you deal damage, you have a 10% chance to create an earthquake under the enemy that erupts after 1.5 seconds, dealing 5030 Physical Damage to all enemies within 4 meters and stunning them for 3 seconds. This effect can occur once every 5.5 seconds."
+    },
+    {
+           "id" : 10047,
+           "type": "unique",
+           "armorId": 5024,
+           "color" : ".red",
+           "desc" : "Adds 4% Healing Done"
+       },
+       {
+            "id" : 10048,
+            "type": "unique",
+            "armorId": 5024,
+            "color" : ".primary",
+            "desc" : "When you heal yourself or an ally, you have a 10% chance to summon a dwemer spider that heals for 1000 Health and restores 115 Stamina and Magica to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds."
+       },
+       {
+           "id" : 10049,
+           "type": "unique",
+           "armorId": 5025,
+           "color" : ".blue",
+           "desc" : "Adds 129 Magicka Recovery"
+       },
+       {
+            "id" : 10050,
+            "type": "unique",
+            "armorId": 5025,
+            "color" : ".primary",
+            "desc" : "When you take damage, you have a 15% chance to summon a shadowy Clannfear for 15 seconds. The Clannfear's basic attacks deal 3440 Magic Damage and apply Minor Maim to any enemy hit for 10 seconds, reducing their damage done by 15%. This effect can occur once every 15 seconds."
+       },
+       {
+           "id" : 10051,
+           "type": "unique",
+           "armorId": 5026,
+           "color" : ".primary",
+           "desc" : "Adds 833 Spell Critical, Adds 833 Weapon Critical"
+       },
+       {
+            "id" : 10052,
+            "type": "unique",
+            "armorId": 5026,
+            "color" : ".primary",
+            "desc" : "Gain Minor Berserk at all times, increasing your damage done by 8%."
+       },
+       {
+           "id" : 10053,
+           "type": "unique",
+           "armorId": 5027,
+           "color" : ".green",
+           "desc" : "Adds 1096 Maximum Stamina"
+       },
+       {
+            "id" : 10054,
+            "type": "unique",
+            "armorId": 5027,
+            "color" : ".primary",
+            "desc" : "When you deal damage with a fully-charged Heavy Attack, you create a web for 10 seconds that deals 1100 Poison Damage every 1 second to all enemies within 4 meters and reduces their Movement Speed by 50%. This effect can occur once every 10 seconds."
+       },
+       {
+           "id" : 10055,
+           "type": "unique",
+           "armorId": 5028,
+           "color" : ".primary",
+           "desc" : "Adds 548 Maximum Stamina, Adds 548 Maximum Magicka, Adds 603 Maximum Health"
+       },
+       {
+            "id" : 10056,
+            "type": "unique",
+            "armorId": 5028,
+            "color" : ".primary",
+            "desc" : "When you block an attack, you gain an energy Charge stack, up to one stack per second. When you gain 6 Charges, you release the energy, restoring 5350 Stamina and Magicka, and healing for 5350. After releasing the Charges, you cannot regain new Charges for 14 seconds."
+       },
+       {
+           "id" : 10057,
+           "type": "unique",
+           "armorId": 5029,
+           "color" : ".green",
+           "desc" : "Adds 129 Stamina Recovery"
+       },
+       {
+            "id" : 10058,
+            "type": "unique",
+            "armorId": 5029,
+            "color" : ".primary",
+            "desc" : "When you block an attack from an enemy that is further than 8 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
+       },
+       {
+           "id" : 10059,
+           "type": "unique",
+           "armorId": 5030,
+           "color" : ".green",
+           "desc" : "Adds 4% Healing Done"
+       },
+       {
+            "id" : 10060,
+            "type": "unique",
+            "armorId": 5030,
+            "color" : ".primary",
+            "desc" : "When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores 2325 Magicka or Stamina every 1 second for 6 seconds. This effect can occur every 18 seconds. The resource returned is based off the target's highest maximum resource."
+       },
+    {
+         "id" : 10061,
+         "type": "unique",
+         "armorId": 5031,
+         "color" : ".red",
+         "desc" : " Adds 4% Healing Done"
+     },
+     {
+          "id" : 10062,
+          "type": "unique",
+          "armorId": 5031,
+          "color" : ".primary",
+          "desc" : "When you heal yourself or an ally, if they are still below 50% Health, their Health Recovery is increased by 1548 for 10 seconds."
+     },
+     {
+         "id" : 10063,
+         "type": "unique",
+         "armorId": 5032,
+         "color" : ".red",
+         "desc" : "Adds 1206 Maximum Health"
+     },
+     {
+          "id" : 10064,
+          "type": "unique",
+          "armorId": 5032,
+          "color" : ".primary",
+          "desc" : "When you take damage from a nearby enemy, you summon a growing pool of desecrated bile for 8 seconds. Enemies in the bile take 430 Disease Damage every 1 second and are afflicted with Minor Maim and Minor Defile for 4 seconds, reducing their damage done by 15% and healing received and Health Recovery by 15%. This effect can occur every 8 seconds."
+     },
+     {
+         "id" : 10065,
+         "type": "unique",
+         "armorId": 5033,
+         "color" : ".green",
+         "desc" : "Adds 1096 Maximum Stamina"
+     },
+     {
+          "id" : 10066,
+          "type": "unique",
+          "armorId": 5033,
+          "color" : ".primary",
+          "desc" : "When you taunt an enemy, you have a 50% chance to cause a duneripper to burst from the ground beneath them after 1 second, dealing 5850 Physical Damage to all enemies within 4 meters and reducing their Movement Speed by 70% for 3 seconds. This effect can occur once every 4 seconds."
+     },
+     {
+         "id" : 10067,
+         "type": "unique",
+         "armorId": 5034,
+         "color" : ".red",
+         "desc" : "Adds 1206 Maximum Health"
+     },
+     {
+          "id" : 10068,
+          "type": "unique",
+          "armorId": 5034,
+          "color" : ".primary",
+          "desc" : "When you deal damage with a damage over time effect, you have a 8% chance to summon a meteor that deals 9000 Flame Damage to the target and 4000 Flame Damage to all other enemies within 5 meters. This effect can occur once every 5 seconds."
+     },
+     {
+             "id" : 10069,
+             "type": "unique",
+             "armorId": 5035,
+             "color" : ".green",
+             "desc" : " Adds 129 Weapon Damage"
+         },
+         {
+              "id" : 10070,
+              "type": "unique",
+              "armorId": 5035,
+              "color" : ".primary",
+              "desc" : "When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal 10320 Disease Damage to the first enemy they hit. This effect can occur once every 9 seconds."
+         },
+         {
+             "id" : 10071,
+             "type": "unique",
+             "armorId": 5036,
+             "color" : ".red",
+             "desc" : " Adds 4% Healing Taken"
+         },
+         {
+              "id" : 10072,
+              "type": "unique",
+              "armorId": 5036,
+              "color" : ".primary",
+              "desc" : "When you Bash an enemy you've taunted, you frighten them with a deafening howl, applying Major Maim to them for 3 seconds, lowering their damage done by 30%. This effect can occur once every 15 seconds."
+         },
+         {
+             "id" : 10073,
+             "type": "unique",
+             "armorId": 5037,
+             "color" : ".blue",
+             "desc" : "Adds 833 Spell Critical"
+         },
+         {
+              "id" : 10074,
+              "type": "unique",
+              "armorId": 5037,
+              "color" : ".primary",
+              "desc" : "When you damage a nearby enemy with a Light or Heavy Attack, you have a 20% chance to create a beam of fire that will connect you to your enemy. The beam deals 3440 Flame Damage every 1 second to your enemy for 5 seconds. Every second, this damage increases by 50%. The beam is broken if the enemy moves 8 meters away from you. This effect can occur every 18 seconds."
+         }
+     ]
+    
+    
+]

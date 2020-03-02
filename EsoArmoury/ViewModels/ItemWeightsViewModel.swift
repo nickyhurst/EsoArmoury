@@ -9,6 +9,11 @@
 import Foundation
 import SwiftUI
 
+struct ExternalWeightJSON: Decodable, Hashable {
+    var updated: String
+    var weightListData = Array<WeightType>()
+}
+
 struct WeightType : Hashable, Decodable, Identifiable {
     var id: Int
     var weight: String

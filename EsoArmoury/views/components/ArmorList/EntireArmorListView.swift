@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct EntireArmorListView: View {
-    @ObservedObject var networkingManager = NetworkingManager()
+    //@ObservedObject var networkingManager = NetworkingManager()
     @EnvironmentObject var userData: UserData
     @State private var searchTerm: String = ""
     //private var prev: Int

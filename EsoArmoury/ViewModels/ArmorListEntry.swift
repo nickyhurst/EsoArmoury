@@ -9,7 +9,12 @@
 import Foundation
 import SwiftUI
 
-struct ArmorListData: Codable, Hashable, Identifiable {
+struct ExternalArmorJSON: Decodable, Hashable {
+    var updated: String
+    var armorListData = Array<ArmorListData>()
+}
+
+struct ArmorListData: Decodable, Hashable, Identifiable {
     var id: Int
     var name: String
     var type: String

@@ -8,6 +8,11 @@
 
 import Foundation
 
+struct ExternalIconJSON: Decodable, Hashable {
+    var updated: String
+    var iconListData = Array<IconsList>()
+}
+
 struct IconsList: Codable, Hashable, Identifiable{
     var id: Int
     var icons = Array<IconItemView>()

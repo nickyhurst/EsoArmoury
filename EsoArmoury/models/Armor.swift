@@ -9,6 +9,11 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
+struct InitialArmor: Decodable, Hashable {
+    var updated: String
+    var armorListData = Array<Armor>()
+}
+
 struct Armor: Hashable, Decodable, Identifiable {
     var id: Int
     var name: String

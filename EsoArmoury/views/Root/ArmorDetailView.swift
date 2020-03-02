@@ -50,7 +50,7 @@ struct ArmorDetailView: View {
 
 struct ArmorTitleView: View {
     @EnvironmentObject var userData: UserData
-    @ObservedObject var nm = NetworkingManager()
+    //@ObservedObject var nm = NetworkingManager()
     var armor: ArmorListData
     
     private func getColorForBool(bool: Bool) -> Color {
@@ -149,6 +149,10 @@ struct DisplayIconRow: View {
     var externalWeightData: [WeightType]
     
     func GetSectionNameFromId(id: Int, weights: [WeightType]) -> String {
+//        for weight in weights {
+//            print(weight.id)
+//        }
+//        return "nothing here right now"
         return weights.filter( { $0.id == id } ).first!.subText
     }
     

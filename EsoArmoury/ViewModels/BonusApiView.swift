@@ -13,7 +13,13 @@ import SwiftUI
 //    var results: [BonusListEntry]
 //}
 
-struct BonusListEntry: Decodable {
+struct ExternalBonusJSON: Decodable, Hashable {
+    var updated: String
+    var bonusListData = Array<BonusListEntry>()
+}
+
+
+struct BonusListEntry: Decodable, Hashable{
     var id : Int
     var type: String
     var armorId: Int

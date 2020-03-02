@@ -15,9 +15,17 @@ final class UserData: ObservableObject {
     //@Published var displayedArmorId = weightData
     @Published var showAcquiredOnly = false
     @Published var showWantedOnly = false
+    
+    @Published var obtainedArmor : Bool = false
+    @Published var obtainedBonuses : Bool = false
+    @Published var obtainedWeights : Bool = false
+    @Published var obtainedIcons : Bool = false
+    
     //@Published var armors = ArmorViewModel()
     @Published var armors = armorData
-    @Published var armorList = armorDataExternal
+    //@Published var armorList = armorDataExternal
+    
+    
     
     //@Published var bonuses = [BonusListEntry]()
     

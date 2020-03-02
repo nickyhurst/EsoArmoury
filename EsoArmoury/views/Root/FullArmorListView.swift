@@ -10,10 +10,21 @@ import SwiftUI
 
 struct FullArmorListView: View {
     //var armor: [ArmorDetailView]
+    
+    //@ObservedObject var armor = NetworkingManager().armor
+    @ObservedObject var netm = NetworkingManager()
     @EnvironmentObject var userData: UserData
-    @ObservedObject var nm = NetworkingManager()
+    //@State private var obtainedData: Bool?
     @State private var searchTerm: String = ""
     
+    //var netm : NetworkingManager
+//    init() {
+//        bonuses : [BonusListEntry] = nm.bonuses
+//        armor : [ArmorListData] = nm.armor
+//        weights : [WeightType] = nm.weights
+//        iconList : [IconsList] = nm.iconList
+//
+//    }
     
     //let filtered = armorDataExternal.filterDuplicates{ $0.id == $1.id && $0.name == $1.name}
     //@State private var searchTerm: String = ""
@@ -32,17 +43,16 @@ struct FullArmorListView: View {
                     }
                     
                     ToggleItemView()
-                    
                     List{
-                        ForEach(nm.armor
+                        
+                        ForEach(netm.armor
                             .filter { self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm) }
                             .sorted(by: { $0.name < $1.name } )
                         ) { armor in
-                        
                             if ( (!self.userData.showAcquiredOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "favorite", data: self.userData) ) && ( !self.userData.showWantedOnly || DesirableOptions.shared.isDesirable(armorId: armor.id, type: "wanted", data: self.userData) )) {
                             
                                 VStack {
-                                    NavigationLink(destination: ArmorDetailView(armor: armor, externalWeightData: self.nm.weights, externalIconData: self.nm.iconList)
+                                    NavigationLink(destination: ArmorDetailView(armor: armor, externalWeightData: self.netm.weights, externalIconData: self.netm.iconList)
                                         .environmentObject(self.userData)
                                     ) {
                                         ArmorLinkDetailView(armor: armor)
@@ -51,6 +61,7 @@ struct FullArmorListView: View {
                             }
                         }
                     }
+                //.id(UUID())
                 }
             }
             .navigationBarTitle(Text(weightName(id: 100)), displayMode: .inline)
@@ -95,7 +106,7 @@ struct TopImageDisplayView: View {
 struct FullArmorListView_Previews: PreviewProvider {
     static var previews: some View {
         let userData = UserData()
-        return FullArmorListView()
+        return FullArmorListView(netm: NetworkingManager())
             .environmentObject(userData)
         
     }

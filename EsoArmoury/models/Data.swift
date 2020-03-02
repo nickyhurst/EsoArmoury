@@ -11,20 +11,24 @@ import SwiftUI
 import CoreLocation
 import Foundation
 
-let armorDataExternal: [ArmorListData] = NetworkingManager().armor
-let weightDataExternal: [WeightType] = NetworkingManager().weights
-let iconDataExternal: [IconsList] = NetworkingManager().iconList
+//let armorDataExternal: [ArmorListData] = NetworkingManager().armor
+//let weightDataExternal: [WeightType] = NetworkingManager().weights
+//let iconDataExternal: [IconsList] = NetworkingManager().iconList
 
 //let armorData = ArmorViewModel()
-let armorData: [Armor] = load("eso-armor.json")
+let armorData: [Armor] = LoadBundleMainFile("eso-armor.json")
+//let internalArmor: [InitialArmor] = loadInternal("ArmorItems.json")
+//let armorData: [Armor] = internalArmor[0].armorListData
 
-let weightData: [ItemType] = load("itemTypes.json")
+//let armorData: [Armor] = loadInternal("ArmorItems.json")
 
-let bonusData: [BonusType] = load("bonus.json")
+let weightData: [ItemType] = LoadBundleMainFile("itemTypes.json")
 
-let iconData: [IconsType] = load("armorImageNames.json")
+let bonusData: [BonusType] = LoadBundleMainFile("bonus.json")
 
-func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
+let iconData: [IconsType] = LoadBundleMainFile("armorImageNames.json")
+
+func LoadBundleMainFile<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -43,6 +47,31 @@ func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
         return try decoder.decode(T.self, from: data)
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    }
+}
+
+func GetApplicationsDirectory() -> URL {
+    let paths = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
+   return paths[0]
+}
+
+func LoadAppPathFile<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
+    let data: Data
+    
+    let file = GetApplicationsDirectory().appendingPathComponent(filename)
+
+    do {
+        data = try Data(contentsOf: file)
+        //print(data)
+    } catch {
+        fatalError("Couldn't load \(file) from FileManger:\n\(error)")
+    }
+
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(file) as \(T.self):\n\(error)")
     }
 }
 

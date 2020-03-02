@@ -74,6 +74,6 @@ struct ArmorLinkDetailView: View {
 
 struct ArmorLinkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ArmorLinkDetailView(armor: armorDataExternal[1])
+        ArmorLinkDetailView(armor: NetworkingManager().armor[0])
     }
 }
